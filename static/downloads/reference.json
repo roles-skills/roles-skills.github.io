@@ -1,5 +1,6 @@
 {
  "meta": {
+  "locale": "en-001",
   "title": "Digital health care job roles reference",
   "disclaimer": "This is an illustrative reference profile for a generic digital health care organisation. It is not an official job description for any employer, and its job evaluation scores are not a formal evaluation.",
   "pcf": {
@@ -41,6 +42,7 @@
  "families": [
   {
    "id": "software-development",
+   "slug": "software-development",
    "title": "Software development",
    "pcfFamily": "Software development",
    "roles": [
@@ -52,6 +54,7 @@
   },
   {
    "id": "architecture",
+   "slug": "architecture",
    "title": "Architecture",
    "pcfFamily": "Architecture",
    "roles": [
@@ -66,6 +69,7 @@
   },
   {
    "id": "data",
+   "slug": "data",
    "title": "Data",
    "pcfFamily": "Data",
    "roles": [
@@ -81,6 +85,7 @@
   },
   {
    "id": "product-and-delivery",
+   "slug": "product-and-delivery",
    "title": "Product and delivery",
    "pcfFamily": "Product and delivery",
    "roles": [
@@ -95,6 +100,7 @@
   },
   {
    "id": "user-centred-design",
+   "slug": "user-centred-design",
    "title": "User-centred design",
    "pcfFamily": "User-centred design",
    "roles": [
@@ -107,6 +113,7 @@
   },
   {
    "id": "it-operations",
+   "slug": "it-operations",
    "title": "IT operations",
    "pcfFamily": "IT operations",
    "roles": [
@@ -122,6 +129,7 @@
   },
   {
    "id": "cyber-security",
+   "slug": "cyber-security",
    "title": "Cyber security",
    "pcfFamily": null,
    "roles": [
@@ -132,6 +140,7 @@
   },
   {
    "id": "quality-assurance-testing",
+   "slug": "quality-assurance-testing",
    "title": "Quality assurance testing",
    "pcfFamily": "Quality assurance testing (QAT)",
    "roles": [
@@ -142,6 +151,7 @@
   },
   {
    "id": "clinical-informatics",
+   "slug": "clinical-informatics",
    "title": "Clinical informatics and clinical safety",
    "pcfFamily": null,
    "roles": [
@@ -152,6 +162,7 @@
   },
   {
    "id": "information-governance",
+   "slug": "information-governance",
    "title": "Information governance",
    "pcfFamily": null,
    "roles": [
@@ -162,6 +173,7 @@
   },
   {
    "id": "finance",
+   "slug": "finance",
    "title": "Finance",
    "pcfFamily": null,
    "roles": [
@@ -174,6 +186,7 @@
   },
   {
    "id": "legal",
+   "slug": "legal",
    "title": "Legal",
    "pcfFamily": null,
    "roles": [
@@ -184,6 +197,7 @@
   },
   {
    "id": "human-resources",
+   "slug": "human-resources",
    "title": "Human resources",
    "pcfFamily": null,
    "roles": [
@@ -196,6 +210,7 @@
   },
   {
    "id": "procurement",
+   "slug": "procurement",
    "title": "Procurement and commercial",
    "pcfFamily": null,
    "roles": [
@@ -207,6 +222,7 @@
   },
   {
    "id": "corporate-services",
+   "slug": "corporate-services",
    "title": "Corporate services",
    "pcfFamily": null,
    "roles": [
@@ -37198,6 +37214,7 @@
    ],
    "levels": [
     {
+     "id": "apprentice-software-developer",
      "slug": "apprentice-software-developer",
      "title": "Apprentice software developer",
      "band": "4",
@@ -37300,6 +37317,7 @@
      "selfAssessmentFile": "software-developer--band-4--apprentice-software-developer.tsv"
     },
     {
+     "id": "junior-software-developer",
      "slug": "junior-software-developer",
      "title": "Junior software developer",
      "band": "5",
@@ -37420,6 +37438,7 @@
      "selfAssessmentFile": "software-developer--band-5--junior-software-developer.tsv"
     },
     {
+     "id": "software-developer",
      "slug": "software-developer",
      "title": "Software developer",
      "band": "6",
@@ -37548,6 +37567,7 @@
      "selfAssessmentFile": "software-developer--band-6--software-developer.tsv"
     },
     {
+     "id": "senior-software-developer",
      "slug": "senior-software-developer",
      "title": "Senior software developer",
      "band": "7",
@@ -37681,6 +37701,7 @@
      "selfAssessmentFile": "software-developer--band-7--senior-software-developer.tsv"
     },
     {
+     "id": "lead-software-developer",
      "slug": "lead-software-developer",
      "title": "Lead software developer",
      "band": "8a",
@@ -37819,6 +37840,7 @@
      "selfAssessmentFile": "software-developer--band-8a--lead-software-developer.tsv"
     },
     {
+     "id": "principal-software-developer",
      "slug": "principal-software-developer",
      "title": "Principal software developer",
      "band": "8b",
@@ -37984,6 +38006,7 @@
    ],
    "levels": [
     {
+     "id": "apprentice-frontend-developer",
      "slug": "apprentice-frontend-developer",
      "title": "Apprentice frontend developer",
      "band": "4",
@@ -38098,6 +38121,7 @@
      "selfAssessmentFile": "frontend-developer--band-4--apprentice-frontend-developer.tsv"
     },
     {
+     "id": "junior-frontend-developer",
      "slug": "junior-frontend-developer",
      "title": "Junior frontend developer",
      "band": "5",
@@ -38236,6 +38260,7 @@
      "selfAssessmentFile": "frontend-developer--band-5--junior-frontend-developer.tsv"
     },
     {
+     "id": "frontend-developer",
      "slug": "frontend-developer",
      "title": "Frontend developer",
      "band": "6",
@@ -38382,6 +38407,7 @@
      "selfAssessmentFile": "frontend-developer--band-6--frontend-developer.tsv"
     },
     {
+     "id": "senior-frontend-developer",
      "slug": "senior-frontend-developer",
      "title": "Senior frontend developer",
      "band": "7",
@@ -38533,6 +38559,7 @@
      "selfAssessmentFile": "frontend-developer--band-7--senior-frontend-developer.tsv"
     },
     {
+     "id": "lead-frontend-developer",
      "slug": "lead-frontend-developer",
      "title": "Lead frontend developer",
      "band": "8b",
@@ -38689,6 +38716,7 @@
      "selfAssessmentFile": "frontend-developer--band-8b--lead-frontend-developer.tsv"
     },
     {
+     "id": "head-of-frontend-development",
      "slug": "head-of-frontend-development",
      "title": "Head of frontend development",
      "band": "8c",
@@ -38872,6 +38900,7 @@
    ],
    "levels": [
     {
+     "id": "apprentice-devops-engineer",
      "slug": "apprentice-devops-engineer",
      "title": "Apprentice DevOps engineer",
      "band": "4",
@@ -38968,6 +38997,7 @@
      "selfAssessmentFile": "devops-engineer--band-4--apprentice-devops-engineer.tsv"
     },
     {
+     "id": "junior-devops-engineer",
      "slug": "junior-devops-engineer",
      "title": "Junior DevOps engineer",
      "band": "5",
@@ -39088,6 +39118,7 @@
      "selfAssessmentFile": "devops-engineer--band-5--junior-devops-engineer.tsv"
     },
     {
+     "id": "devops-engineer",
      "slug": "devops-engineer",
      "title": "DevOps engineer",
      "band": "6",
@@ -39222,6 +39253,7 @@
      "selfAssessmentFile": "devops-engineer--band-6--devops-engineer.tsv"
     },
     {
+     "id": "senior-devops-engineer",
      "slug": "senior-devops-engineer",
      "title": "Senior DevOps engineer",
      "band": "7",
@@ -39361,6 +39393,7 @@
      "selfAssessmentFile": "devops-engineer--band-7--senior-devops-engineer.tsv"
     },
     {
+     "id": "lead-devops-engineer",
      "slug": "lead-devops-engineer",
      "title": "Lead DevOps engineer",
      "band": "8b",
@@ -39505,6 +39538,7 @@
      "selfAssessmentFile": "devops-engineer--band-8b--lead-devops-engineer.tsv"
     },
     {
+     "id": "principal-devops-engineer",
      "slug": "principal-devops-engineer",
      "title": "Principal DevOps engineer",
      "band": "8c",
@@ -39677,6 +39711,7 @@
    ],
    "levels": [
     {
+     "id": "junior-integration-engineer",
      "slug": "junior-integration-engineer",
      "title": "Junior integration engineer",
      "band": "5",
@@ -39779,6 +39814,7 @@
      "selfAssessmentFile": "integration-engineer--band-5--junior-integration-engineer.tsv"
     },
     {
+     "id": "integration-engineer",
      "slug": "integration-engineer",
      "title": "Integration engineer",
      "band": "6",
@@ -39883,6 +39919,7 @@
      "selfAssessmentFile": "integration-engineer--band-6--integration-engineer.tsv"
     },
     {
+     "id": "senior-integration-engineer",
      "slug": "senior-integration-engineer",
      "title": "Senior integration engineer",
      "band": "7",
@@ -39986,6 +40023,7 @@
      "selfAssessmentFile": "integration-engineer--band-7--senior-integration-engineer.tsv"
     },
     {
+     "id": "lead-integration-engineer",
      "slug": "lead-integration-engineer",
      "title": "Lead integration engineer",
      "band": "8a",
@@ -40114,6 +40152,7 @@
    ],
    "levels": [
     {
+     "id": "enterprise-architect",
      "slug": "enterprise-architect",
      "title": "Enterprise architect",
      "band": "8a",
@@ -40236,6 +40275,7 @@
      "selfAssessmentFile": "enterprise-architect--band-8a--enterprise-architect.tsv"
     },
     {
+     "id": "senior-enterprise-architect",
      "slug": "senior-enterprise-architect",
      "title": "Senior enterprise architect",
      "band": "8b",
@@ -40358,6 +40398,7 @@
      "selfAssessmentFile": "enterprise-architect--band-8b--senior-enterprise-architect.tsv"
     },
     {
+     "id": "lead-enterprise-architect",
      "slug": "lead-enterprise-architect",
      "title": "Lead enterprise architect",
      "band": "8c",
@@ -40490,6 +40531,7 @@
      "selfAssessmentFile": "enterprise-architect--band-8c--lead-enterprise-architect.tsv"
     },
     {
+     "id": "principal-enterprise-architect",
      "slug": "principal-enterprise-architect",
      "title": "Principal enterprise architect",
      "band": "8d",
@@ -40648,6 +40690,7 @@
    ],
    "levels": [
     {
+     "id": "associate-solution-architect",
      "slug": "associate-solution-architect",
      "title": "Associate solution architect",
      "band": "7",
@@ -40763,6 +40806,7 @@
      "selfAssessmentFile": "solution-architect--band-7--associate-solution-architect.tsv"
     },
     {
+     "id": "solution-architect",
      "slug": "solution-architect",
      "title": "Solution architect",
      "band": "8a",
@@ -40884,6 +40928,7 @@
      "selfAssessmentFile": "solution-architect--band-8a--solution-architect.tsv"
     },
     {
+     "id": "senior-solution-architect",
      "slug": "senior-solution-architect",
      "title": "Senior solution architect",
      "band": "8b",
@@ -41016,6 +41061,7 @@
      "selfAssessmentFile": "solution-architect--band-8b--senior-solution-architect.tsv"
     },
     {
+     "id": "lead-solution-architect",
      "slug": "lead-solution-architect",
      "title": "Lead solution architect",
      "band": "8c",
@@ -41148,6 +41194,7 @@
      "selfAssessmentFile": "solution-architect--band-8c--lead-solution-architect.tsv"
     },
     {
+     "id": "principal-solution-architect",
      "slug": "principal-solution-architect",
      "title": "Principal solution architect",
      "band": "8d",
@@ -41313,6 +41360,7 @@
    ],
    "levels": [
     {
+     "id": "associate-technical-architect",
      "slug": "associate-technical-architect",
      "title": "Associate technical architect",
      "band": "6",
@@ -41415,6 +41463,7 @@
      "selfAssessmentFile": "technical-architect--band-6--associate-technical-architect.tsv"
     },
     {
+     "id": "technical-architect",
      "slug": "technical-architect",
      "title": "Technical architect",
      "band": "7",
@@ -41524,6 +41573,7 @@
      "selfAssessmentFile": "technical-architect--band-7--technical-architect.tsv"
     },
     {
+     "id": "senior-technical-architect",
      "slug": "senior-technical-architect",
      "title": "Senior technical architect",
      "band": "8a",
@@ -41638,6 +41688,7 @@
      "selfAssessmentFile": "technical-architect--band-8a--senior-technical-architect.tsv"
     },
     {
+     "id": "lead-technical-architect",
      "slug": "lead-technical-architect",
      "title": "Lead technical architect",
      "band": "8b",
@@ -41758,6 +41809,7 @@
      "selfAssessmentFile": "technical-architect--band-8b--lead-technical-architect.tsv"
     },
     {
+     "id": "principal-technical-architect",
      "slug": "principal-technical-architect",
      "title": "Principal technical architect",
      "band": "8c",
@@ -41905,6 +41957,7 @@
    ],
    "levels": [
     {
+     "id": "data-architect",
      "slug": "data-architect",
      "title": "Data architect",
      "band": "8a",
@@ -42044,6 +42097,7 @@
      "selfAssessmentFile": "data-architect--band-8a--data-architect.tsv"
     },
     {
+     "id": "senior-data-architect",
      "slug": "senior-data-architect",
      "title": "Senior data architect",
      "band": "8b",
@@ -42194,6 +42248,7 @@
      "selfAssessmentFile": "data-architect--band-8b--senior-data-architect.tsv"
     },
     {
+     "id": "chief-data-architect",
      "slug": "chief-data-architect",
      "title": "Chief data architect",
      "band": "8c",
@@ -42371,6 +42426,7 @@
    ],
    "levels": [
     {
+     "id": "security-architect",
      "slug": "security-architect",
      "title": "Security architect",
      "band": "8a",
@@ -42493,6 +42549,7 @@
      "selfAssessmentFile": "security-architect--band-8a--security-architect.tsv"
     },
     {
+     "id": "lead-security-architect",
      "slug": "lead-security-architect",
      "title": "Lead security architect",
      "band": "8b",
@@ -42625,6 +42682,7 @@
      "selfAssessmentFile": "security-architect--band-8b--lead-security-architect.tsv"
     },
     {
+     "id": "principal-security-architect",
      "slug": "principal-security-architect",
      "title": "Principal security architect",
      "band": "8c",
@@ -42789,6 +42847,7 @@
    ],
    "levels": [
     {
+     "id": "associate-network-architect",
      "slug": "associate-network-architect",
      "title": "Associate network architect",
      "band": "6",
@@ -42885,6 +42944,7 @@
      "selfAssessmentFile": "network-architect--band-6--associate-network-architect.tsv"
     },
     {
+     "id": "network-architect",
      "slug": "network-architect",
      "title": "Network architect",
      "band": "7",
@@ -42994,6 +43054,7 @@
      "selfAssessmentFile": "network-architect--band-7--network-architect.tsv"
     },
     {
+     "id": "lead-network-architect",
      "slug": "lead-network-architect",
      "title": "Lead network architect",
      "band": "8a",
@@ -43140,6 +43201,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-business-architect",
      "slug": "trainee-business-architect",
      "title": "Trainee business architect",
      "band": "6",
@@ -43242,6 +43304,7 @@
      "selfAssessmentFile": "business-architect--band-6--trainee-business-architect.tsv"
     },
     {
+     "id": "associate-business-architect",
      "slug": "associate-business-architect",
      "title": "Associate business architect",
      "band": "7",
@@ -43351,6 +43414,7 @@
      "selfAssessmentFile": "business-architect--band-7--associate-business-architect.tsv"
     },
     {
+     "id": "business-architect",
      "slug": "business-architect",
      "title": "Business architect",
      "band": "8a",
@@ -43471,6 +43535,7 @@
      "selfAssessmentFile": "business-architect--band-8a--business-architect.tsv"
     },
     {
+     "id": "lead-business-architect",
      "slug": "lead-business-architect",
      "title": "Lead business architect",
      "band": "8b",
@@ -43622,6 +43687,7 @@
    ],
    "levels": [
     {
+     "id": "associate-data-analyst",
      "slug": "associate-data-analyst",
      "title": "Associate data analyst",
      "band": "5",
@@ -43748,6 +43814,7 @@
      "selfAssessmentFile": "data-analyst--band-5--associate-data-analyst.tsv"
     },
     {
+     "id": "data-analyst",
      "slug": "data-analyst",
      "title": "Data analyst",
      "band": "6",
@@ -43882,6 +43949,7 @@
      "selfAssessmentFile": "data-analyst--band-6--data-analyst.tsv"
     },
     {
+     "id": "senior-data-analyst",
      "slug": "senior-data-analyst",
      "title": "Senior data analyst",
      "band": "7",
@@ -44015,6 +44083,7 @@
      "selfAssessmentFile": "data-analyst--band-7--senior-data-analyst.tsv"
     },
     {
+     "id": "principal-data-analyst",
      "slug": "principal-data-analyst",
      "title": "Principal data analyst",
      "band": "8b",
@@ -44173,6 +44242,7 @@
    ],
    "levels": [
     {
+     "id": "associate-performance-analyst",
      "slug": "associate-performance-analyst",
      "title": "Associate performance analyst",
      "band": "4",
@@ -44280,6 +44350,7 @@
      "selfAssessmentFile": "performance-analyst--band-4--associate-performance-analyst.tsv"
     },
     {
+     "id": "performance-analyst",
      "slug": "performance-analyst",
      "title": "Performance analyst",
      "band": "6",
@@ -44401,6 +44472,7 @@
      "selfAssessmentFile": "performance-analyst--band-6--performance-analyst.tsv"
     },
     {
+     "id": "senior-performance-analyst",
      "slug": "senior-performance-analyst",
      "title": "Senior performance analyst",
      "band": "7",
@@ -44521,6 +44593,7 @@
      "selfAssessmentFile": "performance-analyst--band-7--senior-performance-analyst.tsv"
     },
     {
+     "id": "lead-performance-analyst",
      "slug": "lead-performance-analyst",
      "title": "Lead performance analyst",
      "band": "8a",
@@ -44641,6 +44714,7 @@
      "selfAssessmentFile": "performance-analyst--band-8a--lead-performance-analyst.tsv"
     },
     {
+     "id": "head-of-performance-analysis",
      "slug": "head-of-performance-analysis",
      "title": "Head of performance analysis",
      "band": "8b",
@@ -44792,6 +44866,7 @@
    ],
    "levels": [
     {
+     "id": "data-engineer",
      "slug": "data-engineer",
      "title": "Data engineer",
      "band": "6",
@@ -44931,6 +45006,7 @@
      "selfAssessmentFile": "data-engineer--band-6--data-engineer.tsv"
     },
     {
+     "id": "senior-data-engineer",
      "slug": "senior-data-engineer",
      "title": "Senior data engineer",
      "band": "7",
@@ -45069,6 +45145,7 @@
      "selfAssessmentFile": "data-engineer--band-7--senior-data-engineer.tsv"
     },
     {
+     "id": "lead-data-engineer",
      "slug": "lead-data-engineer",
      "title": "Lead data engineer",
      "band": "8a",
@@ -45213,6 +45290,7 @@
      "selfAssessmentFile": "data-engineer--band-8a--lead-data-engineer.tsv"
     },
     {
+     "id": "head-of-data-engineering",
      "slug": "head-of-data-engineering",
      "title": "Head of data engineering",
      "band": "8b",
@@ -45383,6 +45461,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-analytics-engineer",
      "slug": "trainee-analytics-engineer",
      "title": "Trainee analytics engineer",
      "band": "4",
@@ -45497,6 +45576,7 @@
      "selfAssessmentFile": "analytics-engineer--band-4--trainee-analytics-engineer.tsv"
     },
     {
+     "id": "analytics-engineer",
      "slug": "analytics-engineer",
      "title": "Analytics engineer",
      "band": "6",
@@ -45624,6 +45704,7 @@
      "selfAssessmentFile": "analytics-engineer--band-6--analytics-engineer.tsv"
     },
     {
+     "id": "senior-analytics-engineer",
      "slug": "senior-analytics-engineer",
      "title": "Senior analytics engineer",
      "band": "7",
@@ -45750,6 +45831,7 @@
      "selfAssessmentFile": "analytics-engineer--band-7--senior-analytics-engineer.tsv"
     },
     {
+     "id": "lead-analytics-engineer",
      "slug": "lead-analytics-engineer",
      "title": "Lead analytics engineer",
      "band": "8a",
@@ -45882,6 +45964,7 @@
      "selfAssessmentFile": "analytics-engineer--band-8a--lead-analytics-engineer.tsv"
     },
     {
+     "id": "head-of-analytics-engineering",
      "slug": "head-of-analytics-engineering",
      "title": "Head of analytics engineering",
      "band": "8c",
@@ -46041,6 +46124,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-data-scientist",
      "slug": "trainee-data-scientist",
      "title": "Trainee data scientist",
      "band": "4",
@@ -46155,6 +46239,7 @@
      "selfAssessmentFile": "data-scientist--band-4--trainee-data-scientist.tsv"
     },
     {
+     "id": "associate-data-scientist",
      "slug": "associate-data-scientist",
      "title": "Associate data scientist",
      "band": "5",
@@ -46275,6 +46360,7 @@
      "selfAssessmentFile": "data-scientist--band-5--associate-data-scientist.tsv"
     },
     {
+     "id": "data-scientist",
      "slug": "data-scientist",
      "title": "Data scientist",
      "band": "6",
@@ -46409,6 +46495,7 @@
      "selfAssessmentFile": "data-scientist--band-6--data-scientist.tsv"
     },
     {
+     "id": "principal-data-scientist",
      "slug": "principal-data-scientist",
      "title": "Principal data scientist",
      "band": "7",
@@ -46541,6 +46628,7 @@
      "selfAssessmentFile": "data-scientist--band-7--principal-data-scientist.tsv"
     },
     {
+     "id": "lead-data-scientist",
      "slug": "lead-data-scientist",
      "title": "Lead data scientist",
      "band": "8a",
@@ -46673,6 +46761,7 @@
      "selfAssessmentFile": "data-scientist--band-8a--lead-data-scientist.tsv"
     },
     {
+     "id": "head-of-data-science",
      "slug": "head-of-data-science",
      "title": "Head of data science",
      "band": "8b",
@@ -46831,6 +46920,7 @@
    ],
    "levels": [
     {
+     "id": "senior-machine-learning-engineer",
      "slug": "senior-machine-learning-engineer",
      "title": "Senior machine learning engineer",
      "band": "7",
@@ -46946,6 +47036,7 @@
      "selfAssessmentFile": "machine-learning-engineer--band-7--senior-machine-learning-engineer.tsv"
     },
     {
+     "id": "lead-machine-learning-engineer",
      "slug": "lead-machine-learning-engineer",
      "title": "Lead machine learning engineer",
      "band": "8b",
@@ -47093,6 +47184,7 @@
    ],
    "levels": [
     {
+     "id": "data-governance-manager",
      "slug": "data-governance-manager",
      "title": "Data governance manager",
      "band": "7",
@@ -47251,6 +47343,7 @@
      "selfAssessmentFile": "data-governance-manager--band-7--data-governance-manager.tsv"
     },
     {
+     "id": "lead-data-governance-manager",
      "slug": "lead-data-governance-manager",
      "title": "Lead data governance manager",
      "band": "8b",
@@ -47426,6 +47519,7 @@
      "selfAssessmentFile": "data-governance-manager--band-8b--lead-data-governance-manager.tsv"
     },
     {
+     "id": "head-of-data-governance",
      "slug": "head-of-data-governance",
      "title": "Head of data governance",
      "band": "8c",
@@ -47616,6 +47710,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-clinical-coder",
      "slug": "trainee-clinical-coder",
      "title": "Trainee clinical coder",
      "band": "3",
@@ -47694,6 +47789,7 @@
      "selfAssessmentFile": "clinical-coder--band-3--trainee-clinical-coder.tsv"
     },
     {
+     "id": "clinical-coder",
      "slug": "clinical-coder",
      "title": "Clinical coder",
      "band": "4",
@@ -47778,6 +47874,7 @@
      "selfAssessmentFile": "clinical-coder--band-4--clinical-coder.tsv"
     },
     {
+     "id": "senior-clinical-coder",
      "slug": "senior-clinical-coder",
      "title": "Senior clinical coder",
      "band": "5",
@@ -47869,6 +47966,7 @@
      "selfAssessmentFile": "clinical-coder--band-5--senior-clinical-coder.tsv"
     },
     {
+     "id": "clinical-coding-auditor-and-trainer",
      "slug": "clinical-coding-auditor-and-trainer",
      "title": "Clinical coding auditor and trainer",
      "band": "6",
@@ -47966,6 +48064,7 @@
      "selfAssessmentFile": "clinical-coder--band-6--clinical-coding-auditor-and-trainer.tsv"
     },
     {
+     "id": "clinical-coding-manager",
      "slug": "clinical-coding-manager",
      "title": "Clinical coding manager",
      "band": "7",
@@ -48095,6 +48194,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-business-analyst",
      "slug": "trainee-business-analyst",
      "title": "Trainee business analyst",
      "band": "4",
@@ -48209,6 +48309,7 @@
      "selfAssessmentFile": "business-analyst--band-4--trainee-business-analyst.tsv"
     },
     {
+     "id": "junior-business-analyst",
      "slug": "junior-business-analyst",
      "title": "Junior business analyst",
      "band": "5",
@@ -48335,6 +48436,7 @@
      "selfAssessmentFile": "business-analyst--band-5--junior-business-analyst.tsv"
     },
     {
+     "id": "business-analyst",
      "slug": "business-analyst",
      "title": "Business analyst",
      "band": "6",
@@ -48469,6 +48571,7 @@
      "selfAssessmentFile": "business-analyst--band-6--business-analyst.tsv"
     },
     {
+     "id": "senior-business-analyst",
      "slug": "senior-business-analyst",
      "title": "Senior business analyst",
      "band": "7",
@@ -48607,6 +48710,7 @@
      "selfAssessmentFile": "business-analyst--band-7--senior-business-analyst.tsv"
     },
     {
+     "id": "lead-business-analyst",
      "slug": "lead-business-analyst",
      "title": "Lead business analyst",
      "band": "8a",
@@ -48745,6 +48849,7 @@
      "selfAssessmentFile": "business-analyst--band-8a--lead-business-analyst.tsv"
     },
     {
+     "id": "head-of-business-analysis",
      "slug": "head-of-business-analysis",
      "title": "Head of business analysis",
      "band": "8c",
@@ -48908,6 +49013,7 @@
    ],
    "levels": [
     {
+     "id": "associate-delivery-manager",
      "slug": "associate-delivery-manager",
      "title": "Associate delivery manager",
      "band": "5",
@@ -49022,6 +49128,7 @@
      "selfAssessmentFile": "delivery-manager--band-5--associate-delivery-manager.tsv"
     },
     {
+     "id": "delivery-manager",
      "slug": "delivery-manager",
      "title": "Delivery manager",
      "band": "7",
@@ -49143,6 +49250,7 @@
      "selfAssessmentFile": "delivery-manager--band-7--delivery-manager.tsv"
     },
     {
+     "id": "senior-delivery-manager",
      "slug": "senior-delivery-manager",
      "title": "Senior delivery manager",
      "band": "8a",
@@ -49275,6 +49383,7 @@
      "selfAssessmentFile": "delivery-manager--band-8a--senior-delivery-manager.tsv"
     },
     {
+     "id": "head-of-delivery-management",
      "slug": "head-of-delivery-management",
      "title": "Head of delivery management",
      "band": "8c",
@@ -49434,6 +49543,7 @@
    ],
    "levels": [
     {
+     "id": "associate-product-manager",
      "slug": "associate-product-manager",
      "title": "Associate product manager",
      "band": "6",
@@ -49554,6 +49664,7 @@
      "selfAssessmentFile": "product-manager--band-6--associate-product-manager.tsv"
     },
     {
+     "id": "product-manager",
      "slug": "product-manager",
      "title": "Product manager",
      "band": "7",
@@ -49681,6 +49792,7 @@
      "selfAssessmentFile": "product-manager--band-7--product-manager.tsv"
     },
     {
+     "id": "senior-product-manager",
      "slug": "senior-product-manager",
      "title": "Senior product manager",
      "band": "8a",
@@ -49813,6 +49925,7 @@
      "selfAssessmentFile": "product-manager--band-8a--senior-product-manager.tsv"
     },
     {
+     "id": "lead-product-manager",
      "slug": "lead-product-manager",
      "title": "Lead product manager",
      "band": "8b",
@@ -49951,6 +50064,7 @@
      "selfAssessmentFile": "product-manager--band-8b--lead-product-manager.tsv"
     },
     {
+     "id": "head-of-product",
      "slug": "head-of-product",
      "title": "Head of product",
      "band": "8c",
@@ -50110,6 +50224,7 @@
    ],
    "levels": [
     {
+     "id": "assistant-project-manager",
      "slug": "assistant-project-manager",
      "title": "Assistant project manager",
      "band": "5",
@@ -50200,6 +50315,7 @@
      "selfAssessmentFile": "project-manager--band-5--assistant-project-manager.tsv"
     },
     {
+     "id": "project-manager",
      "slug": "project-manager",
      "title": "Project manager",
      "band": "6",
@@ -50298,6 +50414,7 @@
      "selfAssessmentFile": "project-manager--band-6--project-manager.tsv"
     },
     {
+     "id": "senior-project-manager",
      "slug": "senior-project-manager",
      "title": "Senior project manager",
      "band": "7",
@@ -50402,6 +50519,7 @@
      "selfAssessmentFile": "project-manager--band-7--senior-project-manager.tsv"
     },
     {
+     "id": "lead-project-manager",
      "slug": "lead-project-manager",
      "title": "Lead project manager",
      "band": "8a",
@@ -50505,6 +50623,7 @@
      "selfAssessmentFile": "project-manager--band-8a--lead-project-manager.tsv"
     },
     {
+     "id": "head-of-project-management",
      "slug": "head-of-project-management",
      "title": "Head of project management",
      "band": "8b",
@@ -50632,6 +50751,7 @@
    ],
    "levels": [
     {
+     "id": "programme-delivery-manager",
      "slug": "programme-delivery-manager",
      "title": "Programme delivery manager",
      "band": "8b",
@@ -50771,6 +50891,7 @@
      "selfAssessmentFile": "programme-delivery-manager--band-8b--programme-delivery-manager.tsv"
     },
     {
+     "id": "senior-programme-delivery-manager",
      "slug": "senior-programme-delivery-manager",
      "title": "Senior programme delivery manager",
      "band": "8c",
@@ -50941,6 +51062,7 @@
    ],
    "levels": [
     {
+     "id": "digital-portfolio-analyst",
      "slug": "digital-portfolio-analyst",
      "title": "Digital portfolio analyst",
      "band": "5",
@@ -51043,6 +51165,7 @@
      "selfAssessmentFile": "digital-portfolio-manager--band-5--digital-portfolio-analyst.tsv"
     },
     {
+     "id": "digital-portfolio-manager",
      "slug": "digital-portfolio-manager",
      "title": "Digital portfolio manager",
      "band": "6",
@@ -51151,6 +51274,7 @@
      "selfAssessmentFile": "digital-portfolio-manager--band-6--digital-portfolio-manager.tsv"
     },
     {
+     "id": "senior-digital-portfolio-manager",
      "slug": "senior-digital-portfolio-manager",
      "title": "Senior digital portfolio manager",
      "band": "8a",
@@ -51272,6 +51396,7 @@
      "selfAssessmentFile": "digital-portfolio-manager--band-8a--senior-digital-portfolio-manager.tsv"
     },
     {
+     "id": "head-of-digital-portfolio",
      "slug": "head-of-digital-portfolio",
      "title": "Head of digital portfolio",
      "band": "8c",
@@ -51425,6 +51550,7 @@
    ],
    "levels": [
     {
+     "id": "service-owner",
      "slug": "service-owner",
      "title": "Service owner",
      "band": "8b",
@@ -51564,6 +51690,7 @@
      "selfAssessmentFile": "service-owner--band-8b--service-owner.tsv"
     },
     {
+     "id": "senior-service-owner",
      "slug": "senior-service-owner",
      "title": "Senior service owner",
      "band": "8c",
@@ -51735,6 +51862,7 @@
    ],
    "levels": [
     {
+     "id": "associate-user-researcher",
      "slug": "associate-user-researcher",
      "title": "Associate user researcher",
      "band": "4",
@@ -51842,6 +51970,7 @@
      "selfAssessmentFile": "user-researcher--band-4--associate-user-researcher.tsv"
     },
     {
+     "id": "junior-user-researcher",
      "slug": "junior-user-researcher",
      "title": "Junior user researcher",
      "band": "5",
@@ -51950,6 +52079,7 @@
      "selfAssessmentFile": "user-researcher--band-5--junior-user-researcher.tsv"
     },
     {
+     "id": "user-researcher",
      "slug": "user-researcher",
      "title": "User researcher",
      "band": "6",
@@ -52065,6 +52195,7 @@
      "selfAssessmentFile": "user-researcher--band-6--user-researcher.tsv"
     },
     {
+     "id": "senior-user-researcher",
      "slug": "senior-user-researcher",
      "title": "Senior user researcher",
      "band": "7",
@@ -52179,6 +52310,7 @@
      "selfAssessmentFile": "user-researcher--band-7--senior-user-researcher.tsv"
     },
     {
+     "id": "lead-user-researcher",
      "slug": "lead-user-researcher",
      "title": "Lead user researcher",
      "band": "8b",
@@ -52299,6 +52431,7 @@
      "selfAssessmentFile": "user-researcher--band-8b--lead-user-researcher.tsv"
     },
     {
+     "id": "head-of-user-research",
      "slug": "head-of-user-research",
      "title": "Head of user research",
      "band": "8c",
@@ -52451,6 +52584,7 @@
    ],
    "levels": [
     {
+     "id": "associate-service-designer",
      "slug": "associate-service-designer",
      "title": "Associate service designer",
      "band": "4",
@@ -52552,6 +52686,7 @@
      "selfAssessmentFile": "service-designer--band-4--associate-service-designer.tsv"
     },
     {
+     "id": "junior-service-designer",
      "slug": "junior-service-designer",
      "title": "Junior service designer",
      "band": "5",
@@ -52665,6 +52800,7 @@
      "selfAssessmentFile": "service-designer--band-5--junior-service-designer.tsv"
     },
     {
+     "id": "service-designer",
      "slug": "service-designer",
      "title": "Service designer",
      "band": "6",
@@ -52780,6 +52916,7 @@
      "selfAssessmentFile": "service-designer--band-6--service-designer.tsv"
     },
     {
+     "id": "senior-service-designer",
      "slug": "senior-service-designer",
      "title": "Senior service designer",
      "band": "7",
@@ -52894,6 +53031,7 @@
      "selfAssessmentFile": "service-designer--band-7--senior-service-designer.tsv"
     },
     {
+     "id": "lead-service-designer",
      "slug": "lead-service-designer",
      "title": "Lead service designer",
      "band": "8b",
@@ -53014,6 +53152,7 @@
      "selfAssessmentFile": "service-designer--band-8b--lead-service-designer.tsv"
     },
     {
+     "id": "head-of-service-design",
      "slug": "head-of-service-design",
      "title": "Head of service design",
      "band": "8c",
@@ -53165,6 +53304,7 @@
    ],
    "levels": [
     {
+     "id": "associate-interaction-designer",
      "slug": "associate-interaction-designer",
      "title": "Associate interaction designer",
      "band": "4",
@@ -53266,6 +53406,7 @@
      "selfAssessmentFile": "interaction-designer--band-4--associate-interaction-designer.tsv"
     },
     {
+     "id": "junior-interaction-designer",
      "slug": "junior-interaction-designer",
      "title": "Junior interaction designer",
      "band": "5",
@@ -53373,6 +53514,7 @@
      "selfAssessmentFile": "interaction-designer--band-5--junior-interaction-designer.tsv"
     },
     {
+     "id": "interaction-designer",
      "slug": "interaction-designer",
      "title": "Interaction designer",
      "band": "6",
@@ -53482,6 +53624,7 @@
      "selfAssessmentFile": "interaction-designer--band-6--interaction-designer.tsv"
     },
     {
+     "id": "senior-interaction-designer",
      "slug": "senior-interaction-designer",
      "title": "Senior interaction designer",
      "band": "7",
@@ -53596,6 +53739,7 @@
      "selfAssessmentFile": "interaction-designer--band-7--senior-interaction-designer.tsv"
     },
     {
+     "id": "lead-interaction-designer",
      "slug": "lead-interaction-designer",
      "title": "Lead interaction designer",
      "band": "8b",
@@ -53716,6 +53860,7 @@
      "selfAssessmentFile": "interaction-designer--band-8b--lead-interaction-designer.tsv"
     },
     {
+     "id": "head-of-interaction-design",
      "slug": "head-of-interaction-design",
      "title": "Head of interaction design",
      "band": "8c",
@@ -53869,6 +54014,7 @@
    ],
    "levels": [
     {
+     "id": "associate-content-designer",
      "slug": "associate-content-designer",
      "title": "Associate content designer",
      "band": "4",
@@ -53976,6 +54122,7 @@
      "selfAssessmentFile": "content-designer--band-4--associate-content-designer.tsv"
     },
     {
+     "id": "junior-content-designer",
      "slug": "junior-content-designer",
      "title": "Junior content designer",
      "band": "5",
@@ -54089,6 +54236,7 @@
      "selfAssessmentFile": "content-designer--band-5--junior-content-designer.tsv"
     },
     {
+     "id": "content-designer",
      "slug": "content-designer",
      "title": "Content designer",
      "band": "6",
@@ -54210,6 +54358,7 @@
      "selfAssessmentFile": "content-designer--band-6--content-designer.tsv"
     },
     {
+     "id": "senior-content-designer",
      "slug": "senior-content-designer",
      "title": "Senior content designer",
      "band": "7",
@@ -54330,6 +54479,7 @@
      "selfAssessmentFile": "content-designer--band-7--senior-content-designer.tsv"
     },
     {
+     "id": "lead-content-designer",
      "slug": "lead-content-designer",
      "title": "Lead content designer",
      "band": "8b",
@@ -54456,6 +54606,7 @@
      "selfAssessmentFile": "content-designer--band-8b--lead-content-designer.tsv"
     },
     {
+     "id": "head-of-content-design",
      "slug": "head-of-content-design",
      "title": "Head of content design",
      "band": "8c",
@@ -54613,6 +54764,7 @@
    ],
    "levels": [
     {
+     "id": "junior-accessibility-specialist",
      "slug": "junior-accessibility-specialist",
      "title": "Junior accessibility specialist",
      "band": "5",
@@ -54702,6 +54854,7 @@
      "selfAssessmentFile": "accessibility-specialist--band-5--junior-accessibility-specialist.tsv"
     },
     {
+     "id": "accessibility-specialist",
      "slug": "accessibility-specialist",
      "title": "Accessibility specialist",
      "band": "6",
@@ -54816,6 +54969,7 @@
      "selfAssessmentFile": "accessibility-specialist--band-6--accessibility-specialist.tsv"
     },
     {
+     "id": "senior-accessibility-specialist",
      "slug": "senior-accessibility-specialist",
      "title": "Senior accessibility specialist",
      "band": "7",
@@ -54936,6 +55090,7 @@
      "selfAssessmentFile": "accessibility-specialist--band-7--senior-accessibility-specialist.tsv"
     },
     {
+     "id": "head-of-accessibility",
      "slug": "head-of-accessibility",
      "title": "Head of accessibility",
      "band": "8b",
@@ -55077,6 +55232,7 @@
    ],
    "levels": [
     {
+     "id": "service-desk-analyst",
      "slug": "service-desk-analyst",
      "title": "Service desk analyst",
      "band": "3",
@@ -55193,6 +55349,7 @@
      "selfAssessmentFile": "service-desk-analyst--band-3--service-desk-analyst.tsv"
     },
     {
+     "id": "technical-service-desk-analyst",
      "slug": "technical-service-desk-analyst",
      "title": "Technical service desk analyst",
      "band": "4",
@@ -55316,6 +55473,7 @@
      "selfAssessmentFile": "service-desk-analyst--band-4--technical-service-desk-analyst.tsv"
     },
     {
+     "id": "senior-service-desk-analyst",
      "slug": "senior-service-desk-analyst",
      "title": "Senior service desk analyst",
      "band": "5",
@@ -55450,6 +55608,7 @@
      "selfAssessmentFile": "service-desk-analyst--band-5--senior-service-desk-analyst.tsv"
     },
     {
+     "id": "service-desk-manager",
      "slug": "service-desk-manager",
      "title": "Service desk manager",
      "band": "6",
@@ -55590,6 +55749,7 @@
      "selfAssessmentFile": "service-desk-analyst--band-6--service-desk-manager.tsv"
     },
     {
+     "id": "head-of-service-desk",
      "slug": "head-of-service-desk",
      "title": "Head of service desk",
      "band": "7",
@@ -55762,6 +55922,7 @@
    ],
    "levels": [
     {
+     "id": "associate-end-user-computing-engineer",
      "slug": "associate-end-user-computing-engineer",
      "title": "Associate end user computing engineer",
      "band": "4",
@@ -55858,6 +56019,7 @@
      "selfAssessmentFile": "end-user-computing-engineer--band-4--associate-end-user-computing-engineer.tsv"
     },
     {
+     "id": "end-user-computing-engineer",
      "slug": "end-user-computing-engineer",
      "title": "End user computing engineer",
      "band": "5",
@@ -56016,6 +56178,7 @@
      "selfAssessmentFile": "end-user-computing-engineer--band-5--end-user-computing-engineer.tsv"
     },
     {
+     "id": "senior-end-user-computing-engineer",
      "slug": "senior-end-user-computing-engineer",
      "title": "Senior end user computing engineer",
      "band": "6",
@@ -56179,6 +56342,7 @@
      "selfAssessmentFile": "end-user-computing-engineer--band-6--senior-end-user-computing-engineer.tsv"
     },
     {
+     "id": "lead-end-user-computing-engineer",
      "slug": "lead-end-user-computing-engineer",
      "title": "Lead end user computing engineer",
      "band": "7",
@@ -56342,6 +56506,7 @@
      "selfAssessmentFile": "end-user-computing-engineer--band-7--lead-end-user-computing-engineer.tsv"
     },
     {
+     "id": "principal-end-user-computing-engineer",
      "slug": "principal-end-user-computing-engineer",
      "title": "Principal end user computing engineer",
      "band": "8b",
@@ -56527,6 +56692,7 @@
    ],
    "levels": [
     {
+     "id": "associate-infrastructure-engineer",
      "slug": "associate-infrastructure-engineer",
      "title": "Associate infrastructure engineer",
      "band": "4",
@@ -56647,6 +56813,7 @@
      "selfAssessmentFile": "infrastructure-engineer--band-4--associate-infrastructure-engineer.tsv"
     },
     {
+     "id": "infrastructure-engineer",
      "slug": "infrastructure-engineer",
      "title": "Infrastructure engineer",
      "band": "6",
@@ -56793,6 +56960,7 @@
      "selfAssessmentFile": "infrastructure-engineer--band-6--infrastructure-engineer.tsv"
     },
     {
+     "id": "senior-infrastructure-engineer",
      "slug": "senior-infrastructure-engineer",
      "title": "Senior infrastructure engineer",
      "band": "7",
@@ -56944,6 +57112,7 @@
      "selfAssessmentFile": "infrastructure-engineer--band-7--senior-infrastructure-engineer.tsv"
     },
     {
+     "id": "lead-infrastructure-engineer",
      "slug": "lead-infrastructure-engineer",
      "title": "Lead infrastructure engineer",
      "band": "8a",
@@ -57100,6 +57269,7 @@
      "selfAssessmentFile": "infrastructure-engineer--band-8a--lead-infrastructure-engineer.tsv"
     },
     {
+     "id": "principal-infrastructure-engineer",
      "slug": "principal-infrastructure-engineer",
      "title": "Principal infrastructure engineer",
      "band": "8b",
@@ -57289,6 +57459,7 @@
    ],
    "levels": [
     {
+     "id": "associate-application-operations-engineer",
      "slug": "associate-application-operations-engineer",
      "title": "Associate application operations engineer",
      "band": "4",
@@ -57379,6 +57550,7 @@
      "selfAssessmentFile": "application-operations-engineer--band-4--associate-application-operations-engineer.tsv"
     },
     {
+     "id": "application-operations-engineer",
      "slug": "application-operations-engineer",
      "title": "Application operations engineer",
      "band": "5",
@@ -57525,6 +57697,7 @@
      "selfAssessmentFile": "application-operations-engineer--band-5--application-operations-engineer.tsv"
     },
     {
+     "id": "senior-application-operations-engineer",
      "slug": "senior-application-operations-engineer",
      "title": "Senior application operations engineer",
      "band": "6",
@@ -57676,6 +57849,7 @@
      "selfAssessmentFile": "application-operations-engineer--band-6--senior-application-operations-engineer.tsv"
     },
     {
+     "id": "lead-application-operations-engineer",
      "slug": "lead-application-operations-engineer",
      "title": "Lead application operations engineer",
      "band": "7",
@@ -57845,6 +58019,7 @@
      "selfAssessmentFile": "application-operations-engineer--band-7--lead-application-operations-engineer.tsv"
     },
     {
+     "id": "principal-application-operations-engineer",
      "slug": "principal-application-operations-engineer",
      "title": "Principal application operations engineer",
      "band": "8b",
@@ -58044,6 +58219,7 @@
    ],
    "levels": [
     {
+     "id": "it-service-analyst",
      "slug": "it-service-analyst",
      "title": "IT service analyst",
      "band": "4",
@@ -58170,6 +58346,7 @@
      "selfAssessmentFile": "it-service-manager--band-4--it-service-analyst.tsv"
     },
     {
+     "id": "it-service-manager",
      "slug": "it-service-manager",
      "title": "IT service manager",
      "band": "6",
@@ -58304,6 +58481,7 @@
      "selfAssessmentFile": "it-service-manager--band-6--it-service-manager.tsv"
     },
     {
+     "id": "senior-it-service-manager",
      "slug": "senior-it-service-manager",
      "title": "Senior IT service manager",
      "band": "7",
@@ -58450,6 +58628,7 @@
      "selfAssessmentFile": "it-service-manager--band-7--senior-it-service-manager.tsv"
     },
     {
+     "id": "head-of-it-service-management",
      "slug": "head-of-it-service-management",
      "title": "Head of IT service management",
      "band": "8b",
@@ -58614,6 +58793,7 @@
    ],
    "levels": [
     {
+     "id": "incident-manager",
      "slug": "incident-manager",
      "title": "Incident manager",
      "band": "5",
@@ -58760,6 +58940,7 @@
      "selfAssessmentFile": "incident-manager--band-5--incident-manager.tsv"
     },
     {
+     "id": "major-incident-manager",
      "slug": "major-incident-manager",
      "title": "Major incident manager",
      "band": "7",
@@ -58937,6 +59118,7 @@
    ],
    "levels": [
     {
+     "id": "problem-analyst",
      "slug": "problem-analyst",
      "title": "Problem analyst",
      "band": "5",
@@ -59076,6 +59258,7 @@
      "selfAssessmentFile": "problem-manager--band-5--problem-analyst.tsv"
     },
     {
+     "id": "problem-manager",
      "slug": "problem-manager",
      "title": "Problem manager",
      "band": "6",
@@ -59248,6 +59431,7 @@
    ],
    "levels": [
     {
+     "id": "configuration-analyst",
      "slug": "configuration-analyst",
      "title": "Configuration analyst",
      "band": "4",
@@ -59385,6 +59569,7 @@
      "selfAssessmentFile": "change-and-release-manager--band-4--configuration-analyst.tsv"
     },
     {
+     "id": "change-and-release-analyst",
      "slug": "change-and-release-analyst",
      "title": "Change and release analyst",
      "band": "5",
@@ -59524,6 +59709,7 @@
      "selfAssessmentFile": "change-and-release-manager--band-5--change-and-release-analyst.tsv"
     },
     {
+     "id": "change-and-release-manager",
      "slug": "change-and-release-manager",
      "title": "Change and release manager",
      "band": "6",
@@ -59692,6 +59878,7 @@
    ],
    "levels": [
     {
+     "id": "junior-security-operations-analyst",
      "slug": "junior-security-operations-analyst",
      "title": "Junior security operations analyst",
      "band": "5",
@@ -59782,6 +59969,7 @@
      "selfAssessmentFile": "security-analyst--band-5--junior-security-operations-analyst.tsv"
     },
     {
+     "id": "security-operations-analyst",
      "slug": "security-operations-analyst",
      "title": "Security operations analyst",
      "band": "6",
@@ -59880,6 +60068,7 @@
      "selfAssessmentFile": "security-analyst--band-6--security-operations-analyst.tsv"
     },
     {
+     "id": "senior-security-operations-analyst",
      "slug": "senior-security-operations-analyst",
      "title": "Senior security operations analyst",
      "band": "7",
@@ -60005,6 +60194,7 @@
    ],
    "levels": [
     {
+     "id": "security-engineer",
      "slug": "security-engineer",
      "title": "Security engineer",
      "band": "6",
@@ -60097,6 +60287,7 @@
      "selfAssessmentFile": "security-engineer--band-6--security-engineer.tsv"
     },
     {
+     "id": "senior-security-engineer",
      "slug": "senior-security-engineer",
      "title": "Senior security engineer",
      "band": "7",
@@ -60195,6 +60386,7 @@
      "selfAssessmentFile": "security-engineer--band-7--senior-security-engineer.tsv"
     },
     {
+     "id": "lead-security-engineer",
      "slug": "lead-security-engineer",
      "title": "Lead security engineer",
      "band": "8a",
@@ -60320,6 +60512,7 @@
    ],
    "levels": [
     {
+     "id": "cyber-security-manager",
      "slug": "cyber-security-manager",
      "title": "Cyber security manager",
      "band": "8a",
@@ -60424,6 +60617,7 @@
      "selfAssessmentFile": "cyber-security-manager--band-8a--cyber-security-manager.tsv"
     },
     {
+     "id": "senior-cyber-security-manager",
      "slug": "senior-cyber-security-manager",
      "title": "Senior cyber security manager",
      "band": "8b",
@@ -60528,6 +60722,7 @@
      "selfAssessmentFile": "cyber-security-manager--band-8b--senior-cyber-security-manager.tsv"
     },
     {
+     "id": "head-of-cyber-security",
      "slug": "head-of-cyber-security",
      "title": "Head of cyber security",
      "band": "8c",
@@ -60631,6 +60826,7 @@
      "selfAssessmentFile": "cyber-security-manager--band-8c--head-of-cyber-security.tsv"
     },
     {
+     "id": "chief-information-security-officer",
      "slug": "chief-information-security-officer",
      "title": "Chief information security officer",
      "band": "8d",
@@ -60760,6 +60956,7 @@
    ],
    "levels": [
     {
+     "id": "associate-quality-assurance-test-analyst",
      "slug": "associate-quality-assurance-test-analyst",
      "title": "Associate quality assurance test analyst",
      "band": "4",
@@ -60856,6 +61053,7 @@
      "selfAssessmentFile": "quality-assurance-test-analyst--band-4--associate-quality-assurance-test-analyst.tsv"
     },
     {
+     "id": "quality-assurance-test-analyst",
      "slug": "quality-assurance-test-analyst",
      "title": "Quality assurance test analyst",
      "band": "5",
@@ -60959,6 +61157,7 @@
      "selfAssessmentFile": "quality-assurance-test-analyst--band-5--quality-assurance-test-analyst.tsv"
     },
     {
+     "id": "senior-quality-assurance-test-analyst",
      "slug": "senior-quality-assurance-test-analyst",
      "title": "Senior quality assurance test analyst",
      "band": "6",
@@ -61067,6 +61266,7 @@
      "selfAssessmentFile": "quality-assurance-test-analyst--band-6--senior-quality-assurance-test-analyst.tsv"
     },
     {
+     "id": "lead-quality-assurance-test-analyst",
      "slug": "lead-quality-assurance-test-analyst",
      "title": "Lead quality assurance test analyst",
      "band": "8a",
@@ -61207,6 +61407,7 @@
    ],
    "levels": [
     {
+     "id": "associate-test-engineer",
      "slug": "associate-test-engineer",
      "title": "Associate test engineer",
      "band": "4",
@@ -61303,6 +61504,7 @@
      "selfAssessmentFile": "test-engineer--band-4--associate-test-engineer.tsv"
     },
     {
+     "id": "test-engineer",
      "slug": "test-engineer",
      "title": "Test engineer",
      "band": "6",
@@ -61406,6 +61608,7 @@
      "selfAssessmentFile": "test-engineer--band-6--test-engineer.tsv"
     },
     {
+     "id": "senior-test-engineer",
      "slug": "senior-test-engineer",
      "title": "Senior test engineer",
      "band": "7",
@@ -61514,6 +61717,7 @@
      "selfAssessmentFile": "test-engineer--band-7--senior-test-engineer.tsv"
     },
     {
+     "id": "lead-test-engineer",
      "slug": "lead-test-engineer",
      "title": "Lead test engineer",
      "band": "8a",
@@ -61653,6 +61857,7 @@
    ],
    "levels": [
     {
+     "id": "test-manager",
      "slug": "test-manager",
      "title": "Test manager",
      "band": "7",
@@ -61768,6 +61973,7 @@
      "selfAssessmentFile": "test-manager--band-7--test-manager.tsv"
     },
     {
+     "id": "head-of-test",
      "slug": "head-of-test",
      "title": "Head of test",
      "band": "8c",
@@ -61909,6 +62115,7 @@
    ],
    "levels": [
     {
+     "id": "clinical-informatics-specialist",
      "slug": "clinical-informatics-specialist",
      "title": "Clinical informatics specialist",
      "band": "6",
@@ -62007,6 +62214,7 @@
      "selfAssessmentFile": "clinical-informatician--band-6--clinical-informatics-specialist.tsv"
     },
     {
+     "id": "senior-clinical-informatician",
      "slug": "senior-clinical-informatician",
      "title": "Senior clinical informatician",
      "band": "7",
@@ -62111,6 +62319,7 @@
      "selfAssessmentFile": "clinical-informatician--band-7--senior-clinical-informatician.tsv"
     },
     {
+     "id": "lead-clinical-informatician",
      "slug": "lead-clinical-informatician",
      "title": "Lead clinical informatician",
      "band": "8a",
@@ -62215,6 +62424,7 @@
      "selfAssessmentFile": "clinical-informatician--band-8a--lead-clinical-informatician.tsv"
     },
     {
+     "id": "head-of-clinical-informatics",
      "slug": "head-of-clinical-informatics",
      "title": "Head of clinical informatics",
      "band": "8c",
@@ -62341,6 +62551,7 @@
    ],
    "levels": [
     {
+     "id": "clinical-safety-officer",
      "slug": "clinical-safety-officer",
      "title": "Clinical safety officer",
      "band": "7",
@@ -62439,6 +62650,7 @@
      "selfAssessmentFile": "clinical-safety-officer--band-7--clinical-safety-officer.tsv"
     },
     {
+     "id": "senior-clinical-safety-officer",
      "slug": "senior-clinical-safety-officer",
      "title": "Senior clinical safety officer",
      "band": "8a",
@@ -62537,6 +62749,7 @@
      "selfAssessmentFile": "clinical-safety-officer--band-8a--senior-clinical-safety-officer.tsv"
     },
     {
+     "id": "head-of-clinical-safety",
      "slug": "head-of-clinical-safety",
      "title": "Head of clinical safety",
      "band": "8b",
@@ -62656,6 +62869,7 @@
    ],
    "levels": [
     {
+     "id": "deputy-chief-clinical-information-officer",
      "slug": "deputy-chief-clinical-information-officer",
      "title": "Deputy chief clinical information officer",
      "band": "8d",
@@ -62760,6 +62974,7 @@
      "selfAssessmentFile": "chief-clinical-information-officer--band-8d--deputy-chief-clinical-information-officer.tsv"
     },
     {
+     "id": "chief-clinical-information-officer",
      "slug": "chief-clinical-information-officer",
      "title": "Chief clinical information officer",
      "band": "9",
@@ -62886,6 +63101,7 @@
    ],
    "levels": [
     {
+     "id": "records-assistant",
      "slug": "records-assistant",
      "title": "Records assistant",
      "band": "2",
@@ -62970,6 +63186,7 @@
      "selfAssessmentFile": "records-officer--band-2--records-assistant.tsv"
     },
     {
+     "id": "records-officer",
      "slug": "records-officer",
      "title": "Records officer",
      "band": "3",
@@ -63055,6 +63272,7 @@
      "selfAssessmentFile": "records-officer--band-3--records-officer.tsv"
     },
     {
+     "id": "senior-records-officer",
      "slug": "senior-records-officer",
      "title": "Senior records officer",
      "band": "4",
@@ -63140,6 +63358,7 @@
      "selfAssessmentFile": "records-officer--band-4--senior-records-officer.tsv"
     },
     {
+     "id": "health-records-manager",
      "slug": "health-records-manager",
      "title": "Health records manager",
      "band": "5",
@@ -63254,6 +63473,7 @@
    ],
    "levels": [
     {
+     "id": "information-governance-officer",
      "slug": "information-governance-officer",
      "title": "Information governance officer",
      "band": "4",
@@ -63345,6 +63565,7 @@
      "selfAssessmentFile": "information-governance-officer--band-4--information-governance-officer.tsv"
     },
     {
+     "id": "senior-information-governance-officer",
      "slug": "senior-information-governance-officer",
      "title": "Senior information governance officer",
      "band": "5",
@@ -63436,6 +63657,7 @@
      "selfAssessmentFile": "information-governance-officer--band-5--senior-information-governance-officer.tsv"
     },
     {
+     "id": "information-governance-lead",
      "slug": "information-governance-lead",
      "title": "Information governance lead",
      "band": "6",
@@ -63528,6 +63750,7 @@
      "selfAssessmentFile": "information-governance-officer--band-6--information-governance-lead.tsv"
     },
     {
+     "id": "information-governance-manager",
      "slug": "information-governance-manager",
      "title": "Information governance manager",
      "band": "7",
@@ -63626,6 +63849,7 @@
      "selfAssessmentFile": "information-governance-officer--band-7--information-governance-manager.tsv"
     },
     {
+     "id": "head-of-information-governance",
      "slug": "head-of-information-governance",
      "title": "Head of information governance",
      "band": "8a",
@@ -63744,6 +63968,7 @@
    ],
    "levels": [
     {
+     "id": "deputy-data-protection-officer",
      "slug": "deputy-data-protection-officer",
      "title": "Deputy data protection officer",
      "band": "8a",
@@ -63836,6 +64061,7 @@
      "selfAssessmentFile": "data-protection-officer--band-8a--deputy-data-protection-officer.tsv"
     },
     {
+     "id": "data-protection-officer",
      "slug": "data-protection-officer",
      "title": "Data protection officer",
      "band": "8b",
@@ -63928,6 +64154,7 @@
      "selfAssessmentFile": "data-protection-officer--band-8b--data-protection-officer.tsv"
     },
     {
+     "id": "senior-data-protection-officer",
      "slug": "senior-data-protection-officer",
      "title": "Senior data protection officer",
      "band": "8c",
@@ -64047,6 +64274,7 @@
    ],
    "levels": [
     {
+     "id": "finance-assistant",
      "slug": "finance-assistant",
      "title": "Finance assistant",
      "band": "2",
@@ -64133,6 +64361,7 @@
      "selfAssessmentFile": "finance-officer--band-2--finance-assistant.tsv"
     },
     {
+     "id": "finance-officer",
      "slug": "finance-officer",
      "title": "Finance officer",
      "band": "3",
@@ -64224,6 +64453,7 @@
      "selfAssessmentFile": "finance-officer--band-3--finance-officer.tsv"
     },
     {
+     "id": "senior-finance-officer",
      "slug": "senior-finance-officer",
      "title": "Senior finance officer",
      "band": "4",
@@ -64323,6 +64553,7 @@
      "selfAssessmentFile": "finance-officer--band-4--senior-finance-officer.tsv"
     },
     {
+     "id": "finance-team-leader",
      "slug": "finance-team-leader",
      "title": "Finance team leader",
      "band": "5",
@@ -64448,6 +64679,7 @@
    ],
    "levels": [
     {
+     "id": "payroll-officer",
      "slug": "payroll-officer",
      "title": "Payroll officer",
      "band": "3",
@@ -64533,6 +64765,7 @@
      "selfAssessmentFile": "payroll-officer--band-3--payroll-officer.tsv"
     },
     {
+     "id": "senior-payroll-officer",
      "slug": "senior-payroll-officer",
      "title": "Senior payroll officer",
      "band": "4",
@@ -64618,6 +64851,7 @@
      "selfAssessmentFile": "payroll-officer--band-4--senior-payroll-officer.tsv"
     },
     {
+     "id": "payroll-team-leader",
      "slug": "payroll-team-leader",
      "title": "Payroll team leader",
      "band": "5",
@@ -64710,6 +64944,7 @@
      "selfAssessmentFile": "payroll-officer--band-5--payroll-team-leader.tsv"
     },
     {
+     "id": "payroll-manager",
      "slug": "payroll-manager",
      "title": "Payroll manager",
      "band": "6",
@@ -64831,6 +65066,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-management-accountant",
      "slug": "trainee-management-accountant",
      "title": "Trainee management accountant",
      "band": "5",
@@ -64928,6 +65164,7 @@
      "selfAssessmentFile": "management-accountant--band-5--trainee-management-accountant.tsv"
     },
     {
+     "id": "management-accountant",
      "slug": "management-accountant",
      "title": "Management accountant",
      "band": "6",
@@ -65025,6 +65262,7 @@
      "selfAssessmentFile": "management-accountant--band-6--management-accountant.tsv"
     },
     {
+     "id": "senior-management-accountant",
      "slug": "senior-management-accountant",
      "title": "Senior management accountant",
      "band": "7",
@@ -65122,6 +65360,7 @@
      "selfAssessmentFile": "management-accountant--band-7--senior-management-accountant.tsv"
     },
     {
+     "id": "finance-business-partner",
      "slug": "finance-business-partner",
      "title": "Finance business partner",
      "band": "8a",
@@ -65225,6 +65464,7 @@
      "selfAssessmentFile": "management-accountant--band-8a--finance-business-partner.tsv"
     },
     {
+     "id": "head-of-management-accounts",
      "slug": "head-of-management-accounts",
      "title": "Head of management accounts",
      "band": "8b",
@@ -65350,6 +65590,7 @@
    ],
    "levels": [
     {
+     "id": "trainee-financial-accountant",
      "slug": "trainee-financial-accountant",
      "title": "Trainee financial accountant",
      "band": "5",
@@ -65441,6 +65682,7 @@
      "selfAssessmentFile": "financial-accountant--band-5--trainee-financial-accountant.tsv"
     },
     {
+     "id": "financial-accountant",
      "slug": "financial-accountant",
      "title": "Financial accountant",
      "band": "6",
@@ -65532,6 +65774,7 @@
      "selfAssessmentFile": "financial-accountant--band-6--financial-accountant.tsv"
     },
     {
+     "id": "senior-financial-accountant",
      "slug": "senior-financial-accountant",
      "title": "Senior financial accountant",
      "band": "7",
@@ -65629,6 +65872,7 @@
      "selfAssessmentFile": "financial-accountant--band-7--senior-financial-accountant.tsv"
     },
     {
+     "id": "financial-accounting-manager",
      "slug": "financial-accounting-manager",
      "title": "Financial accounting manager",
      "band": "8a",
@@ -65726,6 +65970,7 @@
      "selfAssessmentFile": "financial-accountant--band-8a--financial-accounting-manager.tsv"
     },
     {
+     "id": "head-of-financial-accounts",
      "slug": "head-of-financial-accounts",
      "title": "Head of financial accounts",
      "band": "8b",
@@ -65851,6 +66096,7 @@
    ],
    "levels": [
     {
+     "id": "financial-controller",
      "slug": "financial-controller",
      "title": "Financial controller",
      "band": "8c",
@@ -65954,6 +66200,7 @@
      "selfAssessmentFile": "head-of-finance--band-8c--financial-controller.tsv"
     },
     {
+     "id": "deputy-director-of-finance",
      "slug": "deputy-director-of-finance",
      "title": "Deputy director of finance",
      "band": "8d",
@@ -66057,6 +66304,7 @@
      "selfAssessmentFile": "head-of-finance--band-8d--deputy-director-of-finance.tsv"
     },
     {
+     "id": "director-of-finance",
      "slug": "director-of-finance",
      "title": "Director of finance",
      "band": "9",
@@ -66181,6 +66429,7 @@
    ],
    "levels": [
     {
+     "id": "legal-administrator",
      "slug": "legal-administrator",
      "title": "Legal administrator",
      "band": "3",
@@ -66261,6 +66510,7 @@
      "selfAssessmentFile": "legal-assistant--band-3--legal-administrator.tsv"
     },
     {
+     "id": "legal-assistant",
      "slug": "legal-assistant",
      "title": "Legal assistant",
      "band": "4",
@@ -66352,6 +66602,7 @@
      "selfAssessmentFile": "legal-assistant--band-4--legal-assistant.tsv"
     },
     {
+     "id": "paralegal",
      "slug": "paralegal",
      "title": "Paralegal",
      "band": "5",
@@ -66471,6 +66722,7 @@
    ],
    "levels": [
     {
+     "id": "legal-adviser",
      "slug": "legal-adviser",
      "title": "Legal adviser",
      "band": "7",
@@ -66569,6 +66821,7 @@
      "selfAssessmentFile": "legal-adviser--band-7--legal-adviser.tsv"
     },
     {
+     "id": "senior-legal-adviser",
      "slug": "senior-legal-adviser",
      "title": "Senior legal adviser",
      "band": "8a",
@@ -66672,6 +66925,7 @@
      "selfAssessmentFile": "legal-adviser--band-8a--senior-legal-adviser.tsv"
     },
     {
+     "id": "principal-legal-adviser",
      "slug": "principal-legal-adviser",
      "title": "Principal legal adviser",
      "band": "8b",
@@ -66796,6 +67050,7 @@
    ],
    "levels": [
     {
+     "id": "deputy-head-of-legal-services",
      "slug": "deputy-head-of-legal-services",
      "title": "Deputy head of legal services",
      "band": "8c",
@@ -66899,6 +67154,7 @@
      "selfAssessmentFile": "head-of-legal--band-8c--deputy-head-of-legal-services.tsv"
     },
     {
+     "id": "head-of-legal-services",
      "slug": "head-of-legal-services",
      "title": "Head of legal services",
      "band": "8d",
@@ -67002,6 +67258,7 @@
      "selfAssessmentFile": "head-of-legal--band-8d--head-of-legal-services.tsv"
     },
     {
+     "id": "general-counsel",
      "slug": "general-counsel",
      "title": "General counsel",
      "band": "9",
@@ -67121,6 +67378,7 @@
    ],
    "levels": [
     {
+     "id": "hr-assistant",
      "slug": "hr-assistant",
      "title": "HR assistant",
      "band": "3",
@@ -67206,6 +67464,7 @@
      "selfAssessmentFile": "hr-officer--band-3--hr-assistant.tsv"
     },
     {
+     "id": "hr-officer",
      "slug": "hr-officer",
      "title": "HR officer",
      "band": "4",
@@ -67298,6 +67557,7 @@
      "selfAssessmentFile": "hr-officer--band-4--hr-officer.tsv"
     },
     {
+     "id": "hr-adviser",
      "slug": "hr-adviser",
      "title": "HR adviser",
      "band": "5",
@@ -67402,6 +67662,7 @@
      "selfAssessmentFile": "hr-officer--band-5--hr-adviser.tsv"
     },
     {
+     "id": "senior-hr-adviser",
      "slug": "senior-hr-adviser",
      "title": "Senior HR adviser",
      "band": "6",
@@ -67522,6 +67783,7 @@
    ],
    "levels": [
     {
+     "id": "recruitment-assistant",
      "slug": "recruitment-assistant",
      "title": "Recruitment assistant",
      "band": "3",
@@ -67607,6 +67869,7 @@
      "selfAssessmentFile": "recruitment-officer--band-3--recruitment-assistant.tsv"
     },
     {
+     "id": "recruitment-officer",
      "slug": "recruitment-officer",
      "title": "Recruitment officer",
      "band": "4",
@@ -67699,6 +67962,7 @@
      "selfAssessmentFile": "recruitment-officer--band-4--recruitment-officer.tsv"
     },
     {
+     "id": "digital-talent-partner",
      "slug": "digital-talent-partner",
      "title": "Digital talent partner",
      "band": "5",
@@ -67798,6 +68062,7 @@
      "selfAssessmentFile": "recruitment-officer--band-5--digital-talent-partner.tsv"
     },
     {
+     "id": "recruitment-manager",
      "slug": "recruitment-manager",
      "title": "Recruitment manager",
      "band": "6",
@@ -67918,6 +68183,7 @@
    ],
    "levels": [
     {
+     "id": "hr-business-partner",
      "slug": "hr-business-partner",
      "title": "HR business partner",
      "band": "7",
@@ -68023,6 +68289,7 @@
      "selfAssessmentFile": "hr-business-partner--band-7--hr-business-partner.tsv"
     },
     {
+     "id": "senior-hr-business-partner",
      "slug": "senior-hr-business-partner",
      "title": "Senior HR business partner",
      "band": "8a",
@@ -68127,6 +68394,7 @@
      "selfAssessmentFile": "hr-business-partner--band-8a--senior-hr-business-partner.tsv"
     },
     {
+     "id": "head-of-hr-business-partnering",
      "slug": "head-of-hr-business-partnering",
      "title": "Head of HR business partnering",
      "band": "8b",
@@ -68253,6 +68521,7 @@
    ],
    "levels": [
     {
+     "id": "learning-and-development-coordinator",
      "slug": "learning-and-development-coordinator",
      "title": "Learning and development coordinator",
      "band": "4",
@@ -68339,6 +68608,7 @@
      "selfAssessmentFile": "learning-and-development-specialist--band-4--learning-and-development-coordinator.tsv"
     },
     {
+     "id": "learning-and-development-officer",
      "slug": "learning-and-development-officer",
      "title": "Learning and development officer",
      "band": "5",
@@ -68431,6 +68701,7 @@
      "selfAssessmentFile": "learning-and-development-specialist--band-5--learning-and-development-officer.tsv"
     },
     {
+     "id": "learning-and-development-specialist",
      "slug": "learning-and-development-specialist",
      "title": "Learning and development specialist",
      "band": "6",
@@ -68529,6 +68800,7 @@
      "selfAssessmentFile": "learning-and-development-specialist--band-6--learning-and-development-specialist.tsv"
     },
     {
+     "id": "digital-skills-lead",
      "slug": "digital-skills-lead",
      "title": "Digital skills lead",
      "band": "7",
@@ -68627,6 +68899,7 @@
      "selfAssessmentFile": "learning-and-development-specialist--band-7--digital-skills-lead.tsv"
     },
     {
+     "id": "head-of-learning",
      "slug": "head-of-learning",
      "title": "Head of learning",
      "band": "8a",
@@ -68746,6 +69019,7 @@
    ],
    "levels": [
     {
+     "id": "head-of-hr",
      "slug": "head-of-hr",
      "title": "Head of HR",
      "band": "8c",
@@ -68850,6 +69124,7 @@
      "selfAssessmentFile": "head-of-people--band-8c--head-of-hr.tsv"
     },
     {
+     "id": "deputy-director-of-people",
      "slug": "deputy-director-of-people",
      "title": "Deputy director of people",
      "band": "8d",
@@ -68954,6 +69229,7 @@
      "selfAssessmentFile": "head-of-people--band-8d--deputy-director-of-people.tsv"
     },
     {
+     "id": "director-of-people",
      "slug": "director-of-people",
      "title": "Director of people",
      "band": "9",
@@ -69080,6 +69356,7 @@
    ],
    "levels": [
     {
+     "id": "procurement-assistant",
      "slug": "procurement-assistant",
      "title": "Procurement assistant",
      "band": "3",
@@ -69165,6 +69442,7 @@
      "selfAssessmentFile": "procurement-officer--band-3--procurement-assistant.tsv"
     },
     {
+     "id": "buyer",
      "slug": "buyer",
      "title": "Buyer",
      "band": "4",
@@ -69263,6 +69541,7 @@
      "selfAssessmentFile": "procurement-officer--band-4--buyer.tsv"
     },
     {
+     "id": "procurement-officer",
      "slug": "procurement-officer",
      "title": "Procurement officer",
      "band": "5",
@@ -69368,6 +69647,7 @@
      "selfAssessmentFile": "procurement-officer--band-5--procurement-officer.tsv"
     },
     {
+     "id": "senior-procurement-officer",
      "slug": "senior-procurement-officer",
      "title": "Senior procurement officer",
      "band": "6",
@@ -69495,6 +69775,7 @@
    ],
    "levels": [
     {
+     "id": "category-manager-digital-and-technology",
      "slug": "category-manager-digital-and-technology",
      "title": "Category manager (digital and technology)",
      "band": "8a",
@@ -69607,6 +69888,7 @@
      "selfAssessmentFile": "category-manager--band-8a--category-manager-digital-and-technology.tsv"
     },
     {
+     "id": "senior-category-manager",
      "slug": "senior-category-manager",
      "title": "Senior category manager",
      "band": "8b",
@@ -69711,6 +69993,7 @@
      "selfAssessmentFile": "category-manager--band-8b--senior-category-manager.tsv"
     },
     {
+     "id": "head-of-category",
      "slug": "head-of-category",
      "title": "Head of category",
      "band": "8c",
@@ -69837,6 +70120,7 @@
    ],
    "levels": [
     {
+     "id": "contract-manager",
      "slug": "contract-manager",
      "title": "Contract manager",
      "band": "7",
@@ -69942,6 +70226,7 @@
      "selfAssessmentFile": "contract-manager--band-7--contract-manager.tsv"
     },
     {
+     "id": "senior-contract-manager",
      "slug": "senior-contract-manager",
      "title": "Senior contract manager",
      "band": "8a",
@@ -70047,6 +70332,7 @@
      "selfAssessmentFile": "contract-manager--band-8a--senior-contract-manager.tsv"
     },
     {
+     "id": "lead-contract-manager",
      "slug": "lead-contract-manager",
      "title": "Lead contract manager",
      "band": "8b",
@@ -70173,6 +70459,7 @@
    ],
    "levels": [
     {
+     "id": "head-of-procurement",
      "slug": "head-of-procurement",
      "title": "Head of procurement",
      "band": "8c",
@@ -70277,6 +70564,7 @@
      "selfAssessmentFile": "head-of-procurement--band-8c--head-of-procurement.tsv"
     },
     {
+     "id": "head-of-commercial",
      "slug": "head-of-commercial",
      "title": "Head of commercial",
      "band": "8d",
@@ -70381,6 +70669,7 @@
      "selfAssessmentFile": "head-of-procurement--band-8d--head-of-commercial.tsv"
     },
     {
+     "id": "director-of-procurement-and-commercial",
      "slug": "director-of-procurement-and-commercial",
      "title": "Director of procurement and commercial",
      "band": "9",
@@ -70507,6 +70796,7 @@
    ],
    "levels": [
     {
+     "id": "administrative-assistant",
      "slug": "administrative-assistant",
      "title": "Administrative assistant",
      "band": "2",
@@ -70591,6 +70881,7 @@
      "selfAssessmentFile": "administrator--band-2--administrative-assistant.tsv"
     },
     {
+     "id": "administrator",
      "slug": "administrator",
      "title": "Administrator",
      "band": "3",
@@ -70676,6 +70967,7 @@
      "selfAssessmentFile": "administrator--band-3--administrator.tsv"
     },
     {
+     "id": "senior-administrator",
      "slug": "senior-administrator",
      "title": "Senior administrator",
      "band": "4",
@@ -70786,6 +71078,7 @@
    ],
    "levels": [
     {
+     "id": "executive-assistant",
      "slug": "executive-assistant",
      "title": "Executive assistant",
      "band": "4",
@@ -70871,6 +71164,7 @@
      "selfAssessmentFile": "executive-assistant--band-4--executive-assistant.tsv"
     },
     {
+     "id": "senior-executive-assistant",
      "slug": "senior-executive-assistant",
      "title": "Senior executive assistant",
      "band": "5",
@@ -70962,6 +71256,7 @@
      "selfAssessmentFile": "executive-assistant--band-5--senior-executive-assistant.tsv"
     },
     {
+     "id": "executive-office-manager",
      "slug": "executive-office-manager",
      "title": "Executive office manager",
      "band": "6",
@@ -71072,6 +71367,7 @@
    ],
    "levels": [
     {
+     "id": "project-support-officer",
      "slug": "project-support-officer",
      "title": "Project support officer",
      "band": "3",
@@ -71156,6 +71452,7 @@
      "selfAssessmentFile": "project-support-officer--band-3--project-support-officer.tsv"
     },
     {
+     "id": "project-coordinator",
      "slug": "project-coordinator",
      "title": "Project coordinator",
      "band": "4",
@@ -71247,6 +71544,7 @@
      "selfAssessmentFile": "project-support-officer--band-4--project-coordinator.tsv"
     },
     {
+     "id": "pmo-analyst",
      "slug": "pmo-analyst",
      "title": "PMO analyst",
      "band": "5",
@@ -71332,6 +71630,7 @@
      "selfAssessmentFile": "project-support-officer--band-5--pmo-analyst.tsv"
     },
     {
+     "id": "pmo-manager",
      "slug": "pmo-manager",
      "title": "PMO manager",
      "band": "6",
@@ -71444,6 +71743,7 @@
    ],
    "levels": [
     {
+     "id": "governance-officer",
      "slug": "governance-officer",
      "title": "Governance officer",
      "band": "5",
@@ -71529,6 +71829,7 @@
      "selfAssessmentFile": "governance-and-risk-manager--band-5--governance-officer.tsv"
     },
     {
+     "id": "senior-governance-and-risk-officer",
      "slug": "senior-governance-and-risk-officer",
      "title": "Senior governance and risk officer",
      "band": "6",
@@ -71614,6 +71915,7 @@
      "selfAssessmentFile": "governance-and-risk-manager--band-6--senior-governance-and-risk-officer.tsv"
     },
     {
+     "id": "governance-and-risk-manager",
      "slug": "governance-and-risk-manager",
      "title": "Governance and risk manager",
      "band": "7",
@@ -71706,6 +72008,7 @@
      "selfAssessmentFile": "governance-and-risk-manager--band-7--governance-and-risk-manager.tsv"
     },
     {
+     "id": "head-of-corporate-governance",
      "slug": "head-of-corporate-governance",
      "title": "Head of corporate governance",
      "band": "8b",
@@ -71819,6 +72122,7 @@
    ],
    "levels": [
     {
+     "id": "communications-officer",
      "slug": "communications-officer",
      "title": "Communications officer",
      "band": "4",
@@ -71903,6 +72207,7 @@
      "selfAssessmentFile": "communications-officer--band-4--communications-officer.tsv"
     },
     {
+     "id": "senior-communications-officer",
      "slug": "senior-communications-officer",
      "title": "Senior communications officer",
      "band": "5",
@@ -71988,6 +72293,7 @@
      "selfAssessmentFile": "communications-officer--band-5--senior-communications-officer.tsv"
     },
     {
+     "id": "communications-lead",
      "slug": "communications-lead",
      "title": "Communications lead",
      "band": "6",
@@ -72074,6 +72380,7 @@
      "selfAssessmentFile": "communications-officer--band-6--communications-lead.tsv"
     },
     {
+     "id": "communications-manager",
      "slug": "communications-manager",
      "title": "Communications manager",
      "band": "7",
@@ -72166,6 +72473,7 @@
      "selfAssessmentFile": "communications-officer--band-7--communications-manager.tsv"
     },
     {
+     "id": "head-of-communications",
      "slug": "head-of-communications",
      "title": "Head of communications",
      "band": "8b",

@@ -4,7 +4,8 @@
   // exported as TSV, in the same columns as the downloadable blank file. Nothing
   // is sent anywhere: there is no server.
   import { onMount } from 'svelte';
-  import { LEVEL_NAMES, type SkillLevelId } from '#lib/types.js';
+  import type { SkillLevelId } from '#lib/types.js';
+  import type { Translate } from '#lib/i18n.js';
 
   type Row = {
     id: string;
@@ -16,22 +17,30 @@
   };
 
   let {
+    t,
     rows,
     storageKey,
     roleTitle,
     levelTitle,
     band,
     blankFile
-  }: { rows: Row[]; storageKey: string; roleTitle: string; levelTitle: string; band: string; blankFile: string } =
-    $props();
+  }: {
+    t: Translate;
+    rows: Row[];
+    storageKey: string;
+    roleTitle: string;
+    levelTitle: string;
+    band: string;
+    blankFile: string;
+  } = $props();
 
-  const scale = [
-    { value: '0', label: 'Not yet' },
-    { value: '1', label: 'Awareness' },
-    { value: '2', label: 'Working' },
-    { value: '3', label: 'Practitioner' },
-    { value: '4', label: 'Expert' }
-  ];
+  const scale = $derived([
+    { value: '0', label: t('sa.not_yet') },
+    { value: '1', label: t('level_name.awareness') },
+    { value: '2', label: t('level_name.working') },
+    { value: '3', label: t('level_name.practitioner') },
+    { value: '4', label: t('level_name.expert') }
+  ]);
 
   let ratings: Record<string, string> = $state({});
   let evidence: Record<string, string> = $state({});
@@ -45,9 +54,9 @@
       ratings = saved.ratings ?? {};
       evidence = saved.evidence ?? {};
       actions = saved.actions ?? {};
-      if (Object.keys(ratings).length) status = 'Your saved answers were restored.';
+      if (Object.keys(ratings).length) status = t('sa.restored');
     } catch {
-      status = 'Your browser blocked saving, so answers will not be kept.';
+      status = t('sa.blocked');
     }
     loaded = true;
   });
@@ -100,28 +109,24 @@
     link.download = blankFile.replace(/\.tsv$/, '--completed.tsv');
     link.click();
     URL.revokeObjectURL(link.href);
-    status = 'Your answers were exported as a TSV file.';
+    status = t('sa.exported');
   }
 
   function clearAll() {
-    if (!confirm('Clear every rating, evidence note, and action on this page?')) return;
+    if (!confirm(t('sa.confirm_clear'))) return;
     ratings = {};
     evidence = {};
     actions = {};
-    status = 'Your answers were cleared.';
+    status = t('sa.cleared');
   }
 </script>
 
 <section class="self-assessment" aria-labelledby="self-assessment-heading">
-  <h2 id="self-assessment-heading">Self assessment</h2>
-  <p>
-    Rate what you do regularly now, add a short example as evidence, and plan an action for your most
-    important gaps. Your answers are saved in this browser only.
-  </p>
+  <h2 id="self-assessment-heading">{t('sa.heading')}</h2>
+  <p>{t('sa.lede')}</p>
 
   <p class="self-assessment-summary" aria-live="polite">
-    Rated {counts.rated} of {rows.length} skills: {counts.meets} meet the expected level, {counts.below} below,
-    {counts.above} above.
+    {t('sa.summary', { rated: counts.rated, total: rows.length, meets: counts.meets, below: counts.below, above: counts.above })}
   </p>
 
   {#each rows as row (row.id)}
@@ -129,7 +134,7 @@
     <fieldset class="rating">
       <legend>
         <span class="rating-skill">{row.name}</span>
-        <span class="rating-expected">Expected: {LEVEL_NAMES[row.expected]}</span>
+        <span class="rating-expected">{t('sa.expected', { level: t(`level_name.${row.expected}`) })}</span>
       </legend>
       <div class="rating-choices">
         {#each scale as option (option.value)}
@@ -141,22 +146,22 @@
       </div>
       {#if g !== null}
         <p class="rating-gap" class:rating-gap-below={g > 0}>
-          {g > 0 ? `Gap: ${g} level${g > 1 ? 's' : ''} below expected` : g === 0 ? 'Meets the expected level' : 'Above the expected level'}
+          {g > 0 ? t(g > 1 ? 'sa.gap_many' : 'sa.gap_one', { n: g }) : g === 0 ? t('sa.meets') : t('sa.above')}
         </p>
       {/if}
-      <label class="form-label" for="evidence-{row.id}">Evidence</label>
+      <label class="form-label" for="evidence-{row.id}">{t('sa.evidence')}</label>
       <textarea class="form-textarea" id="evidence-{row.id}" rows="2" bind:value={evidence[row.id]}></textarea>
       {#if g !== null && g > 0}
-        <label class="form-label" for="action-{row.id}">Development action</label>
+        <label class="form-label" for="action-{row.id}">{t('sa.action')}</label>
         <textarea class="form-textarea" id="action-{row.id}" rows="2" bind:value={actions[row.id]}></textarea>
       {/if}
     </fieldset>
   {/each}
 
   <div class="button-row">
-    <button class="button" type="button" onclick={exportTsv}>Export answers (TSV)</button>
-    <a class="button button-secondary" href="/downloads/self-assessment/{blankFile}" download>Download blank file</a>
-    <button class="button button-secondary" type="button" onclick={clearAll}>Clear answers</button>
+    <button class="button" type="button" onclick={exportTsv}>{t('sa.export')}</button>
+    <a class="button button-secondary" href="/downloads/self-assessment/{blankFile}" download>{t('sa.download_blank')}</a>
+    <button class="button button-secondary" type="button" onclick={clearAll}>{t('sa.clear')}</button>
   </div>
   <p class="self-assessment-status" aria-live="polite">{status}</p>
 </section>

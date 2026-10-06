@@ -1,6 +1,8 @@
 // Shapes shared by the server-side content module and the pages. Everything
 // here can reach the browser, so keep it to types and tiny helpers.
 
+import { localePath, type Locale } from '#lib/locales.js';
+
 export type SkillLevelId = 'awareness' | 'working' | 'practitioner' | 'expert';
 
 export type EscoLink = { uri: string; label: string; match: string };
@@ -19,6 +21,9 @@ export type Skill = {
 export type LevelSkill = { id: string; slug: string; level: SkillLevelId; levelNumber: number };
 
 export type Level = {
+  /** Stable across locales. */
+  id: string;
+  /** This locale's slug. */
   slug: string;
   title: string;
   band: string;
@@ -48,7 +53,7 @@ export type Role = {
   sources: string[];
 };
 
-export type Family = { id: string; title: string; pcfFamily: string | null; roles: string[] };
+export type Family = { id: string; slug: string; title: string; pcfFamily: string | null; roles: string[] };
 
 export type Band = {
   id: string;
@@ -88,6 +93,9 @@ export type Occupation = {
 };
 
 export type Meta = {
+  locale: string;
+  localeName?: string;
+  translationNote?: string;
   title: string;
   disclaimer: string;
   pcf: { name: string; url: string; accessed: string; credit: string };
@@ -115,31 +123,26 @@ export type LevelRow = {
   pcfLevel: string | null;
 };
 
-export const LEVEL_NAMES: Record<SkillLevelId, string> = {
-  awareness: 'Awareness',
-  working: 'Working',
-  practitioner: 'Practitioner',
-  expert: 'Expert'
-};
+// Every href helper takes the locale, so links stay in the reader's locale.
 
-export function roleHref(role: { slug: string }): string {
-  return `/roles/${role.slug}/`;
+export function roleHref(locale: Locale, role: { slug: string }): string {
+  return localePath(locale, `/roles/${role.slug}/`);
 }
 
-export function levelHref(role: { slug: string }, level: { slug: string }): string {
-  return `/roles/${role.slug}/${level.slug}/`;
+export function levelHref(locale: Locale, role: { slug: string }, level: { slug: string }): string {
+  return localePath(locale, `/roles/${role.slug}/${level.slug}/`);
 }
 
-export function skillHref(skill: { slug: string }): string {
-  return `/skills/${skill.slug}/`;
+export function skillHref(locale: Locale, skill: { slug: string }): string {
+  return localePath(locale, `/skills/${skill.slug}/`);
 }
 
-export function bandHref(band: string): string {
-  return `/bands/${band}/`;
+export function bandHref(locale: Locale, band: string): string {
+  return localePath(locale, `/bands/${band}/`);
 }
 
-export function familyHref(family: { id: string }): string {
-  return `/families/${family.id}/`;
+export function familyHref(locale: Locale, family: { slug: string }): string {
+  return localePath(locale, `/families/${family.slug}/`);
 }
 
 /** Split framework text into blocks: each plain line a paragraph, each run of "- " lines a list. */

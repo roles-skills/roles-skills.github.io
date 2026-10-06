@@ -10,7 +10,8 @@
 </script>
 
 <figure class="framework-quote">
-  <blockquote>
+  <!-- Framework quotations stay in their source language, English. -->
+  <blockquote lang="en">
     {#each blocks as block, i (i)}
       {#if block.kind === 'p'}
         <p>{block.text}</p>

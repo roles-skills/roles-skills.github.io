@@ -1,7 +1,7 @@
 // Site-wide constants, shared by the layout and the pages.
 
-export const SITE_NAME = 'Roles and skills';
-export const SITE_TAGLINE = 'Digital health care job roles reference';
+import type { Translate } from '#lib/i18n.js';
+
 export const ORIGIN = 'https://roles-skills.github.io';
 export const SOURCE_URL = 'https://github.com/roles-skills/roles-skills';
 
@@ -19,9 +19,9 @@ export function sourceFileHref(path: string): string {
   return `${SOURCE_URL}/blob/main/${path.replace(/^\/+/, '')}`;
 }
 
-/** Every page's full <title> ends with this. */
-export function pageTitle(...parts: string[]): string {
-  return [...parts, SITE_NAME].join(' — ');
+/** A page's full <title>: its own parts, then the site name in the page's locale. */
+export function pageTitle(t: Translate, ...parts: string[]): string {
+  return [...parts, t('site.name')].join(' — ');
 }
 
 /**

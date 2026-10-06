@@ -1,101 +1,141 @@
 <script lang="ts">
   import { page } from '$app/state';
+  import { goto } from '$app/navigation';
   import { SkipLink, PhaseBanner, Tag } from '@lilydesignsystem/svelte-headless';
   import { themeName } from '@lilydesignsystem/svelte-theme-picker';
   import { sizeName } from '@lilydesignsystem/svelte-text-size-picker';
   import type { ShareTarget } from '@lilydesignsystem/svelte-share-picker';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
-  import { SITE_NAME, SITE_TAGLINE, SOURCE_URL, THEMES } from '#lib/site.js';
+  import { ORIGIN, SOURCE_URL, THEMES } from '#lib/site.js';
+  import { translator } from '#lib/i18n.js';
+  import {
+    LOCALES,
+    LOCALE_LABELS,
+    LOCALE_TAGS,
+    isLocale,
+    localeOfPath,
+    localePath,
+    type Locale
+  } from '#lib/locales.js';
 
   let { children } = $props();
 
-  const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/roles/', label: 'Roles' },
-    { href: '/families/', label: 'Families' },
-    { href: '/bands/', label: 'Bands' },
-    { href: '/skills/', label: 'Skills' },
-    { href: '/job-evaluation/', label: 'Job evaluation' },
-    { href: '/about/', label: 'About' }
-  ];
+  // The URL is the only source of the locale. Not a saved preference, not the
+  // browser's language: a link to /cy-gb/... always shows Welsh.
+  const locale: Locale = $derived(localeOfPath(page.url.pathname));
+  const t = $derived(translator(locale));
+  const l = (path: string) => localePath(locale, path);
 
-  function isCurrent(href: string): boolean {
-    return href === '/' ? page.url.pathname === '/' : page.url.pathname.startsWith(href);
+  // This page in every locale, from the page's own load function. A page
+  // without a peer in some locale falls back to that locale's home page.
+  const alternates: Record<string, string> = $derived(page.data.alternates ?? {});
+  function hrefIn(code: Locale): string {
+    return alternates[code] ?? localePath(code, '/');
+  }
+
+  // The language picker reflects the URL and navigates; it never stores a
+  // choice of its own. LocalePicker calls onChange once when it first applies
+  // its value, and again after each navigation, with the URL's own locale:
+  // both are no-ops here.
+  function switchLocale(code: string) {
+    if (!isLocale(code) || code === locale) return;
+    void goto(hrefIn(code));
+  }
+
+  const navLinks = $derived([
+    { href: l('/'), path: '/', label: t('nav.home') },
+    { href: l('/roles/'), path: '/roles/', label: t('nav.roles') },
+    { href: l('/families/'), path: '/families/', label: t('nav.families') },
+    { href: l('/bands/'), path: '/bands/', label: t('nav.bands') },
+    { href: l('/skills/'), path: '/skills/', label: t('nav.skills') },
+    { href: l('/job-evaluation/'), path: '/job-evaluation/', label: t('nav.job_evaluation') },
+    { href: l('/about/'), path: '/about/', label: t('nav.about') }
+  ]);
+
+  function isCurrent(link: { href: string; path: string }): boolean {
+    return link.path === '/' ? page.url.pathname === link.href : page.url.pathname.startsWith(link.href);
   }
 
   // href is a function: this site owns the destination URLs, the share picker
   // ships none of its own. Mastodon and Bluesky take one combined "text"
   // parameter; the others take the URL and title separately.
-  const shareTargets: ShareTarget[] = [
+  const shareTargets: ShareTarget[] = $derived([
     {
       id: 'email',
-      label: 'Email link',
-      href: (url, title) => `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}`,
+      label: t('share.email'),
+      href: (url: string, title: string) =>
+        `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}`,
       newTab: false
     },
     {
       id: 'linkedin',
-      label: 'Share on LinkedIn',
-      href: (url) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`
+      label: t('share.linkedin'),
+      href: (url: string) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`
     },
     {
       id: 'reddit',
-      label: 'Share on Reddit',
-      href: (url, title) =>
+      label: t('share.reddit'),
+      href: (url: string, title: string) =>
         `https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`
     },
     {
       id: 'bluesky',
-      label: 'Share on Bluesky',
-      href: (url, title) => `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title}\n${url}`)}`
+      label: t('share.bluesky'),
+      href: (url: string, title: string) =>
+        `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title}\n${url}`)}`
     },
     {
       id: 'mastodon',
-      label: 'Share on Mastodon',
-      href: (url, title) =>
+      label: t('share.mastodon'),
+      href: (url: string, title: string) =>
         `https://mastodonshare.com/?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`
     }
-  ];
-
-  const pickerLabels = {
-    theme: 'Choose colour theme',
-    locale: 'Choose language',
-    textSize: 'Choose text size',
-    share: 'Share this page'
-  };
-
-  // English only for now; the data carries ESCO's multilingual labels for a
-  // later translation.
-  const locales = ['en'];
+  ]);
 
   let themeStatus = $state('');
   let sizeStatus = $state('');
 
   // page.data.title convention: every route's load function sets `title` to
   // its full <title> text, so the layout can share any page correctly.
-  const shareTitle = $derived(page.data.title ?? SITE_NAME);
+  const shareTitle = $derived(page.data.title ?? t('site.name'));
 </script>
 
-<SkipLink href="#main" label="Skip to main content" />
+<svelte:head>
+  {#each LOCALES as code (code)}
+    {#if alternates[code]}
+      <link rel="alternate" hreflang={LOCALE_TAGS[code]} href="{ORIGIN}{alternates[code]}" />
+    {/if}
+  {/each}
+  {#if alternates['en-001']}
+    <link rel="alternate" hreflang="x-default" href="{ORIGIN}{alternates['en-001']}" />
+  {/if}
+</svelte:head>
+
+<SkipLink href="#main" label={t('site.skip')} />
 
 <header class="site-header">
   <div class="site-header-inner">
-    <a class="site-brand" href="/">
+    <a class="site-brand" href={l('/')}>
       <img class="site-brand-mark" src="/assets/favicon.svg" alt="" aria-hidden="true" />
       <span class="site-brand-text">
-        <span class="site-brand-name">{SITE_NAME}</span>
-        <span class="site-brand-tagline">{SITE_TAGLINE}</span>
+        <span class="site-brand-name">{t('site.name')}</span>
+        <span class="site-brand-tagline">{t('site.tagline')}</span>
       </span>
     </a>
-    <nav class="site-nav" aria-label="Main">
-      {#each navLinks as link (link.href)}
-        <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a>
+    <nav class="site-nav" aria-label={t('nav.label')}>
+      {#each navLinks as link (link.path)}
+        <a href={link.href} aria-current={isCurrent(link) ? 'page' : undefined}>{link.label}</a>
       {/each}
       <a href={SOURCE_URL}>GitHub</a>
     </nav>
     <PickerBar
       class="site-tools"
-      labels={pickerLabels}
+      labels={{
+        theme: t('picker.theme'),
+        locale: t('picker.locale'),
+        textSize: t('picker.text_size'),
+        share: t('picker.share')
+      }}
       themesUrl="/assets/themes/"
       themes={THEMES}
       themeProps={{
@@ -104,21 +144,26 @@
         // OS light/dark preference: Lily's generic light and dark themes use a
         // purple and pink palette. A reader can still pick any theme.
         defaultValue: 'corporate',
-        onChange: (theme: string) => (themeStatus = `Colour theme: ${themeName(theme)}`)
+        onChange: (theme: string) => (themeStatus = t('picker.theme_status', { name: themeName(theme) }))
       }}
-      {locales}
+      locales={[...LOCALES]}
+      localeProps={{
+        value: locale,
+        localeLabels: LOCALE_LABELS,
+        onChange: switchLocale
+      }}
       sizes={['small', 'medium', 'large', 'x-large']}
       textSizeProps={{
         defaultValue: 'medium',
         storageKey: 'roles-skills:text-size',
-        onChange: (size: string) => (sizeStatus = `Text size: ${sizeName(size)}`)
+        onChange: (size: string) => (sizeStatus = t('picker.size_status', { name: sizeName(size) }))
       }}
       {shareTargets}
       shareProps={{
         title: shareTitle,
-        copyLabel: 'Copy link',
-        copiedLabel: 'Link copied to your clipboard',
-        copyFailedLabel: 'Could not copy the link'
+        copyLabel: t('share.copy'),
+        copiedLabel: t('share.copied'),
+        copyFailedLabel: t('share.copy_failed')
       }}
     />
     <p class="theme-picker-status visually-hidden" aria-live="polite">{themeStatus}</p>
@@ -127,10 +172,10 @@
 </header>
 
 <PhaseBanner class="site-phase-banner">
-  <Tag label="Status">Illustrative</Tag>
+  <Tag label={t('banner.label')}>{t('banner.tag')}</Tag>
   <span>
-    Reference profiles for a generic digital health care organisation, not official job descriptions.
-    <a href="/about/">About this reference</a>.
+    {t('banner.text')}
+    <a href={l('/about/')}>{t('banner.link')}</a>.
   </span>
 </PhaseBanner>
 
@@ -141,19 +186,14 @@
 <footer class="site-footer">
   <div class="site-footer-inner">
     <div>
-      <p>{SITE_TAGLINE}: an open reference of roles, bands, skills, and responsibilities.</p>
-      <p class="site-footer-fine">
-        Contains public sector information from the UK Government Digital and Data Profession Capability
-        Framework, licensed under the Open Government Licence v3.0. Contains ESCO v1.2.1 data, © European
-        Union. Original content under CC BY 4.0. Built with the
-        <a href="https://lilydesignsystem.com/">Lily Design System™</a>.
-      </p>
+      <p>{t('footer.lede')}</p>
+      <p class="site-footer-fine">{@html t('footer.fine_html')}</p>
     </div>
     <div class="site-footer-links">
-      <a href="/roles/">Roles</a>
-      <a href="/skills/">Skills</a>
-      <a href="/job-evaluation/">Job evaluation</a>
-      <a href="/about/">About</a>
+      <a href={l('/roles/')}>{t('nav.roles')}</a>
+      <a href={l('/skills/')}>{t('nav.skills')}</a>
+      <a href={l('/job-evaluation/')}>{t('nav.job_evaluation')}</a>
+      <a href={l('/about/')}>{t('nav.about')}</a>
       <a href={SOURCE_URL}>GitHub</a>
     </div>
   </div>

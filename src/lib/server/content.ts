@@ -1,105 +1,124 @@
-// Reads the reference data in `content/reference.json` at build time.
+// Reads the reference data at build time, one file per locale:
 //
-// Every page on this site is prerendered, so this module only ever runs in
-// Node during `vite build` (and in the dev server). Pages receive only the
-// slices they need, not the whole file.
+//   content/reference.json                  en-001, the source
+//   content/locales/<locale>/reference.json every other locale
 //
-// content/reference.json is vendored by bin/sync from the monorepo's
-// exports/reference.json, which scripts/build.py generates from data/.
+// Both are vendored by bin/sync from the monorepo's exports/. Every page is
+// prerendered, so this module only runs in Node during `vite build` (and in
+// the dev server). Pages receive only the slices they need.
+//
+// Roles, levels, skills, and families keep a stable `id` across locales, and
+// have a per-locale `slug`. alternates() uses the ids to find "this page in
+// locale X", for the language picker and hreflang links.
 
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Band, Family, LevelRow, Occupation, Reference, Role, Skill } from '#lib/types.js';
 import { levelHref } from '#lib/types.js';
+import { DEFAULT_LOCALE, LOCALES, localePath, type Locale } from '#lib/locales.js';
 
-const FILE = join(process.cwd(), 'content', 'reference.json');
+const cache = new Map<Locale, Reference>();
 
-let cached: Reference | undefined;
-
-export function reference(): Reference {
-  cached ??= JSON.parse(readFileSync(FILE, 'utf-8')) as Reference;
-  return cached;
+export function reference(locale: Locale = DEFAULT_LOCALE): Reference {
+  let ref = cache.get(locale);
+  if (!ref) {
+    const file =
+      locale === DEFAULT_LOCALE
+        ? join(process.cwd(), 'content', 'reference.json')
+        : join(process.cwd(), 'content', 'locales', locale, 'reference.json');
+    ref = JSON.parse(readFileSync(file, 'utf-8')) as Reference;
+    cache.set(locale, ref);
+  }
+  return ref;
 }
 
-export function getMeta() {
-  return reference().meta;
+export function getMeta(locale: Locale) {
+  return reference(locale).meta;
 }
 
-export function getFamilies(): Family[] {
-  return reference().families;
+export function getFamilies(locale: Locale): Family[] {
+  return reference(locale).families;
 }
 
-export function getFamily(id: string): Family | undefined {
-  return getFamilies().find((family) => family.id === id);
+export function getFamily(locale: Locale, slug: string): Family | undefined {
+  return getFamilies(locale).find((family) => family.slug === slug);
 }
 
-export function getRoles(): Role[] {
-  return reference().roles;
+export function getFamilyById(locale: Locale, id: string): Family | undefined {
+  return getFamilies(locale).find((family) => family.id === id);
 }
 
-export function getRole(slug: string): Role | undefined {
-  return getRoles().find((role) => role.slug === slug);
+export function getRoles(locale: Locale): Role[] {
+  return reference(locale).roles;
 }
 
-export function getBands(): Band[] {
-  return reference().bands;
+export function getRole(locale: Locale, slug: string): Role | undefined {
+  return getRoles(locale).find((role) => role.slug === slug);
 }
 
-export function getBand(id: string): Band | undefined {
-  return getBands().find((band) => band.id === id);
+export function getRoleById(locale: Locale, id: string): Role | undefined {
+  return getRoles(locale).find((role) => role.id === id);
 }
 
-export function getFactors() {
-  return reference().factors;
+export function getBands(locale: Locale): Band[] {
+  return reference(locale).bands;
 }
 
-export function getSkills(): Skill[] {
-  return reference().skills;
+export function getBand(locale: Locale, id: string): Band | undefined {
+  return getBands(locale).find((band) => band.id === id);
 }
 
-export function getSkill(slug: string): Skill | undefined {
-  return getSkills().find((skill) => skill.slug === slug);
+export function getFactors(locale: Locale) {
+  return reference(locale).factors;
 }
 
-export function getOccupation(id: string): Occupation | undefined {
-  return reference().occupations.find((occupation) => occupation.id === id);
+export function getSkills(locale: Locale): Skill[] {
+  return reference(locale).skills;
 }
 
-export function getOccupations(): Occupation[] {
-  return reference().occupations;
+export function getSkill(locale: Locale, slug: string): Skill | undefined {
+  return getSkills(locale).find((skill) => skill.slug === slug);
+}
+
+export function getSkillById(locale: Locale, id: string): Skill | undefined {
+  return getSkills(locale).find((skill) => skill.id === id);
+}
+
+export function getOccupation(locale: Locale, id: string): Occupation | undefined {
+  return reference(locale).occupations.find((occupation) => occupation.id === id);
 }
 
 /** Skills by id, for pages that list a role level's skills. */
-export function skillsById(ids: string[]): Record<string, Skill> {
+export function skillsById(locale: Locale, ids: string[]): Record<string, Skill> {
   const wanted = new Set(ids);
-  return Object.fromEntries(getSkills().filter((skill) => wanted.has(skill.id)).map((skill) => [skill.id, skill]));
+  return Object.fromEntries(getSkills(locale).filter((skill) => wanted.has(skill.id)).map((skill) => [skill.id, skill]));
 }
 
-export function familyTitle(id: string): string {
-  return getFamily(id)?.title ?? id;
+export function familyTitle(locale: Locale, id: string): string {
+  return getFamilyById(locale, id)?.title ?? id;
 }
 
 /** Every role level, for the role finder and the band pages. */
-export function getLevelRows(): LevelRow[] {
-  return getRoles().flatMap((role) =>
+export function getLevelRows(locale: Locale): LevelRow[] {
+  return getRoles(locale).flatMap((role) =>
     role.levels.map((level) => ({
-      href: levelHref(role, level),
+      href: levelHref(locale, role, level),
       title: level.title,
       band: level.band,
       roleTitle: role.title,
-      familyTitle: familyTitle(role.family),
+      familyTitle: familyTitle(locale, role.family),
       pcfLevel: level.pcfLevel
     }))
   );
 }
 
 /** Every role level that expects a skill, with the expected level. */
-export function getSkillUses(skillId: string) {
-  return getRoles().flatMap((role) =>
+export function getSkillUses(locale: Locale, skillId: string) {
+  return getRoles(locale).flatMap((role) =>
     role.levels.flatMap((level) => {
       const use = level.skills.find((skill) => skill.id === skillId);
       return use
-        ? [{ href: levelHref(role, level), title: level.title, band: level.band, roleTitle: role.title, level: use.level }]
+        ? [{ href: levelHref(locale, role, level), title: level.title, band: level.band, roleTitle: role.title, level: use.level }]
         : [];
     })
   );
@@ -107,5 +126,26 @@ export function getSkillUses(skillId: string) {
 
 /** The order of bands, lowest first, for sorting. */
 export function bandIndex(id: string): number {
-  return getBands().findIndex((band) => band.id === id);
+  return getBands(DEFAULT_LOCALE).findIndex((band) => band.id === id);
+}
+
+/**
+ * This page's URL in every locale, keyed by locale. `path` returns the
+ * locale-free path for a locale ("/roles/rheolwr-cynnyrch/"), or undefined
+ * when the page has no peer there.
+ */
+export function alternates(path: (locale: Locale) => string | undefined): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const locale of LOCALES) {
+    const p = path(locale);
+    if (p) out[locale] = localePath(locale, p);
+  }
+  return out;
+}
+
+/** Entries for a route with an optional [[locale]] parameter: one per locale. */
+export function localeEntries<T extends Record<string, string>>(make: (locale: Locale) => T[]) {
+  return LOCALES.flatMap((locale) =>
+    make(locale).map((params) => ({ ...params, locale: locale === DEFAULT_LOCALE ? undefined : locale }))
+  );
 }
