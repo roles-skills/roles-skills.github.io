@@ -3300,6 +3300,11 @@
      "uri": "http://data.europa.eu/esco/skill/5bac4bcc-1846-4688-ba02-ad2b51544282",
      "label": "develop inclusive communication material",
      "match": "narrow"
+    },
+    {
+     "uri": "http://data.europa.eu/esco/skill/3e23db60-0c3d-498a-a6ac-ffbed0ecb033",
+     "label": "ICT accessibility standards",
+     "match": "narrow"
     }
    ]
   },
@@ -40111,21 +40116,22 @@
     {
      "slug": "enterprise-architect",
      "title": "Enterprise architect",
-     "band": "6",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Enterprise architect",
      "pcfLevelDescription": "An enterprise architect supports other architects in developing the strategy.\n\nAt this role level, you will:\n- network and communicate with stakeholders across domains or enterprises, and identify opportunities for improvement\n- use best practice\n- use emerging technologies and approaches\n- learn to identify influences or risks\n- play a part in successful delivery of the team’s objectives",
      "civilServiceGrades": "HEO/SEO",
      "responsibilities": [
-      "Model the organisation's current services, information, applications, and technology for a domain, such as diagnostics or community care.",
+      "Model the organisation's current and target services, information, applications, and technology for a domain, such as diagnostics or community care.",
       "Keep the architecture repository up to date, including application and data flow catalogues.",
-      "Review proposals against architecture principles and standards, and record the findings for design authorities.",
+      "Review proposals against architecture principles and standards, and make recommendations to design authorities.",
       "Identify where systems duplicate capability or depend on unsupported technology, and raise the risks.",
-      "Work with solution architects and clinical leads to understand how care pathways use systems."
+      "Work with solution architects and clinical leads to understand how care pathways use systems.",
+      "Guide solution architects on how designs fit the domain architecture."
      ],
      "qualifications": [
-      "A degree in computing, business, or a related subject, or equivalent experience.",
-      "Experience of architecture, analysis, or technical design in a complex organisation."
+      "Substantial experience of architecture, analysis, or technical design in a complex organisation, at a level equivalent to a master's degree.",
+      "Knowledge of an enterprise architecture framework, such as TOGAF, or equivalent experience."
      ],
      "skills": [
       {
@@ -40179,14 +40185,14 @@
       {
        "id": "health-care-context",
        "slug": "health-care-context",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "health-data-interoperability",
        "slug": "health-data-interoperability",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "information-governance",
@@ -40197,36 +40203,42 @@
       {
        "id": "clinical-safety",
        "slug": "clinical-safety",
-       "level": "awareness",
-       "levelNumber": 1
+       "level": "working",
+       "levelNumber": 2
+      },
+      {
+       "id": "risk-management",
+       "slug": "risk-management",
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
-      "communication": "4",
-      "knowledge": "6",
-      "analytical": "4",
-      "planning": "3",
+      "communication": "5",
+      "knowledge": "7",
+      "analytical": "5",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
-      "mental-effort": "3",
+      "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 419,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "enterprise-architect--band-6--enterprise-architect.tsv"
+     "jobEvaluationPoints": 560,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 6): health-sector adverts place this role at Band 8a. Knowledge, analysis, planning, policy, and freedom to act are scored at the Band 8a profile because the job shapes target architectures and advises design authorities for a whole domain.",
+     "selfAssessmentFile": "enterprise-architect--band-8a--enterprise-architect.tsv"
     },
     {
      "slug": "senior-enterprise-architect",
      "title": "Senior enterprise architect",
-     "band": "7",
+     "band": "8b",
      "summary": "",
      "pcfLevel": "Senior enterprise architect",
      "pcfLevelDescription": "A senior enterprise architect supports lead architects in ensuring the strategy is developed, agreed and followed.\n\nAt this role level, you will:\n- network and communicate with stakeholders across domains or enterprises\n- identify opportunities for improvement\n- support a community or team\n- use best practice\n- use emerging technologies and approaches\n- play an active part in the team and understand how to deliver the team’s objectives to meet organisational goals\n- identify influences or risks\n- play a part in successful delivery of the long-term strategy",
@@ -40236,10 +40248,11 @@
       "Shape business cases so that investments fit the target architecture and reuse shared platforms.",
       "Lead architecture reviews at design authorities and make recommendations on significant proposals.",
       "Plan the replacement or retirement of legacy clinical and corporate systems, including data migration and safety risks.",
-      "Make sure interoperability, security, and information governance needs are built into roadmaps."
+      "Make sure interoperability, security, and information governance needs are built into roadmaps.",
+      "Coach and guide enterprise and solution architects."
      ],
      "qualifications": [
-      "Substantial experience of enterprise or solution architecture, at a level equivalent to a master's degree.",
+      "Extensive experience of enterprise or solution architecture across several domains.",
       "Knowledge of an enterprise architecture framework, such as TOGAF, or equivalent experience."
      ],
      "skills": [
@@ -40306,8 +40319,8 @@
       {
        "id": "information-governance",
        "slug": "information-governance",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "clinical-safety",
@@ -40324,30 +40337,30 @@
      ],
      "jobEvaluation": {
       "communication": "5",
-      "knowledge": "7",
+      "knowledge": "8",
       "analytical": "5",
-      "planning": "3",
+      "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "enterprise-architect--band-7--senior-enterprise-architect.tsv"
+     "jobEvaluationPoints": 622,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 7): health-sector adverts place this role at Band 8b. Planning is level 5 for long-term roadmaps with effects across the organisation; knowledge is level 8 for knowledge across business, information, application, and technology architecture.",
+     "selfAssessmentFile": "enterprise-architect--band-8b--senior-enterprise-architect.tsv"
     },
     {
      "slug": "lead-enterprise-architect",
      "title": "Lead enterprise architect",
-     "band": "8b",
+     "band": "8c",
      "summary": "",
      "pcfLevel": "Lead enterprise architect",
      "pcfLevelDescription": "A lead enterprise architect plays a high level role in ensuring the strategy is developed, agreed and followed.\n\nAt this role level, you will:\n- network and communicate with senior stakeholders across enterprises, and seek opportunities for improvement\n- support at least one community or team, or a combination of both\n- find and use best practice and emerging technologies and approaches\n- lead teams including enterprise architects and help them understand how to deliver the team’s objectives to meet organisational goals\n- horizon scan for influences or risks\n- support successful delivery of the long-term strategy\n- take a leading role in the overall direction of business and digital capabilities",
@@ -40432,8 +40445,8 @@
       {
        "id": "clinical-safety",
        "slug": "clinical-safety",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "risk-management",
@@ -40446,34 +40459,40 @@
        "slug": "people-management",
        "level": "practitioner",
        "levelNumber": 3
+      },
+      {
+       "id": "budget-management",
+       "slug": "budget-management",
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
       "communication": "5",
       "knowledge": "8",
       "analytical": "5",
-      "planning": "4",
+      "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "4",
+      "policy": "5",
       "financial-resources": "3",
-      "people": "3",
-      "information-resources": "5",
-      "research": "3",
+      "people": "4",
+      "information-resources": "6",
+      "research": "2",
       "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 613,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "enterprise-architect--band-8b--lead-enterprise-architect.tsv"
+     "jobEvaluationPoints": 658,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 8b): health-sector adverts place this role at Band 8c. Information resources is level 6 because the job manages the architecture of information systems across a major part of the organisation; policy and people are above the Band 8b profile because it sets standards for all projects and leads enterprise architects.",
+     "selfAssessmentFile": "enterprise-architect--band-8c--lead-enterprise-architect.tsv"
     },
     {
      "slug": "principal-enterprise-architect",
      "title": "Principal enterprise architect",
-     "band": "8c",
+     "band": "8d",
      "summary": "",
      "pcfLevel": "Principal enterprise architect",
      "pcfLevelDescription": "A principal enterprise architect leads at the highest level and is responsible for ensuring the strategy is developed, agreed and followed.\n\nAt this role level, you will:\n- network and communicate with senior stakeholders across enterprises, and actively seek opportunities for improvement\n- support multiple communities and teams\n- find and use best practice\n- find and use emerging technologies and approaches\n- inspire other enterprise architects and help them understand how to meet organisational goals\n- horizon scan for external influences or risks\n- support successful delivery of the long-term strategy\n- be responsible for the overall direction of business and digital capabilities\n- be responsible for the creation, maintenance and consumption of a Digital Twin",
@@ -40552,8 +40571,8 @@
       {
        "id": "information-governance",
        "slug": "information-governance",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "clinical-safety",
@@ -40570,14 +40589,14 @@
       {
        "id": "people-management",
        "slug": "people-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "budget-management",
        "slug": "budget-management",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       }
      ],
      "jobEvaluation": {
@@ -40587,20 +40606,20 @@
       "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "5",
+      "policy": "6",
       "financial-resources": "3",
-      "people": "3",
+      "people": "4",
       "information-resources": "6",
       "research": "2",
-      "freedom-to-act": "5",
+      "freedom-to-act": "6",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 662,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "enterprise-architect--band-8c--principal-enterprise-architect.tsv"
+     "jobEvaluationPoints": 703,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 8c): health-sector adverts place this role at Band 8d. Policy and freedom to act are level 6 because the job holds corporate responsibility for the organisation's architecture vision, principles, and strategy.",
+     "selfAssessmentFile": "enterprise-architect--band-8d--principal-enterprise-architect.tsv"
     }
    ],
    "sources": []
@@ -40631,7 +40650,7 @@
     {
      "slug": "associate-solution-architect",
      "title": "Associate solution architect",
-     "band": "6",
+     "band": "7",
      "summary": "",
      "pcfLevel": "Associate solution architect",
      "pcfLevelDescription": "An associate solution architect supports other solution architects to design solutions. You will usually work under supervision.\n\nAt this role level, you will:\n- support the design of solutions by working with stakeholders\n- help your team achieve its objectives",
@@ -40644,7 +40663,7 @@
       "Help prepare designs for review at design authorities."
      ],
      "qualifications": [
-      "A degree in computing or a related subject, or equivalent experience.",
+      "Specialist knowledge of solution design, at master's level or equivalent experience.",
       "Experience of analysis, development, or technical design."
      ],
      "skills": [
@@ -40717,14 +40736,14 @@
       {
        "id": "clinical-safety",
        "slug": "clinical-safety",
-       "level": "awareness",
-       "levelNumber": 1
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
       "communication": "4",
-      "knowledge": "6",
-      "analytical": "4",
+      "knowledge": "7",
+      "analytical": "5",
       "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
@@ -40735,18 +40754,18 @@
       "research": "2",
       "freedom-to-act": "4",
       "physical-effort": "1",
-      "mental-effort": "3",
+      "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 419,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "solution-architect--band-6--associate-solution-architect.tsv"
+     "jobEvaluationPoints": 483,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 6): health-sector adverts place this role at Band 7. Knowledge is scored at master's level or equivalent, because the job designs across applications, data, integration, and security.",
+     "selfAssessmentFile": "solution-architect--band-7--associate-solution-architect.tsv"
     },
     {
      "slug": "solution-architect",
      "title": "Solution architect",
-     "band": "7",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Solution architect",
      "pcfLevelDescription": "A solution architect is responsible for a single solution. They usually work independently on solutions where risk is low. They also often support or contribute to work led by more senior solution architects.\n\nAt this role level, you will:\n- build relationships with stakeholders across different business or technical areas in the organisation\n- be proactive in identifying opportunities to improve the organisation\n- follow best practice for solution design\n- use emerging technologies and approaches\n- help your team achieve its objective",
@@ -40756,7 +40775,8 @@
       "Compare options, including buying, building, and reusing shared platforms, and recommend one with clear reasons.",
       "Design integrations, data flows, and identity and access for the solution, using open standards where they exist.",
       "Contribute to hazard identification and data protection impact assessments for the solution.",
-      "Present designs to design authorities and support delivery teams through build and go-live."
+      "Present designs to design authorities and support delivery teams through build and go-live.",
+      "Coach and review the work of associate solution architects."
      ],
      "qualifications": [
       "Substantial experience of solution design or software engineering, at a level equivalent to a master's degree."
@@ -40825,8 +40845,8 @@
       {
        "id": "information-governance",
        "slug": "information-governance",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "clinical-safety",
@@ -40845,28 +40865,28 @@
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "3",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "solution-architect--band-7--solution-architect.tsv"
+     "jobEvaluationPoints": 560,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 7): health-sector adverts place this role at Band 8a. Planning, policy, and freedom to act are scored above the Band 7 profile because the job owns end-to-end designs and recommends options to design authorities.",
+     "selfAssessmentFile": "solution-architect--band-8a--solution-architect.tsv"
     },
     {
      "slug": "senior-solution-architect",
      "title": "Senior solution architect",
-     "band": "8a",
+     "band": "8b",
      "summary": "",
      "pcfLevel": "Senior solution architect",
      "pcfLevelDescription": "A senior solution architect is responsible for a single, more complex, solution. They usually work on solutions where the risk is moderate. They may lead and coach other solution architects.\n\nAt this role level, you will:\n- build relationships with senior stakeholders across different business or technical areas in the organisation\n- be proactive in identifying opportunities to improve the organisation\n- support multiple architecture projects\n- find and use emerging technologies and approaches\n- support others to follow best practice for solution architecture",
@@ -40879,7 +40899,7 @@
       "Coach and review the work of other solution architects."
      ],
      "qualifications": [
-      "Extensive experience of designing complex solutions, at a level equivalent to a master's degree."
+      "Extensive experience of designing complex solutions across several disciplines, at a level beyond a master's degree."
      ],
      "skills": [
       {
@@ -40951,8 +40971,8 @@
       {
        "id": "clinical-safety",
        "slug": "clinical-safety",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "identity-and-access-management",
@@ -40965,11 +40985,17 @@
        "slug": "medical-device-regulation",
        "level": "awareness",
        "levelNumber": 1
+      },
+      {
+       "id": "risk-management",
+       "slug": "risk-management",
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
       "communication": "5",
-      "knowledge": "7",
+      "knowledge": "8",
       "analytical": "5",
       "planning": "4",
       "physical-skills": "2",
@@ -40978,21 +41004,21 @@
       "financial-resources": "2",
       "people": "3",
       "information-resources": "5",
-      "research": "2",
+      "research": "3",
       "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 551,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "solution-architect--band-8a--senior-solution-architect.tsv"
+     "jobEvaluationPoints": 604,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 8a): health-sector adverts place this role at Band 8b. Knowledge is scored at level 8 for specialist knowledge across several disciplines, such as applications, data, integration, security, and clinical safety.",
+     "selfAssessmentFile": "solution-architect--band-8b--senior-solution-architect.tsv"
     },
     {
      "slug": "lead-solution-architect",
      "title": "Lead solution architect",
-     "band": "8b",
+     "band": "8c",
      "summary": "",
      "pcfLevel": "Lead solution architect",
      "pcfLevelDescription": "A lead solution architect is responsible for a group of solution architecture projects, or a single more complex area. They may lead teams of more junior solution architects.\n\nAt this role level, you will:\n- build relationships with senior stakeholders across multiple business or technical areas in the organisation\n- be proactive in identifying opportunities to improve the organisation\n- support multiple architecture projects or programmes\n- find and use emerging technologies and approaches\n- develop best practice for solution architecture",
@@ -41089,8 +41115,8 @@
       {
        "id": "risk-management",
        "slug": "risk-management",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "people-management",
@@ -41103,12 +41129,12 @@
       "communication": "5",
       "knowledge": "8",
       "analytical": "5",
-      "planning": "4",
+      "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "4",
+      "policy": "5",
       "financial-resources": "3",
-      "people": "3",
+      "people": "4",
       "information-resources": "5",
       "research": "3",
       "freedom-to-act": "5",
@@ -41117,14 +41143,14 @@
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 613,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "solution-architect--band-8b--lead-solution-architect.tsv"
+     "jobEvaluationPoints": 655,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 8b): health-sector adverts place this role at Band 8c. Planning, policy, and people are scored above the Band 8b profile because the job plans the architecture of a whole programme and leads a team of solution architects.",
+     "selfAssessmentFile": "solution-architect--band-8c--lead-solution-architect.tsv"
     },
     {
      "slug": "principal-solution-architect",
      "title": "Principal solution architect",
-     "band": "8c",
+     "band": "8d",
      "summary": "",
      "pcfLevel": "Principal solution architect",
      "pcfLevelDescription": "A principal solution architect can be responsible for a large programme or group of solution architecture projects, or a single, very complex or critical business area.\n\nAt this role level, you will:\n- lead teams of more junior solution architects\n- lead multiple architecture projects or programmes\n- build relationships with senior stakeholders across multiple business or technical areas in the organisation and its partners\n- be proactive in identifying opportunities to improve the organisation and its partners\n- work with technology partners to inform their roadmaps\n- take a leading role in the overall direction of business and digital capabilities\n- inspire other architects and help them understand how to meet organisational goals",
@@ -41203,8 +41229,8 @@
       {
        "id": "information-governance",
        "slug": "information-governance",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "clinical-safety",
@@ -41229,6 +41255,12 @@
        "slug": "people-management",
        "level": "practitioner",
        "levelNumber": 3
+      },
+      {
+       "id": "budget-management",
+       "slug": "budget-management",
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
@@ -41239,19 +41271,19 @@
       "physical-skills": "2",
       "patient-care": "1",
       "policy": "5",
-      "financial-resources": "3",
-      "people": "3",
+      "financial-resources": "4",
+      "people": "4",
       "information-resources": "6",
       "research": "2",
-      "freedom-to-act": "5",
+      "freedom-to-act": "6",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 662,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "solution-architect--band-8c--principal-solution-architect.tsv"
+     "jobEvaluationPoints": 699,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 8c): health-sector adverts place this role at Band 8d. Freedom to act is level 6 because the job sets the organisation's solution architecture standards; financial resources and people are level 4 because it leads the practice and its budget.",
+     "selfAssessmentFile": "solution-architect--band-8d--principal-solution-architect.tsv"
     }
    ],
    "sources": []
@@ -41283,7 +41315,7 @@
     {
      "slug": "associate-technical-architect",
      "title": "Associate technical architect",
-     "band": "5",
+     "band": "6",
      "summary": "",
      "pcfLevel": "Associate technical architect",
      "pcfLevelDescription": "An associate technical architect supports technical architects in putting forward designs as solutions to technology challenges, usually under supervision.\n\nAt this role level, you will:\n- work closely with developers when designing appropriate solutions\n- have an understanding of the overall strategy and how your work supports it",
@@ -41295,7 +41327,8 @@
       "Record technical decisions and keep design documents up to date."
      ],
      "qualifications": [
-      "A degree in computing or a related subject, or equivalent experience in software or infrastructure engineering."
+      "A degree in computing or a related subject, or equivalent experience in software or infrastructure engineering.",
+      "Specialist knowledge of technical design, at postgraduate diploma level or equivalent experience."
      ],
      "skills": [
       {
@@ -41343,8 +41376,8 @@
       {
        "id": "health-data-interoperability",
        "slug": "health-data-interoperability",
-       "level": "awareness",
-       "levelNumber": 1
+       "level": "working",
+       "levelNumber": 2
       },
       {
        "id": "information-governance",
@@ -41361,30 +41394,30 @@
      ],
      "jobEvaluation": {
       "communication": "4",
-      "knowledge": "5",
+      "knowledge": "6",
       "analytical": "4",
-      "planning": "2",
+      "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "2",
+      "policy": "3",
       "financial-resources": "1",
       "people": "1",
-      "information-resources": "4",
+      "information-resources": "5",
       "research": "2",
-      "freedom-to-act": "3",
+      "freedom-to-act": "4",
       "physical-effort": "1",
       "mental-effort": "3",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 334,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "technical-architect--band-5--associate-technical-architect.tsv"
+     "jobEvaluationPoints": 412,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 5): health-sector adverts place this role at Band 6. Knowledge is scored at postgraduate diploma level, and information resources at level 5 because the job designs parts of major information systems.",
+     "selfAssessmentFile": "technical-architect--band-6--associate-technical-architect.tsv"
     },
     {
      "slug": "technical-architect",
      "title": "Technical architect",
-     "band": "6",
+     "band": "7",
      "summary": "",
      "pcfLevel": "Technical architect",
      "pcfLevelDescription": "A technical architect is responsible for the design and build of technical architecture.\n\nAt this role level, you will:\n- undertake structured analysis of technical issues, translating this analysis into technical designs that describe a solution\n- be consulted about design and provide design patterns\n- identify deeper issues that need fixing\n- look for opportunities to collaborate and reuse components, communicating with both technical and non-technical stakeholders",
@@ -41397,7 +41430,7 @@
       "Identify technical hazards and controls for the clinical safety case."
      ],
      "qualifications": [
-      "A degree in computing or a related subject, or equivalent experience.",
+      "Specialist knowledge of technical architecture, at master's level or equivalent experience.",
       "Experience of designing or building production software or infrastructure."
      ],
      "skills": [
@@ -41446,8 +41479,8 @@
       {
        "id": "health-data-interoperability",
        "slug": "health-data-interoperability",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "information-governance",
@@ -41469,9 +41502,9 @@
       }
      ],
      "jobEvaluation": {
-      "communication": "4",
-      "knowledge": "6",
-      "analytical": "4",
+      "communication": "5",
+      "knowledge": "7",
+      "analytical": "5",
       "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
@@ -41482,18 +41515,18 @@
       "research": "2",
       "freedom-to-act": "4",
       "physical-effort": "1",
-      "mental-effort": "3",
+      "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 419,
-     "jobEvaluationNotes": "The UK GDaD PCF suggests Band 7 for both technical architect and senior technical architect; this reference places the technical architect level at Band 6, at the lower end of its grade range, to avoid two levels in one band.",
-     "selfAssessmentFile": "technical-architect--band-6--technical-architect.tsv"
+     "jobEvaluationPoints": 496,
+     "jobEvaluationNotes": "Banded at the UK GDaD PCF grade suggestion of Band 7, in line with health-sector adverts for this role. Knowledge is scored at master's level or equivalent for specialist knowledge across the range of technical architecture.",
+     "selfAssessmentFile": "technical-architect--band-7--technical-architect.tsv"
     },
     {
      "slug": "senior-technical-architect",
      "title": "Senior technical architect",
-     "band": "7",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Senior technical architect",
      "pcfLevelDescription": "A senior technical architect works on large or multiple pieces of work that are complex or risky.\n\nAt this role level, you will:\n- define strategy and be central to assuring services\n- regularly collaborate and find agreement with senior stakeholders, providing direction and challenge\n- be proactive in identifying problems and translating these into non-technical descriptions that can be widely understood\n- mentor and coach junior colleagues",
@@ -41548,8 +41581,8 @@
       {
        "id": "health-care-context",
        "slug": "health-care-context",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "health-data-interoperability",
@@ -41586,23 +41619,23 @@
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "3",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "technical-architect--band-7--senior-technical-architect.tsv"
+     "jobEvaluationPoints": 560,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 7): health-sector adverts place this role at Band 8a. Planning, policy, and freedom to act are scored above the Band 7 profile because the job sets technical direction for several teams with little supervision.",
+     "selfAssessmentFile": "technical-architect--band-8a--senior-technical-architect.tsv"
     },
     {
      "slug": "lead-technical-architect",
@@ -41874,7 +41907,7 @@
     {
      "slug": "data-architect",
      "title": "Data architect",
-     "band": "7",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Data architect",
      "pcfLevelDescription": "A data architect designs and builds data models to fulfil the strategic data needs of the organisation, as defined by chief data architects.\n\nAt this role level, you will:\n- design, support and provide guidance for the upgrade, management, decommission and archive of data in compliance with data policy\n- provide input into data dictionaries\n- define and maintain the data technology architecture, including metadata, integration and business intelligence or data warehouse architecture",
@@ -41884,7 +41917,8 @@
       "Design data flows and data platform components, such as warehouse, lakehouse, and integration layers.",
       "Define metadata, data dictionary entries, and lineage for the datasets in your area.",
       "Design de-identification and access controls so that data is used only for its lawful purpose.",
-      "Work with data quality and clinical coding colleagues to fix structural causes of poor data."
+      "Work with data quality and clinical coding colleagues to fix structural causes of poor data.",
+      "Guide data engineers and analysts on data models and standards."
      ],
      "qualifications": [
       "Substantial experience of data modelling and data platform design, at a level equivalent to a master's degree."
@@ -41971,8 +42005,8 @@
       {
        "id": "health-data-interoperability",
        "slug": "health-data-interoperability",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "information-governance",
@@ -41991,23 +42025,23 @@
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "3",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "data-architect--band-7--data-architect.tsv"
+     "jobEvaluationPoints": 560,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 7): health-sector adverts place this role at Band 8a. Planning, policy, and freedom to act are scored above the Band 7 profile because the job designs data platforms and controls used across many services.",
+     "selfAssessmentFile": "data-architect--band-8a--data-architect.tsv"
     },
     {
      "slug": "senior-data-architect",
@@ -42339,7 +42373,7 @@
     {
      "slug": "security-architect",
      "title": "Security architect",
-     "band": "7",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Security architect",
      "pcfLevelDescription": "A security architect creates and designs security for a system or service, maintains security documentation and develops architecture patterns and security approaches to new technologies.\n\nAt this role level, you will:\n- recommend security controls and identify solutions that support a business objective\n- provide specialist advice and recommend approaches across teams and various stakeholders\n- communicate widely with other stakeholders\n- advise on important security-related technologies and assess the risk associated with proposed changes\n- inspire and influence others to execute security principles\n- help review other people’s work",
@@ -42349,7 +42383,8 @@
       "Assess the security of new designs and supplier products, and record risks and recommended controls.",
       "Develop security patterns that delivery teams can reuse, such as for patient login and staff single sign-on.",
       "Advise on compensating controls for medical devices and legacy clinical systems that cannot be updated easily.",
-      "Work with information governance and clinical safety colleagues so that security, privacy, and safety risks are assessed together."
+      "Work with information governance and clinical safety colleagues so that security, privacy, and safety risks are assessed together.",
+      "Coach security engineers and other architects in secure design."
      ],
      "qualifications": [
       "Substantial experience of security architecture or security engineering, at a level equivalent to a master's degree.",
@@ -42419,8 +42454,8 @@
       {
        "id": "vulnerability-management",
        "slug": "vulnerability-management",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "clinical-safety",
@@ -42439,23 +42474,23 @@
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "3",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "The UK GDaD PCF suggests Band 6 for this level, which spans HEO to G7; this reference places it at Band 7, at the upper end of its grade range, because the job designs security for critical clinical systems with limited supervision, and to narrow the gap to the lead level at Band 8b.",
-     "selfAssessmentFile": "security-architect--band-7--security-architect.tsv"
+     "jobEvaluationPoints": 560,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 6): health-sector adverts place this role at Band 8a. Analysis and freedom to act are scored above the Band 7 profile because the job designs security for critical clinical systems with little supervision.",
+     "selfAssessmentFile": "security-architect--band-8a--security-architect.tsv"
     },
     {
      "slug": "lead-security-architect",
@@ -42756,7 +42791,7 @@
     {
      "slug": "associate-network-architect",
      "title": "Associate network architect",
-     "band": "5",
+     "band": "6",
      "summary": "",
      "pcfLevel": "Associate network architect",
      "pcfLevelDescription": "An associate network architect works with network architects on designs and specifications, with guidance.\n\nAt this role level, you will:\n- be aware and knowledgeable of new technology solutions and produce network design policy\n- draft recommendations for network support, creating and maintaining network plans and planning infrastructure runs\n- ensure designs meet SLAs (service level agreements) and develop an understanding of common tools\n- have an understanding of one or two of the following network technologies: LAN (local area network), WAN (wide area network), wifi, data centre LAN, SD (software-defined) networks, telephony, mobile solutions infrastructure, unified comms, network management solutions, network specific security and remote access technologies and approaches\n- collaborate with engineers to ensure systems are practically designed",
@@ -42768,7 +42803,8 @@
       "Check that designs meet service levels and security standards before review."
      ],
      "qualifications": [
-      "A degree in computing or networking, a recognised networking qualification, or equivalent experience."
+      "A degree in computing or networking, a recognised networking qualification, or equivalent experience.",
+      "Specialist knowledge of network design, at postgraduate diploma level or equivalent experience."
      ],
      "skills": [
       {
@@ -42810,8 +42846,8 @@
       {
        "id": "health-care-context",
        "slug": "health-care-context",
-       "level": "awareness",
-       "levelNumber": 1
+       "level": "working",
+       "levelNumber": 2
       },
       {
        "id": "information-governance",
@@ -42828,30 +42864,30 @@
      ],
      "jobEvaluation": {
       "communication": "4",
-      "knowledge": "5",
+      "knowledge": "6",
       "analytical": "4",
-      "planning": "2",
+      "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "2",
+      "policy": "3",
       "financial-resources": "1",
       "people": "1",
-      "information-resources": "4",
+      "information-resources": "5",
       "research": "2",
-      "freedom-to-act": "3",
+      "freedom-to-act": "4",
       "physical-effort": "1",
       "mental-effort": "3",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 334,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "network-architect--band-5--associate-network-architect.tsv"
+     "jobEvaluationPoints": 412,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 5): health-sector adverts place this role at Band 6. Knowledge is scored at postgraduate diploma level, and information resources at level 5 because the job designs parts of the network that major information systems depend on.",
+     "selfAssessmentFile": "network-architect--band-6--associate-network-architect.tsv"
     },
     {
      "slug": "network-architect",
      "title": "Network architect",
-     "band": "6",
+     "band": "7",
      "summary": "",
      "pcfLevel": "Network architect",
      "pcfLevelDescription": "A network architect has responsibility for network designs and specifications to support business strategies using common tools.\n\nAt this role level, you will:\n- research new technologies and solutions, and ensure appropriate levels of assurance\n- plan, direct and co-ordinate activities, engaging with other stakeholders to manage and implement a programme\n- agree SLAs (service level agreements) and engage with third party vendors\n- have an understanding of most of the following network technologies: LAN (local area network), WAN (wide area network), wifi, data-centre LAN, SD (software-defined) networks, telephony, mobile solutions infrastructure, unified comms, network management solutions, network-specific security and remote access technologies and approaches\n- coach and mentor associate network architects where appropriate\n- collaborate with engineers to ensure systems are practically designed",
@@ -42864,7 +42900,7 @@
       "Assess new network technologies and their fit with the organisation's security standards."
      ],
      "qualifications": [
-      "A degree in computing or networking, or equivalent experience.",
+      "Specialist knowledge of network architecture, at master's level or equivalent experience.",
       "Experience of designing and supporting enterprise networks."
      ],
      "skills": [
@@ -42931,14 +42967,14 @@
       {
        "id": "vulnerability-management",
        "slug": "vulnerability-management",
-       "level": "awareness",
-       "levelNumber": 1
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
-      "communication": "4",
-      "knowledge": "6",
-      "analytical": "4",
+      "communication": "5",
+      "knowledge": "7",
+      "analytical": "5",
       "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
@@ -42949,18 +42985,18 @@
       "research": "2",
       "freedom-to-act": "4",
       "physical-effort": "1",
-      "mental-effort": "3",
+      "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 419,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "network-architect--band-6--network-architect.tsv"
+     "jobEvaluationPoints": 496,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 6): health-sector adverts place this role at Band 7. Knowledge is scored at master's level or equivalent for specialist knowledge across local, wide area, wireless, and cloud networks.",
+     "selfAssessmentFile": "network-architect--band-7--network-architect.tsv"
     },
     {
      "slug": "lead-network-architect",
      "title": "Lead network architect",
-     "band": "7",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Lead network architect",
      "pcfLevelDescription": "A lead network architect is accountable for designs and networks representing their business area.\n\nAt this role level, you will:\n- be a point of escalation\n- actively input into governance forums that determine IT strategy\n- cascade messages, standards and best practice from other architecture teams and design authorities to the network architecture team\n- act as a subject matter expert for network architects\n- represent network architects internally and externally\n- have an understanding of all network technology including LAN (local area network), WAN (wide area network), wifi, data centre LAN, SD (software-defined) networks, telephony, mobile solutions infrastructure, unified comms, network management solutions, and network specific security and remote access technologies and approaches\n- champion new technologies and solutions\n- coach and mentor network architects and associate network architects\n- be a strategic thinker who can communicate network concepts to technical and non-technical stakeholders",
@@ -43015,8 +43051,8 @@
       {
        "id": "health-care-context",
        "slug": "health-care-context",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "information-governance",
@@ -43039,37 +43075,43 @@
       {
        "id": "vulnerability-management",
        "slug": "vulnerability-management",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "medical-device-regulation",
        "slug": "medical-device-regulation",
        "level": "awareness",
        "levelNumber": 1
+      },
+      {
+       "id": "risk-management",
+       "slug": "risk-management",
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "3",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
-      "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
+      "information-resources": "6",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "network-architect--band-7--lead-network-architect.tsv"
+     "jobEvaluationPoints": 572,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 7): health-sector adverts place this role at Band 8a. Information resources is level 6 because the job owns the network architecture that all of the organisation's information systems depend on.",
+     "selfAssessmentFile": "network-architect--band-8a--lead-network-architect.tsv"
     }
    ],
    "sources": []
@@ -43100,7 +43142,7 @@
     {
      "slug": "trainee-business-architect",
      "title": "Trainee business architect",
-     "band": "5",
+     "band": "6",
      "summary": "",
      "pcfLevel": "Trainee business architect",
      "pcfLevelDescription": "A trainee business architect supports the more senior business architect roles. They also receive training on the tasks they support so they can work on their own.\n\nAt this role level, you will:\n- develop your knowledge of the frameworks, practice, and principles of business architecture\n- work with other business architects to support the production of clear business architecture outputs\n- support during workshops and meetings with stakeholders in the organisation",
@@ -43112,7 +43154,8 @@
       "Help run workshops with clinicians, care staff, and managers, and write up the outputs."
      ],
      "qualifications": [
-      "A degree or equivalent experience in business, analysis, or a related subject."
+      "A degree or equivalent experience in business, analysis, or a related subject.",
+      "Specialist training in business architecture methods, at postgraduate diploma level or equivalent experience."
      ],
      "skills": [
       {
@@ -43168,34 +43211,40 @@
        "slug": "equality-diversity-inclusion",
        "level": "awareness",
        "levelNumber": 1
+      },
+      {
+       "id": "information-governance",
+       "slug": "information-governance",
+       "level": "awareness",
+       "levelNumber": 1
       }
      ],
      "jobEvaluation": {
       "communication": "4",
-      "knowledge": "5",
+      "knowledge": "6",
       "analytical": "4",
-      "planning": "2",
+      "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "2",
+      "policy": "3",
       "financial-resources": "1",
       "people": "1",
-      "information-resources": "4",
+      "information-resources": "5",
       "research": "2",
-      "freedom-to-act": "3",
+      "freedom-to-act": "4",
       "physical-effort": "1",
       "mental-effort": "3",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 334,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "business-architect--band-5--trainee-business-architect.tsv"
+     "jobEvaluationPoints": 412,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 5): health-sector adverts place this role at Band 6. Knowledge is scored at the level the job needs once training is complete enough to do the work.",
+     "selfAssessmentFile": "business-architect--band-6--trainee-business-architect.tsv"
     },
     {
      "slug": "associate-business-architect",
      "title": "Associate business architect",
-     "band": "6",
+     "band": "7",
      "summary": "",
      "pcfLevel": "Associate business architect",
      "pcfLevelDescription": "An associate business architect uses their knowledge and experience to address business scenarios. They continue to get support and training for their role.\n\nAt this role level, you will:\n- apply architectural methods following direction and wider strategy to produce outputs\n- break down complexity and produce clear outputs\n- explain complex business problems using clear language and artefacts\n- bring together disconnected information to inform decision making\n- recognise issues that cut across different areas of the organisation and present opportunities for improvement",
@@ -43208,7 +43257,7 @@
       "Keep the business architecture repository accurate and linked to application and data models."
      ],
      "qualifications": [
-      "A degree or equivalent experience in business, analysis, or a related subject.",
+      "Specialist knowledge of business architecture or business analysis, at master's level or equivalent experience.",
       "Experience of business analysis or service design."
      ],
      "skills": [
@@ -43263,8 +43312,8 @@
       {
        "id": "clinical-safety",
        "slug": "clinical-safety",
-       "level": "awareness",
-       "levelNumber": 1
+       "level": "working",
+       "levelNumber": 2
       },
       {
        "id": "information-governance",
@@ -43281,8 +43330,8 @@
      ],
      "jobEvaluation": {
       "communication": "4",
-      "knowledge": "6",
-      "analytical": "4",
+      "knowledge": "7",
+      "analytical": "5",
       "planning": "3",
       "physical-skills": "2",
       "patient-care": "1",
@@ -43293,18 +43342,18 @@
       "research": "2",
       "freedom-to-act": "4",
       "physical-effort": "1",
-      "mental-effort": "3",
+      "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 419,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "business-architect--band-6--associate-business-architect.tsv"
+     "jobEvaluationPoints": 483,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 6): health-sector adverts place this role at Band 7. Knowledge is scored at master's level or equivalent, because the job models and analyses services and care pathways across teams and organisations.",
+     "selfAssessmentFile": "business-architect--band-7--associate-business-architect.tsv"
     },
     {
      "slug": "business-architect",
      "title": "Business architect",
-     "band": "7",
+     "band": "8a",
      "summary": "",
      "pcfLevel": "Business architect",
      "pcfLevelDescription": "A business architect uses their knowledge and experience to understand business scenarios, communicate the issues and recommend next steps. They support and guide other business architects.\n\nAt this role level, you will:\n- support executive level work and management of the business architecture practice\n- guide others in using appropriate business architectural tools and methods\n- understand and apply business architectural principles, techniques, and tools to business scenarios\n- create business architecture artefacts, including abstract representations of the organisation, knowing when to apply them\n- develop standard and scalable models to collect, aggregate, or disaggregate complex information",
@@ -43395,31 +43444,31 @@
       {
        "id": "risk-management",
        "slug": "risk-management",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       }
      ],
      "jobEvaluation": {
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "3",
+      "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "3",
-      "financial-resources": "1",
-      "people": "2",
+      "policy": "4",
+      "financial-resources": "2",
+      "people": "3",
       "information-resources": "5",
-      "research": "2",
-      "freedom-to-act": "4",
+      "research": "3",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 496,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "business-architect--band-7--business-architect.tsv"
+     "jobEvaluationPoints": 560,
+     "jobEvaluationNotes": "Banded above the UK GDaD PCF grade suggestion (Band 7): health-sector adverts place this role at Band 8a. Planning, policy, and freedom to act are scored above the Band 7 profile because the job turns strategy into a roadmap of change for a major service area.",
+     "selfAssessmentFile": "business-architect--band-8a--business-architect.tsv"
     },
     {
      "slug": "lead-business-architect",
@@ -69448,7 +69497,7 @@
     {
      "slug": "category-manager-digital-and-technology",
      "title": "Category manager (digital and technology)",
-     "band": "7",
+     "band": "8a",
      "summary": "Manages a category of digital and technology spend, such as software, cloud, devices, or technology services, with a category strategy agreed with digital leaders.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -69460,10 +69509,11 @@
       "Analyse supply markets and lead early market engagement.",
       "Negotiate commercial models, such as enterprise licences and consumption-based pricing, and track savings and value.",
       "Make sure contracts include interoperability, data ownership, exit, and data return terms that avoid lock-in.",
-      "Report category performance, risks, and savings to the head of procurement and digital leaders."
+      "Report category performance, risks, and savings to the head of procurement and digital leaders.",
+      "Coach and supervise procurement officers and buyers working in the category."
      ],
      "qualifications": [
-      "A recognised procurement professional qualification at advanced level, or equivalent experience.",
+      "A recognised procurement professional qualification at advanced level, or a master's degree in a related subject, or equivalent experience.",
       "Substantial experience of buying digital and technology services."
      ],
      "skills": [
@@ -69526,34 +69576,40 @@
        "slug": "information-governance",
        "level": "working",
        "levelNumber": 2
+      },
+      {
+       "id": "people-management",
+       "slug": "people-management",
+       "level": "working",
+       "levelNumber": 2
       }
      ],
      "jobEvaluation": {
       "communication": "5",
-      "knowledge": "6",
-      "analytical": "4",
+      "knowledge": "7",
+      "analytical": "5",
       "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
       "policy": "4",
       "financial-resources": "4",
-      "people": "2",
+      "people": "3",
       "information-resources": "3",
       "research": "2",
-      "freedom-to-act": "4",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 473,
-     "jobEvaluationNotes": "Financial resources is level 4 because the job sets how a major category of the organisation's spending is bought; research is level 2 for regular market analysis.",
-     "selfAssessmentFile": "category-manager--band-7--category-manager-digital-and-technology.tsv"
+     "jobEvaluationPoints": 553,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8a. Knowledge, analysis, and freedom to act are scored at the Band 8a profile because the job leads the most complex technology procurements in the category. Financial resources is level 4 because the job sets how a major category of the organisation's spending is bought; research is level 2 for regular market analysis.",
+     "selfAssessmentFile": "category-manager--band-8a--category-manager-digital-and-technology.tsv"
     },
     {
      "slug": "senior-category-manager",
      "title": "Senior category manager",
-     "band": "8a",
+     "band": "8b",
      "summary": "Manages several categories, or the organisation's largest and riskiest category, and leads collaborative buying with other organisations.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -69567,7 +69623,7 @@
       "Line manage and develop category managers and procurement officers."
      ],
      "qualifications": [
-      "A recognised procurement professional qualification at advanced level, or equivalent experience.",
+      "A recognised procurement professional qualification at advanced level, or a master's degree in a related subject, or equivalent experience.",
       "Extensive experience of category management and complex technology procurement."
      ],
      "skills": [
@@ -69610,8 +69666,8 @@
       {
        "id": "pcf:commercial-management",
        "slug": "pcf-commercial-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "pcf:creating-value-for-money",
@@ -69622,8 +69678,8 @@
       {
        "id": "pcf:stakeholder-relationship-management",
        "slug": "pcf-stakeholder-relationship-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "people-management",
@@ -69636,12 +69692,12 @@
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "4",
+      "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
       "policy": "4",
-      "financial-resources": "4",
-      "people": "3",
+      "financial-resources": "5",
+      "people": "4",
       "information-resources": "3",
       "research": "2",
       "freedom-to-act": "5",
@@ -69650,14 +69706,14 @@
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 553,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "category-manager--band-8a--senior-category-manager.tsv"
+     "jobEvaluationPoints": 595,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8b. Planning is level 5 for multi-year category strategies, financial resources is level 5 because the job sets how spending is bought across several categories and services, and people is level 4 because it line manages category managers.",
+     "selfAssessmentFile": "category-manager--band-8b--senior-category-manager.tsv"
     },
     {
      "slug": "head-of-category",
      "title": "Head of category",
-     "band": "8b",
+     "band": "8c",
      "summary": "Leads category management across the organisation's spending, setting the category approach and managing the category team.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -69668,7 +69724,8 @@
       "Make sure category strategies support the organisation's digital, clinical, and financial plans.",
       "Report savings, value for money, social value, and commercial risks to executive committees.",
       "Lead relationships with public sector buying organisations and framework providers.",
-      "Hold the budget for the category team."
+      "Hold the budget for the category team.",
+      "Advise executive directors on category priorities and the commercial risks of major investments."
      ],
      "qualifications": [
       "A recognised procurement professional qualification at advanced level, or a master's degree in a related subject, or equivalent experience.",
@@ -69720,14 +69777,14 @@
       {
        "id": "pcf:leadership-and-guidance",
        "slug": "pcf-leadership-and-guidance",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "people-management",
        "slug": "people-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "budget-management",
@@ -69737,26 +69794,26 @@
       }
      ],
      "jobEvaluation": {
-      "communication": "5",
+      "communication": "6",
       "knowledge": "7",
       "analytical": "5",
       "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
-      "policy": "4",
+      "policy": "5",
       "financial-resources": "5",
       "people": "4",
-      "information-resources": "3",
+      "information-resources": "4",
       "research": "2",
-      "freedom-to-act": "5",
+      "freedom-to-act": "6",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 595,
-     "jobEvaluationNotes": "Financial resources is level 5 because the job sets how spending is bought across several services.",
-     "selfAssessmentFile": "category-manager--band-8b--head-of-category.tsv"
+     "jobEvaluationPoints": 646,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8c. Communication is level 6 for highly contentious negotiations and executive reporting; policy is level 5 and freedom to act level 6 because the job sets the category management approach for the whole organisation. Financial resources is level 5 because the job sets how spending is bought across several services.",
+     "selfAssessmentFile": "category-manager--band-8c--head-of-category.tsv"
     }
    ],
    "sources": []
@@ -69782,7 +69839,7 @@
     {
      "slug": "contract-manager",
      "title": "Contract manager",
-     "band": "6",
+     "band": "7",
      "summary": "Manages a portfolio of contracts, including technology and clinical system contracts, from mobilisation to renewal, working within the contract management framework. Also known as contract officer.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -69791,13 +69848,13 @@
       "Manage a portfolio of contracts, keeping the contract register, documents, and key dates current.",
       "Run regular performance reviews with suppliers, using service levels and key performance indicators.",
       "Check invoices against contract terms and resolve billing disputes.",
-      "Process contract changes and variations within the procurement rules.",
-      "Track licence use, renewals, and notice periods, and start renewal planning early.",
+      "Negotiate and process contract changes and variations within the procurement rules.",
+      "Track licence use, renewals, and notice periods, and plan renewals and re-procurements across the portfolio.",
       "Keep exit plans and data registers up to date for each contract.",
       "Work with information governance and security colleagues on supplier data protection and security checks."
      ],
      "qualifications": [
-      "A recognised procurement or contract management qualification, or equivalent experience.",
+      "A recognised procurement or contract management qualification at advanced level, or equivalent experience.",
       "Experience of managing service contracts, ideally for technology."
      ],
      "skills": [
@@ -69810,8 +69867,8 @@
       {
        "id": "proc-supplier-relationship-management",
        "slug": "proc-supplier-relationship-management",
-       "level": "working",
-       "levelNumber": 2
+       "level": "practitioner",
+       "levelNumber": 3
       },
       {
        "id": "proc-exit-planning",
@@ -69863,31 +69920,31 @@
       }
      ],
      "jobEvaluation": {
-      "communication": "4",
+      "communication": "5",
       "knowledge": "6",
-      "analytical": "4",
-      "planning": "3",
+      "analytical": "5",
+      "planning": "4",
       "physical-skills": "3",
       "patient-care": "1",
       "policy": "3",
-      "financial-resources": "3",
+      "financial-resources": "4",
       "people": "2",
       "information-resources": "3",
       "research": "1",
       "freedom-to-act": "4",
       "physical-effort": "1",
-      "mental-effort": "3",
+      "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 422,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "contract-manager--band-6--contract-manager.tsv"
+     "jobEvaluationPoints": 485,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 7. Analysis is level 5 for judgements on complex contract terms and disputes, planning is level 4 for renewals across the portfolio, and financial resources is level 4 because the job manages the spend of a portfolio of service contracts.",
+     "selfAssessmentFile": "contract-manager--band-7--contract-manager.tsv"
     },
     {
      "slug": "senior-contract-manager",
      "title": "Senior contract manager",
-     "band": "7",
+     "band": "8a",
      "summary": "Manages the organisation's strategic and high-risk contracts, such as the electronic patient record and cloud hosting, and leads relationships with key suppliers.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -69902,15 +69959,15 @@
       "Coach and supervise contract managers."
      ],
      "qualifications": [
-      "A recognised procurement or contract management qualification at advanced level, or equivalent experience.",
+      "A recognised procurement or contract management qualification at advanced level, or a master's degree in a related subject, or equivalent experience.",
       "Substantial experience of managing strategic technology or outsourced service contracts."
      ],
      "skills": [
       {
        "id": "proc-contract-management",
        "slug": "proc-contract-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "proc-supplier-relationship-management",
@@ -69969,8 +70026,8 @@
      ],
      "jobEvaluation": {
       "communication": "5",
-      "knowledge": "6",
-      "analytical": "4",
+      "knowledge": "7",
+      "analytical": "5",
       "planning": "4",
       "physical-skills": "2",
       "patient-care": "1",
@@ -69978,21 +70035,21 @@
       "financial-resources": "4",
       "people": "3",
       "information-resources": "3",
-      "research": "1",
-      "freedom-to-act": "4",
+      "research": "2",
+      "freedom-to-act": "5",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 475,
-     "jobEvaluationNotes": "Financial resources is level 4 because the job manages the spend and assets of high-value service contracts.",
-     "selfAssessmentFile": "contract-manager--band-7--senior-contract-manager.tsv"
+     "jobEvaluationPoints": 553,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8a. Knowledge, analysis, and freedom to act are scored at the Band 8a profile because the job manages the organisation's strategic contracts with little supervision. Financial resources is level 4 because the job manages the spend and assets of high-value service contracts.",
+     "selfAssessmentFile": "contract-manager--band-8a--senior-contract-manager.tsv"
     },
     {
      "slug": "lead-contract-manager",
      "title": "Lead contract manager",
-     "band": "8a",
+     "band": "8b",
      "summary": "Leads contract and supplier management across the organisation, setting the contract management framework and managing the contract team.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -70006,7 +70063,7 @@
       "Advise on termination, re-procurement, and supplier failure."
      ],
      "qualifications": [
-      "A recognised procurement or contract management qualification at advanced level, or equivalent experience.",
+      "A recognised procurement or contract management qualification at advanced level, or a master's degree in a related subject, or equivalent experience.",
       "Extensive experience of leading contract management for complex services."
      ],
      "skills": [
@@ -70031,8 +70088,8 @@
       {
        "id": "proc-negotiation",
        "slug": "proc-negotiation",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "proc-procurement-law-and-policy",
@@ -70043,8 +70100,8 @@
       {
        "id": "pcf:commercial-management",
        "slug": "pcf-commercial-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "pcf:creating-value-for-money",
@@ -70075,12 +70132,12 @@
       "communication": "5",
       "knowledge": "7",
       "analytical": "5",
-      "planning": "4",
+      "planning": "5",
       "physical-skills": "2",
       "patient-care": "1",
       "policy": "4",
-      "financial-resources": "4",
-      "people": "3",
+      "financial-resources": "5",
+      "people": "4",
       "information-resources": "3",
       "research": "2",
       "freedom-to-act": "5",
@@ -70089,9 +70146,9 @@
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 553,
-     "jobEvaluationNotes": "",
-     "selfAssessmentFile": "contract-manager--band-8a--lead-contract-manager.tsv"
+     "jobEvaluationPoints": 595,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8b. Planning is level 5 for the organisation-wide contract management framework, financial resources is level 5 because the job oversees contracts across many services, and people is level 4 because it line manages the contract team.",
+     "selfAssessmentFile": "contract-manager--band-8b--lead-contract-manager.tsv"
     }
    ],
    "sources": []
@@ -70118,7 +70175,7 @@
     {
      "slug": "head-of-procurement",
      "title": "Head of procurement",
-     "band": "8b",
+     "band": "8c",
      "summary": "Leads the procurement function, setting procurement procedures and standards and managing the procurement and purchasing teams.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -70132,7 +70189,7 @@
       "Hold the procurement team budget and develop the team's skills."
      ],
      "qualifications": [
-      "A recognised procurement professional qualification at the highest level, or equivalent experience.",
+      "A recognised procurement professional qualification at the highest level, or a master's degree in a related subject, or equivalent experience.",
       "Extensive experience of leading procurement under public procurement rules."
      ],
      "skills": [
@@ -70169,8 +70226,8 @@
       {
        "id": "pcf:commercial-management",
        "slug": "pcf-commercial-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "pcf:creating-value-for-money",
@@ -70181,8 +70238,8 @@
       {
        "id": "pcf:leadership-and-guidance",
        "slug": "pcf-leadership-and-guidance",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "people-management",
@@ -70198,7 +70255,7 @@
       }
      ],
      "jobEvaluation": {
-      "communication": "5",
+      "communication": "6",
       "knowledge": "7",
       "analytical": "5",
       "planning": "5",
@@ -70207,22 +70264,22 @@
       "policy": "5",
       "financial-resources": "5",
       "people": "4",
-      "information-resources": "3",
+      "information-resources": "4",
       "research": "2",
-      "freedom-to-act": "5",
+      "freedom-to-act": "6",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 608,
-     "jobEvaluationNotes": "Policy is level 5 because the job sets procurement procedures for the whole organisation; financial resources is level 5 because it controls how spending is bought across many services.",
-     "selfAssessmentFile": "head-of-procurement--band-8b--head-of-procurement.tsv"
+     "jobEvaluationPoints": 646,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8c. Policy is level 5 because the job sets procurement procedures for the whole organisation, and freedom to act is level 6 because it interprets procurement rules and strategy to set the organisation's standards. Financial resources is level 5 because it controls how spending is bought across many services; communication is level 6 for contentious award decisions and challenges.",
+     "selfAssessmentFile": "head-of-procurement--band-8c--head-of-procurement.tsv"
     },
     {
      "slug": "head-of-commercial",
      "title": "Head of commercial",
-     "band": "8c",
+     "band": "8d",
      "summary": "Leads procurement, category management, and contract management together as one commercial function, and sets the commercial strategy.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -70297,13 +70354,13 @@
       {
        "id": "risk-management",
        "slug": "risk-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       }
      ],
      "jobEvaluation": {
       "communication": "6",
-      "knowledge": "7",
+      "knowledge": "8",
       "analytical": "5",
       "planning": "5",
       "physical-skills": "2",
@@ -70313,20 +70370,20 @@
       "people": "5",
       "information-resources": "4",
       "research": "2",
-      "freedom-to-act": "5",
+      "freedom-to-act": "6",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "1",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 644,
-     "jobEvaluationNotes": "Communication is level 6 for negotiating highly contentious commercial matters with strategic suppliers.",
-     "selfAssessmentFile": "head-of-procurement--band-8c--head-of-commercial.tsv"
+     "jobEvaluationPoints": 703,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 8d. Knowledge is level 8 for knowledge across procurement, category management, contract management, and commercial law, and freedom to act is level 6 because the job sets the commercial strategy. Communication is level 6 for negotiating highly contentious commercial matters with strategic suppliers.",
+     "selfAssessmentFile": "head-of-procurement--band-8d--head-of-commercial.tsv"
     },
     {
      "slug": "director-of-procurement-and-commercial",
      "title": "Director of procurement and commercial",
-     "band": "8d",
+     "band": "9",
      "summary": "Is the organisation's senior commercial leader, accountable for procurement and commercial policy, and advises the board on commercial strategy and risk.",
      "pcfLevel": null,
      "pcfLevelDescription": null,
@@ -70337,7 +70394,8 @@
       "Assure the organisation's compliance with public procurement rules and its readiness to defend challenges.",
       "Lead executive relationships with strategic suppliers and public sector buying organisations.",
       "Set social value and sustainable procurement goals and report outcomes to the board.",
-      "Lead and develop the commercial leadership team and the organisation's commercial skills."
+      "Lead and develop the commercial leadership team and the organisation's commercial skills.",
+      "Be accountable for the organisation's commercial commitments and contract portfolio across all services."
      ],
      "qualifications": [
       "A recognised procurement professional qualification at the highest level, or a master's degree in a related subject, or equivalent experience.",
@@ -70383,8 +70441,8 @@
       {
        "id": "pcf:financial-management",
        "slug": "pcf-financial-management",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "people-management",
@@ -70395,8 +70453,8 @@
       {
        "id": "governance-and-compliance",
        "slug": "governance-and-compliance",
-       "level": "practitioner",
-       "levelNumber": 3
+       "level": "expert",
+       "levelNumber": 4
       },
       {
        "id": "risk-management",
@@ -70413,19 +70471,19 @@
       "physical-skills": "2",
       "patient-care": "1",
       "policy": "6",
-      "financial-resources": "5",
+      "financial-resources": "6",
       "people": "5",
       "information-resources": "4",
       "research": "2",
-      "freedom-to-act": "5",
+      "freedom-to-act": "6",
       "physical-effort": "1",
       "mental-effort": "4",
       "emotional-effort": "2",
       "working-conditions": "2"
      },
-     "jobEvaluationPoints": 709,
-     "jobEvaluationNotes": "Policy is level 6 for corporate responsibility for procurement and commercial policy; emotional effort is level 2 for occasional exposure to stressful disputes, supplier failures, and challenges.",
-     "selfAssessmentFile": "head-of-procurement--band-8d--director-of-procurement-and-commercial.tsv"
+     "jobEvaluationPoints": 739,
+     "jobEvaluationNotes": "Health-sector adverts place this role at Band 9. Policy is level 6 for corporate responsibility for procurement and commercial policy, financial resources is level 6 for corporate responsibility for the organisation's commercial commitments, and freedom to act is level 6 because the job sets commercial goals and standards. Emotional effort is level 2 for occasional exposure to stressful disputes, supplier failures, and challenges.",
+     "selfAssessmentFile": "head-of-procurement--band-9--director-of-procurement-and-commercial.tsv"
     }
    ],
    "sources": []

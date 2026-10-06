@@ -22,13 +22,13 @@ business-analyst	Business analyst	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
 business-analyst	Senior business analyst	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	1	2	475
 business-analyst	Lead business analyst	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	3	1	2	554
 business-analyst	Head of business analysis	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	1	2	634
-business-architect	Trainee business architect	5	4	5	4	2	2	1	2	1	1	4	2	3	1	3	1	2	334
-business-architect	Associate business architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
-business-architect	Business architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+business-architect	Trainee business architect	6	4	6	4	3	2	1	3	1	1	5	2	4	1	3	1	2	412
+business-architect	Associate business architect	7	4	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	483
+business-architect	Business architect	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
 business-architect	Lead business architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
-category-manager	Category manager (digital and technology)	7	5	6	4	4	2	1	4	4	2	3	2	4	1	4	1	2	473
-category-manager	Senior category manager	8a	5	7	5	4	2	1	4	4	3	3	2	5	1	4	1	2	553
-category-manager	Head of category	8b	5	7	5	5	2	1	4	5	4	3	2	5	1	4	1	2	595
+category-manager	Category manager (digital and technology)	8a	5	7	5	4	2	1	4	4	3	3	2	5	1	4	1	2	553
+category-manager	Senior category manager	8b	5	7	5	5	2	1	4	5	4	3	2	5	1	4	1	2	595
+category-manager	Head of category	8c	6	7	5	5	2	1	5	5	4	4	2	6	1	4	1	2	646
 change-and-release-manager	Configuration analyst	4	3	4	3	2	3	1	2	2	1	4	1	2	2	2	1	2	278
 change-and-release-manager	Change and release analyst	5	4	5	3	3	3	1	3	2	2	4	2	3	2	3	1	2	370
 change-and-release-manager	Change and release manager	6	4	6	4	4	3	1	3	2	2	4	2	4	1	3	1	2	443
@@ -57,9 +57,9 @@ content-designer	Content designer	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
 content-designer	Senior content designer	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	2	2	481
 content-designer	Lead content designer	8b	5	7	5	5	2	1	5	3	4	5	2	5	1	3	2	2	602
 content-designer	Head of content design	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	2	2	640
-contract-manager	Contract manager	6	4	6	4	3	3	1	3	3	2	3	1	4	1	3	1	2	422
-contract-manager	Senior contract manager	7	5	6	4	4	2	1	4	4	3	3	1	4	1	4	1	2	475
-contract-manager	Lead contract manager	8a	5	7	5	4	2	1	4	4	3	3	2	5	1	4	1	2	553
+contract-manager	Contract manager	7	5	6	5	4	3	1	3	4	2	3	1	4	1	4	1	2	485
+contract-manager	Senior contract manager	8a	5	7	5	4	2	1	4	4	3	3	2	5	1	4	1	2	553
+contract-manager	Lead contract manager	8b	5	7	5	5	2	1	4	5	4	3	2	5	1	4	1	2	595
 cyber-security-manager	Cyber security manager	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	4	2	2	566
 cyber-security-manager	Senior cyber security manager	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	4	2	2	606
 cyber-security-manager	Head of cyber security	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	4	2	2	646
@@ -68,7 +68,7 @@ data-analyst	Associate data analyst	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
 data-analyst	Data analyst	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
 data-analyst	Senior data analyst	7	5	7	4	3	3	1	3	1	2	4	2	4	1	4	1	2	480
 data-analyst	Principal data analyst	8b	5	8	5	4	2	1	4	2	3	5	2	5	1	4	1	2	595
-data-architect	Data architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+data-architect	Data architect	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
 data-architect	Senior data architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
 data-architect	Chief data architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
 data-engineer	Data engineer	6	4	6	4	3	3	1	2	1	1	5	2	4	1	4	1	2	421
@@ -106,10 +106,10 @@ end-user-computing-engineer	End user computing engineer	5	4	5	3	2	3	1	2	2	2	4	2	
 end-user-computing-engineer	Senior end user computing engineer	6	4	6	4	3	3	1	3	2	3	4	2	4	2	3	1	2	441
 end-user-computing-engineer	Lead end user computing engineer	7	5	6	4	4	3	1	3	3	3	5	2	4	1	3	1	2	484
 end-user-computing-engineer	Principal end user computing engineer	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	3	1	2	594
-enterprise-architect	Enterprise architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
-enterprise-architect	Senior enterprise architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
-enterprise-architect	Lead enterprise architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
-enterprise-architect	Principal enterprise architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
+enterprise-architect	Enterprise architect	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
+enterprise-architect	Senior enterprise architect	8b	5	8	5	5	2	1	4	2	3	5	3	5	1	4	1	2	622
+enterprise-architect	Lead enterprise architect	8c	5	8	5	5	2	1	5	3	4	6	2	5	1	4	1	2	658
+enterprise-architect	Principal enterprise architect	8d	6	8	5	5	2	1	6	3	4	6	2	6	1	4	1	2	703
 executive-assistant	Executive assistant	4	4	4	3	3	3	1	2	2	1	3	1	3	2	3	1	2	307
 executive-assistant	Senior executive assistant	5	4	5	3	3	3	1	2	2	2	3	1	3	2	3	1	2	346
 executive-assistant	Executive office manager	6	5	5	4	4	3	1	3	3	3	3	1	4	1	3	1	2	423
@@ -141,9 +141,9 @@ head-of-legal	General counsel	9	6	8	5	5	2	1	6	4	5	6	2	6	1	4	2	2	733
 head-of-people	Head of HR	8c	6	7	5	5	2	1	5	4	5	4	1	5	1	4	3	2	637
 head-of-people	Deputy director of people	8d	6	8	5	5	2	1	5	4	5	4	1	5	1	4	3	2	681
 head-of-people	Director of people	9	6	8	5	5	2	1	6	5	6	4	1	6	1	4	3	2	739
-head-of-procurement	Head of procurement	8b	5	7	5	5	2	1	5	5	4	3	2	5	1	4	1	2	608
-head-of-procurement	Head of commercial	8c	6	7	5	5	2	1	5	5	5	4	2	5	1	4	1	2	644
-head-of-procurement	Director of procurement and commercial	8d	6	8	5	5	2	1	6	5	5	4	2	5	1	4	2	2	709
+head-of-procurement	Head of procurement	8c	6	7	5	5	2	1	5	5	4	4	2	6	1	4	1	2	646
+head-of-procurement	Head of commercial	8d	6	8	5	5	2	1	5	5	5	4	2	6	1	4	1	2	703
+head-of-procurement	Director of procurement and commercial	9	6	8	5	5	2	1	6	6	5	4	2	6	1	4	2	2	739
 hr-business-partner	HR business partner	7	5	6	4	4	2	1	4	2	4	3	1	4	1	3	3	2	473
 hr-business-partner	Senior HR business partner	8a	5	7	5	4	2	1	4	2	4	3	1	5	1	3	3	2	544
 hr-business-partner	Head of HR business partnering	8b	5	7	5	5	2	1	4	3	5	4	1	5	1	3	3	2	592
@@ -195,9 +195,9 @@ management-accountant	Management accountant	6	4	6	4	3	3	1	3	3	2	4	2	4	1	3	1	2	43
 management-accountant	Senior management accountant	7	5	6	4	4	3	1	3	4	3	5	2	4	1	3	1	2	495
 management-accountant	Finance business partner	8a	5	7	5	4	2	1	4	5	3	5	2	5	1	3	1	2	578
 management-accountant	Head of management accounts	8b	5	7	5	5	2	1	4	5	4	5	2	5	1	3	1	2	607
-network-architect	Associate network architect	5	4	5	4	2	2	1	2	1	1	4	2	3	1	3	1	2	334
-network-architect	Network architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
-network-architect	Lead network architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+network-architect	Associate network architect	6	4	6	4	3	2	1	3	1	1	5	2	4	1	3	1	2	412
+network-architect	Network architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+network-architect	Lead network architect	8a	5	7	5	4	2	1	4	2	3	6	3	5	1	4	1	2	572
 payroll-officer	Payroll officer	3	3	3	2	2	3	1	1	3	1	3	1	2	2	2	1	2	232
 payroll-officer	Senior payroll officer	4	3	4	3	2	3	1	2	3	2	3	1	2	2	2	1	2	286
 payroll-officer	Payroll team leader	5	4	5	3	2	3	1	3	3	3	4	2	3	2	3	1	2	376
@@ -244,7 +244,7 @@ recruitment-officer	Recruitment manager	6	4	6	4	3	3	1	3	2	3	4	1	4	1	3	1	2	430
 security-analyst	Junior security operations analyst	5	4	5	3	2	3	1	2	2	1	4	2	3	2	4	1	2	348
 security-analyst	Security operations analyst	6	4	6	4	3	3	1	3	2	2	4	2	4	1	4	2	2	440
 security-analyst	Senior security operations analyst	7	5	6	4	4	3	1	3	3	3	5	2	4	1	4	2	2	496
-security-architect	Security architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+security-architect	Security architect	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
 security-architect	Lead security architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
 security-architect	Principal security architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
 security-engineer	Security engineer	6	4	6	4	3	3	1	3	2	2	4	2	4	1	4	1	2	434
@@ -269,14 +269,14 @@ software-developer	Software developer	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
 software-developer	Senior software developer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
 software-developer	Lead software developer	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
 software-developer	Principal software developer	8b	5	8	5	4	2	1	4	3	3	5	2	5	1	4	1	2	604
-solution-architect	Associate solution architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
-solution-architect	Solution architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
-solution-architect	Senior solution architect	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
-solution-architect	Lead solution architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
-solution-architect	Principal solution architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
-technical-architect	Associate technical architect	5	4	5	4	2	2	1	2	1	1	4	2	3	1	3	1	2	334
-technical-architect	Technical architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
-technical-architect	Senior technical architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+solution-architect	Associate solution architect	7	4	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	483
+solution-architect	Solution architect	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
+solution-architect	Senior solution architect	8b	5	8	5	4	2	1	4	2	3	5	3	5	1	4	1	2	604
+solution-architect	Lead solution architect	8c	5	8	5	5	2	1	5	3	4	5	3	5	1	4	1	2	655
+solution-architect	Principal solution architect	8d	6	8	5	5	2	1	5	4	4	6	2	6	1	4	1	2	699
+technical-architect	Associate technical architect	6	4	6	4	3	2	1	3	1	1	5	2	4	1	3	1	2	412
+technical-architect	Technical architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+technical-architect	Senior technical architect	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
 technical-architect	Lead technical architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
 technical-architect	Principal technical architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
 test-engineer	Associate test engineer	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275

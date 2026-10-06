@@ -311,39 +311,40 @@ business-analyst	Business analyst	Head of business analysis	8c	information-gover
 business-analyst	Business analyst	Head of business analysis	8c	health-data-interoperability	Health data interoperability	practitioner	3
 business-analyst	Business analyst	Head of business analysis	8c	people-management	People management	expert	4
 business-analyst	Business analyst	Head of business analysis	8c	budget-management	Budget management	practitioner	3
-business-architect	Business architect	Trainee business architect	5	pcf:business-architecture	Business architecture	awareness	1
-business-architect	Business architect	Trainee business architect	5	pcf:communicating-information	Communicating information	awareness	1
-business-architect	Business architect	Trainee business architect	5	pcf:consultancy	Consultancy	awareness	1
-business-architect	Business architect	Trainee business architect	5	pcf:making-and-guiding-decisions	Making and guiding decisions	awareness	1
-business-architect	Business architect	Trainee business architect	5	pcf:methods-and-tools	Methods and tools	awareness	1
-business-architect	Business architect	Trainee business architect	5	pcf:strategic-thinking	Strategic thinking	awareness	1
-business-architect	Business architect	Trainee business architect	5	health-care-context	Understanding health and care services	working	2
-business-architect	Business architect	Trainee business architect	5	clinical-safety	Clinical risk management	awareness	1
-business-architect	Business architect	Trainee business architect	5	equality-diversity-inclusion	Equality, diversity, and inclusion	awareness	1
-business-architect	Business architect	Associate business architect	6	pcf:business-architecture	Business architecture	working	2
-business-architect	Business architect	Associate business architect	6	pcf:communicating-information	Communicating information	practitioner	3
-business-architect	Business architect	Associate business architect	6	pcf:consultancy	Consultancy	working	2
-business-architect	Business architect	Associate business architect	6	pcf:making-and-guiding-decisions	Making and guiding decisions	working	2
-business-architect	Business architect	Associate business architect	6	pcf:methods-and-tools	Methods and tools	working	2
-business-architect	Business architect	Associate business architect	6	pcf:stakeholder-relationship-management	Stakeholder relationship management	working	2
-business-architect	Business architect	Associate business architect	6	pcf:strategic-thinking	Strategic thinking	working	2
-business-architect	Business architect	Associate business architect	6	health-care-context	Understanding health and care services	practitioner	3
-business-architect	Business architect	Associate business architect	6	clinical-safety	Clinical risk management	awareness	1
-business-architect	Business architect	Associate business architect	6	information-governance	Information governance and data protection	awareness	1
-business-architect	Business architect	Associate business architect	6	equality-diversity-inclusion	Equality, diversity, and inclusion	working	2
-business-architect	Business architect	Business architect	7	pcf:business-architecture	Business architecture	practitioner	3
-business-architect	Business architect	Business architect	7	pcf:communicating-information	Communicating information	expert	4
-business-architect	Business architect	Business architect	7	pcf:consultancy	Consultancy	practitioner	3
-business-architect	Business architect	Business architect	7	pcf:making-and-guiding-decisions	Making and guiding decisions	practitioner	3
-business-architect	Business architect	Business architect	7	pcf:methods-and-tools	Methods and tools	practitioner	3
-business-architect	Business architect	Business architect	7	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
-business-architect	Business architect	Business architect	7	pcf:strategic-design-and-business-change	Strategic design and business change	practitioner	3
-business-architect	Business architect	Business architect	7	pcf:strategic-thinking	Strategic thinking	practitioner	3
-business-architect	Business architect	Business architect	7	health-care-context	Understanding health and care services	practitioner	3
-business-architect	Business architect	Business architect	7	clinical-safety	Clinical risk management	working	2
-business-architect	Business architect	Business architect	7	information-governance	Information governance and data protection	working	2
-business-architect	Business architect	Business architect	7	equality-diversity-inclusion	Equality, diversity, and inclusion	working	2
-business-architect	Business architect	Business architect	7	risk-management	Organisational risk management	working	2
+business-architect	Business architect	Trainee business architect	6	pcf:business-architecture	Business architecture	awareness	1
+business-architect	Business architect	Trainee business architect	6	pcf:communicating-information	Communicating information	awareness	1
+business-architect	Business architect	Trainee business architect	6	pcf:consultancy	Consultancy	awareness	1
+business-architect	Business architect	Trainee business architect	6	pcf:making-and-guiding-decisions	Making and guiding decisions	awareness	1
+business-architect	Business architect	Trainee business architect	6	pcf:methods-and-tools	Methods and tools	awareness	1
+business-architect	Business architect	Trainee business architect	6	pcf:strategic-thinking	Strategic thinking	awareness	1
+business-architect	Business architect	Trainee business architect	6	health-care-context	Understanding health and care services	working	2
+business-architect	Business architect	Trainee business architect	6	clinical-safety	Clinical risk management	awareness	1
+business-architect	Business architect	Trainee business architect	6	equality-diversity-inclusion	Equality, diversity, and inclusion	awareness	1
+business-architect	Business architect	Trainee business architect	6	information-governance	Information governance and data protection	awareness	1
+business-architect	Business architect	Associate business architect	7	pcf:business-architecture	Business architecture	working	2
+business-architect	Business architect	Associate business architect	7	pcf:communicating-information	Communicating information	practitioner	3
+business-architect	Business architect	Associate business architect	7	pcf:consultancy	Consultancy	working	2
+business-architect	Business architect	Associate business architect	7	pcf:making-and-guiding-decisions	Making and guiding decisions	working	2
+business-architect	Business architect	Associate business architect	7	pcf:methods-and-tools	Methods and tools	working	2
+business-architect	Business architect	Associate business architect	7	pcf:stakeholder-relationship-management	Stakeholder relationship management	working	2
+business-architect	Business architect	Associate business architect	7	pcf:strategic-thinking	Strategic thinking	working	2
+business-architect	Business architect	Associate business architect	7	health-care-context	Understanding health and care services	practitioner	3
+business-architect	Business architect	Associate business architect	7	clinical-safety	Clinical risk management	working	2
+business-architect	Business architect	Associate business architect	7	information-governance	Information governance and data protection	awareness	1
+business-architect	Business architect	Associate business architect	7	equality-diversity-inclusion	Equality, diversity, and inclusion	working	2
+business-architect	Business architect	Business architect	8a	pcf:business-architecture	Business architecture	practitioner	3
+business-architect	Business architect	Business architect	8a	pcf:communicating-information	Communicating information	expert	4
+business-architect	Business architect	Business architect	8a	pcf:consultancy	Consultancy	practitioner	3
+business-architect	Business architect	Business architect	8a	pcf:making-and-guiding-decisions	Making and guiding decisions	practitioner	3
+business-architect	Business architect	Business architect	8a	pcf:methods-and-tools	Methods and tools	practitioner	3
+business-architect	Business architect	Business architect	8a	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
+business-architect	Business architect	Business architect	8a	pcf:strategic-design-and-business-change	Strategic design and business change	practitioner	3
+business-architect	Business architect	Business architect	8a	pcf:strategic-thinking	Strategic thinking	practitioner	3
+business-architect	Business architect	Business architect	8a	health-care-context	Understanding health and care services	practitioner	3
+business-architect	Business architect	Business architect	8a	clinical-safety	Clinical risk management	working	2
+business-architect	Business architect	Business architect	8a	information-governance	Information governance and data protection	working	2
+business-architect	Business architect	Business architect	8a	equality-diversity-inclusion	Equality, diversity, and inclusion	working	2
+business-architect	Business architect	Business architect	8a	risk-management	Organisational risk management	practitioner	3
 business-architect	Business architect	Lead business architect	8b	pcf:business-architecture	Business architecture	expert	4
 business-architect	Business architect	Lead business architect	8b	pcf:communicating-information	Communicating information	expert	4
 business-architect	Business architect	Lead business architect	8b	pcf:consultancy	Consultancy	practitioner	3
@@ -358,36 +359,37 @@ business-architect	Business architect	Lead business architect	8b	information-gov
 business-architect	Business architect	Lead business architect	8b	equality-diversity-inclusion	Equality, diversity, and inclusion	practitioner	3
 business-architect	Business architect	Lead business architect	8b	risk-management	Organisational risk management	practitioner	3
 business-architect	Business architect	Lead business architect	8b	people-management	People management	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	proc-category-management	Category management	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	proc-technology-procurement	Technology and cloud procurement	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	proc-market-analysis	Market analysis and engagement	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	proc-negotiation	Commercial negotiation	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	proc-procurement-process	Procurement process	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	pcf:commercial-management	Commercial management	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	pcf:creating-value-for-money	Creating value for money	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
-category-manager	Category manager	Category manager (digital and technology)	7	information-governance	Information governance and data protection	working	2
-category-manager	Category manager	Senior category manager	8a	proc-category-management	Category management	expert	4
-category-manager	Category manager	Senior category manager	8a	proc-technology-procurement	Technology and cloud procurement	expert	4
-category-manager	Category manager	Senior category manager	8a	proc-market-analysis	Market analysis and engagement	practitioner	3
-category-manager	Category manager	Senior category manager	8a	proc-negotiation	Commercial negotiation	expert	4
-category-manager	Category manager	Senior category manager	8a	proc-social-value	Social value and sustainable procurement	practitioner	3
-category-manager	Category manager	Senior category manager	8a	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
-category-manager	Category manager	Senior category manager	8a	pcf:commercial-management	Commercial management	practitioner	3
-category-manager	Category manager	Senior category manager	8a	pcf:creating-value-for-money	Creating value for money	expert	4
-category-manager	Category manager	Senior category manager	8a	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
-category-manager	Category manager	Senior category manager	8a	people-management	People management	practitioner	3
-category-manager	Category manager	Head of category	8b	proc-category-management	Category management	expert	4
-category-manager	Category manager	Head of category	8b	proc-technology-procurement	Technology and cloud procurement	expert	4
-category-manager	Category manager	Head of category	8b	proc-negotiation	Commercial negotiation	expert	4
-category-manager	Category manager	Head of category	8b	proc-procurement-law-and-policy	Public procurement rules and policy	expert	4
-category-manager	Category manager	Head of category	8b	proc-social-value	Social value and sustainable procurement	practitioner	3
-category-manager	Category manager	Head of category	8b	pcf:commercial-management	Commercial management	expert	4
-category-manager	Category manager	Head of category	8b	pcf:creating-value-for-money	Creating value for money	expert	4
-category-manager	Category manager	Head of category	8b	pcf:leadership-and-guidance	Leadership and guidance	practitioner	3
-category-manager	Category manager	Head of category	8b	people-management	People management	practitioner	3
-category-manager	Category manager	Head of category	8b	budget-management	Budget management	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	proc-category-management	Category management	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	proc-technology-procurement	Technology and cloud procurement	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	proc-market-analysis	Market analysis and engagement	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	proc-negotiation	Commercial negotiation	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	proc-procurement-process	Procurement process	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	pcf:commercial-management	Commercial management	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	pcf:creating-value-for-money	Creating value for money	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
+category-manager	Category manager	Category manager (digital and technology)	8a	information-governance	Information governance and data protection	working	2
+category-manager	Category manager	Category manager (digital and technology)	8a	people-management	People management	working	2
+category-manager	Category manager	Senior category manager	8b	proc-category-management	Category management	expert	4
+category-manager	Category manager	Senior category manager	8b	proc-technology-procurement	Technology and cloud procurement	expert	4
+category-manager	Category manager	Senior category manager	8b	proc-market-analysis	Market analysis and engagement	practitioner	3
+category-manager	Category manager	Senior category manager	8b	proc-negotiation	Commercial negotiation	expert	4
+category-manager	Category manager	Senior category manager	8b	proc-social-value	Social value and sustainable procurement	practitioner	3
+category-manager	Category manager	Senior category manager	8b	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
+category-manager	Category manager	Senior category manager	8b	pcf:commercial-management	Commercial management	expert	4
+category-manager	Category manager	Senior category manager	8b	pcf:creating-value-for-money	Creating value for money	expert	4
+category-manager	Category manager	Senior category manager	8b	pcf:stakeholder-relationship-management	Stakeholder relationship management	expert	4
+category-manager	Category manager	Senior category manager	8b	people-management	People management	practitioner	3
+category-manager	Category manager	Head of category	8c	proc-category-management	Category management	expert	4
+category-manager	Category manager	Head of category	8c	proc-technology-procurement	Technology and cloud procurement	expert	4
+category-manager	Category manager	Head of category	8c	proc-negotiation	Commercial negotiation	expert	4
+category-manager	Category manager	Head of category	8c	proc-procurement-law-and-policy	Public procurement rules and policy	expert	4
+category-manager	Category manager	Head of category	8c	proc-social-value	Social value and sustainable procurement	practitioner	3
+category-manager	Category manager	Head of category	8c	pcf:commercial-management	Commercial management	expert	4
+category-manager	Category manager	Head of category	8c	pcf:creating-value-for-money	Creating value for money	expert	4
+category-manager	Category manager	Head of category	8c	pcf:leadership-and-guidance	Leadership and guidance	expert	4
+category-manager	Category manager	Head of category	8c	people-management	People management	expert	4
+category-manager	Category manager	Head of category	8c	budget-management	Budget management	practitioner	3
 change-and-release-manager	Change and release manager	Configuration analyst	4	pcf:asset-and-configuration-management	Asset and configuration management	working	2
 change-and-release-manager	Change and release manager	Configuration analyst	4	pcf:availability-and-capacity-management	Availability and capacity management	awareness	1
 change-and-release-manager	Change and release manager	Configuration analyst	4	pcf:change-management	Change management	awareness	1
@@ -678,36 +680,36 @@ content-designer	Content designer	Head of content design	8c	clinical-terminology
 content-designer	Content designer	Head of content design	8c	pd-safety-critical-design	Designing for clinical safety and human factors	working	2
 content-designer	Content designer	Head of content design	8c	people-management	People management	expert	4
 content-designer	Content designer	Head of content design	8c	budget-management	Budget management	working	2
-contract-manager	Contract manager	Contract manager	6	proc-contract-management	Contract management	practitioner	3
-contract-manager	Contract manager	Contract manager	6	proc-supplier-relationship-management	Supplier relationship management	working	2
-contract-manager	Contract manager	Contract manager	6	proc-exit-planning	Exit planning and data return	working	2
-contract-manager	Contract manager	Contract manager	6	proc-technology-procurement	Technology and cloud procurement	working	2
-contract-manager	Contract manager	Contract manager	6	proc-procurement-law-and-policy	Public procurement rules and policy	working	2
-contract-manager	Contract manager	Contract manager	6	proc-negotiation	Commercial negotiation	working	2
-contract-manager	Contract manager	Contract manager	6	pcf:commercial-management	Commercial management	working	2
-contract-manager	Contract manager	Contract manager	6	pcf:stakeholder-relationship-management	Stakeholder relationship management	working	2
-contract-manager	Contract manager	Contract manager	6	information-governance	Information governance and data protection	working	2
-contract-manager	Contract manager	Contract manager	6	risk-management	Organisational risk management	working	2
-contract-manager	Contract manager	Senior contract manager	7	proc-contract-management	Contract management	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	proc-supplier-relationship-management	Supplier relationship management	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	proc-exit-planning	Exit planning and data return	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	proc-negotiation	Commercial negotiation	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	proc-technology-procurement	Technology and cloud procurement	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	pcf:commercial-management	Commercial management	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	risk-management	Organisational risk management	practitioner	3
-contract-manager	Contract manager	Senior contract manager	7	health-care-context	Understanding health and care services	working	2
-contract-manager	Contract manager	Lead contract manager	8a	proc-contract-management	Contract management	expert	4
-contract-manager	Contract manager	Lead contract manager	8a	proc-supplier-relationship-management	Supplier relationship management	expert	4
-contract-manager	Contract manager	Lead contract manager	8a	proc-exit-planning	Exit planning and data return	expert	4
-contract-manager	Contract manager	Lead contract manager	8a	proc-negotiation	Commercial negotiation	practitioner	3
-contract-manager	Contract manager	Lead contract manager	8a	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
-contract-manager	Contract manager	Lead contract manager	8a	pcf:commercial-management	Commercial management	practitioner	3
-contract-manager	Contract manager	Lead contract manager	8a	pcf:creating-value-for-money	Creating value for money	practitioner	3
-contract-manager	Contract manager	Lead contract manager	8a	people-management	People management	practitioner	3
-contract-manager	Contract manager	Lead contract manager	8a	risk-management	Organisational risk management	practitioner	3
-contract-manager	Contract manager	Lead contract manager	8a	health-care-context	Understanding health and care services	working	2
+contract-manager	Contract manager	Contract manager	7	proc-contract-management	Contract management	practitioner	3
+contract-manager	Contract manager	Contract manager	7	proc-supplier-relationship-management	Supplier relationship management	practitioner	3
+contract-manager	Contract manager	Contract manager	7	proc-exit-planning	Exit planning and data return	working	2
+contract-manager	Contract manager	Contract manager	7	proc-technology-procurement	Technology and cloud procurement	working	2
+contract-manager	Contract manager	Contract manager	7	proc-procurement-law-and-policy	Public procurement rules and policy	working	2
+contract-manager	Contract manager	Contract manager	7	proc-negotiation	Commercial negotiation	working	2
+contract-manager	Contract manager	Contract manager	7	pcf:commercial-management	Commercial management	working	2
+contract-manager	Contract manager	Contract manager	7	pcf:stakeholder-relationship-management	Stakeholder relationship management	working	2
+contract-manager	Contract manager	Contract manager	7	information-governance	Information governance and data protection	working	2
+contract-manager	Contract manager	Contract manager	7	risk-management	Organisational risk management	working	2
+contract-manager	Contract manager	Senior contract manager	8a	proc-contract-management	Contract management	expert	4
+contract-manager	Contract manager	Senior contract manager	8a	proc-supplier-relationship-management	Supplier relationship management	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	proc-exit-planning	Exit planning and data return	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	proc-negotiation	Commercial negotiation	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	proc-technology-procurement	Technology and cloud procurement	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	pcf:commercial-management	Commercial management	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	pcf:stakeholder-relationship-management	Stakeholder relationship management	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	risk-management	Organisational risk management	practitioner	3
+contract-manager	Contract manager	Senior contract manager	8a	health-care-context	Understanding health and care services	working	2
+contract-manager	Contract manager	Lead contract manager	8b	proc-contract-management	Contract management	expert	4
+contract-manager	Contract manager	Lead contract manager	8b	proc-supplier-relationship-management	Supplier relationship management	expert	4
+contract-manager	Contract manager	Lead contract manager	8b	proc-exit-planning	Exit planning and data return	expert	4
+contract-manager	Contract manager	Lead contract manager	8b	proc-negotiation	Commercial negotiation	expert	4
+contract-manager	Contract manager	Lead contract manager	8b	proc-procurement-law-and-policy	Public procurement rules and policy	practitioner	3
+contract-manager	Contract manager	Lead contract manager	8b	pcf:commercial-management	Commercial management	expert	4
+contract-manager	Contract manager	Lead contract manager	8b	pcf:creating-value-for-money	Creating value for money	practitioner	3
+contract-manager	Contract manager	Lead contract manager	8b	people-management	People management	practitioner	3
+contract-manager	Contract manager	Lead contract manager	8b	risk-management	Organisational risk management	practitioner	3
+contract-manager	Contract manager	Lead contract manager	8b	health-care-context	Understanding health and care services	working	2
 cyber-security-manager	Cyber security manager	Cyber security manager	8a	pcf:cyber-security-governance	Cyber security governance	practitioner	3
 cyber-security-manager	Cyber security manager	Cyber security manager	8a	pcf:cyber-risk-management	Cyber risk management	practitioner	3
 cyber-security-manager	Cyber security manager	Cyber security manager	8a	pcf:cyber-incident-management	Cyber incident management	practitioner	3
@@ -807,22 +809,22 @@ data-analyst	Data analyst	Principal data analyst	8b	data-quality	Data quality ma
 data-analyst	Data analyst	Principal data analyst	8b	data-deidentification	Pseudonymisation and disclosure control	practitioner	3
 data-analyst	Data analyst	Principal data analyst	8b	clinical-terminology	Clinical terminology and classification	practitioner	3
 data-analyst	Data analyst	Principal data analyst	8b	people-management	People management	practitioner	3
-data-architect	Data architect	Data architect	7	pcf:communicating-between-the-technical-and-non-technical	Communicating between the technical and non-technical	working	2
-data-architect	Data architect	Data architect	7	pcf:communicating-data	Communicating data	awareness	1
-data-architect	Data architect	Data architect	7	pcf:data-analysis-and-synthesis	Data analysis and synthesis	working	2
-data-architect	Data architect	Data architect	7	pcf:data-governance-data-architect	Data governance (data architect)	working	2
-data-architect	Data architect	Data architect	7	pcf:data-innovation	Data innovation	awareness	1
-data-architect	Data architect	Data architect	7	pcf:data-modelling	Data modelling	working	2
-data-architect	Data architect	Data architect	7	pcf:data-standards	Data standards	working	2
-data-architect	Data architect	Data architect	7	pcf:metadata-management	Metadata management	working	2
-data-architect	Data architect	Data architect	7	pcf:problem-management	Problem management	working	2
-data-architect	Data architect	Data architect	7	pcf:strategic-thinking	Strategic thinking	awareness	1
-data-architect	Data architect	Data architect	7	pcf:turning-business-problems-into-data-design	Turning business problems into data design	working	2
-data-architect	Data architect	Data architect	7	health-care-context	Understanding health and care services	working	2
-data-architect	Data architect	Data architect	7	clinical-terminology	Clinical terminology and classification	working	2
-data-architect	Data architect	Data architect	7	health-data-interoperability	Health data interoperability	working	2
-data-architect	Data architect	Data architect	7	information-governance	Information governance and data protection	practitioner	3
-data-architect	Data architect	Data architect	7	data-quality	Data quality management	working	2
+data-architect	Data architect	Data architect	8a	pcf:communicating-between-the-technical-and-non-technical	Communicating between the technical and non-technical	working	2
+data-architect	Data architect	Data architect	8a	pcf:communicating-data	Communicating data	awareness	1
+data-architect	Data architect	Data architect	8a	pcf:data-analysis-and-synthesis	Data analysis and synthesis	working	2
+data-architect	Data architect	Data architect	8a	pcf:data-governance-data-architect	Data governance (data architect)	working	2
+data-architect	Data architect	Data architect	8a	pcf:data-innovation	Data innovation	awareness	1
+data-architect	Data architect	Data architect	8a	pcf:data-modelling	Data modelling	working	2
+data-architect	Data architect	Data architect	8a	pcf:data-standards	Data standards	working	2
+data-architect	Data architect	Data architect	8a	pcf:metadata-management	Metadata management	working	2
+data-architect	Data architect	Data architect	8a	pcf:problem-management	Problem management	working	2
+data-architect	Data architect	Data architect	8a	pcf:strategic-thinking	Strategic thinking	awareness	1
+data-architect	Data architect	Data architect	8a	pcf:turning-business-problems-into-data-design	Turning business problems into data design	working	2
+data-architect	Data architect	Data architect	8a	health-care-context	Understanding health and care services	working	2
+data-architect	Data architect	Data architect	8a	clinical-terminology	Clinical terminology and classification	working	2
+data-architect	Data architect	Data architect	8a	health-data-interoperability	Health data interoperability	practitioner	3
+data-architect	Data architect	Data architect	8a	information-governance	Information governance and data protection	practitioner	3
+data-architect	Data architect	Data architect	8a	data-quality	Data quality management	working	2
 data-architect	Data architect	Senior data architect	8b	pcf:communicating-between-the-technical-and-non-technical	Communicating between the technical and non-technical	practitioner	3
 data-architect	Data architect	Senior data architect	8b	pcf:communicating-data	Communicating data	working	2
 data-architect	Data architect	Senior data architect	8b	pcf:data-analysis-and-synthesis	Data analysis and synthesis	working	2
@@ -1375,60 +1377,62 @@ end-user-computing-engineer	End user computing engineer	Principal end user compu
 end-user-computing-engineer	End user computing engineer	Principal end user computing engineer	8b	clinical-safety	Clinical risk management	working	2
 end-user-computing-engineer	End user computing engineer	Principal end user computing engineer	8b	people-management	People management	practitioner	3
 end-user-computing-engineer	End user computing engineer	Principal end user computing engineer	8b	budget-management	Budget management	practitioner	3
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:architecture-communication	Architecture communication	practitioner	3
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:commercial-perspective	Commercial perspective	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:community-collaboration	Community collaboration	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:enterprise-architecture	Enterprise architecture	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:making-architectural-decisions	Making architectural decisions	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:problem-definition-and-shaping	Problem definition and shaping	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	pcf:strategy-design	Strategy design	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	health-care-context	Understanding health and care services	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	health-data-interoperability	Health data interoperability	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	information-governance	Information governance and data protection	working	2
-enterprise-architect	Enterprise architect	Enterprise architect	6	clinical-safety	Clinical risk management	awareness	1
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:architecture-communication	Architecture communication	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:commercial-perspective	Commercial perspective	working	2
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:community-collaboration	Community collaboration	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:enterprise-architecture	Enterprise architecture	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:problem-definition-and-shaping	Problem definition and shaping	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	pcf:strategy-design	Strategy design	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	health-care-context	Understanding health and care services	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	health-data-interoperability	Health data interoperability	practitioner	3
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	information-governance	Information governance and data protection	working	2
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	clinical-safety	Clinical risk management	working	2
-enterprise-architect	Enterprise architect	Senior enterprise architect	7	risk-management	Organisational risk management	working	2
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:architect-for-the-whole-context	Architect for the whole context	expert	4
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:architecture-communication	Architecture communication	expert	4
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:commercial-perspective	Commercial perspective	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:community-collaboration	Community collaboration	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:enterprise-architecture	Enterprise architecture	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	pcf:strategy-design	Strategy design	expert	4
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	health-care-context	Understanding health and care services	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	health-data-interoperability	Health data interoperability	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	information-governance	Information governance and data protection	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	clinical-safety	Clinical risk management	working	2
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	risk-management	Organisational risk management	practitioner	3
-enterprise-architect	Enterprise architect	Lead enterprise architect	8b	people-management	People management	practitioner	3
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:architect-for-the-whole-context	Architect for the whole context	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:architecture-communication	Architecture communication	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:commercial-perspective	Commercial perspective	practitioner	3
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:community-collaboration	Community collaboration	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:enterprise-architecture	Enterprise architecture	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:making-architectural-decisions	Making architectural decisions	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	pcf:strategy-design	Strategy design	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	health-care-context	Understanding health and care services	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	health-data-interoperability	Health data interoperability	expert	4
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	information-governance	Information governance and data protection	practitioner	3
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	clinical-safety	Clinical risk management	practitioner	3
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	risk-management	Organisational risk management	practitioner	3
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	people-management	People management	practitioner	3
-enterprise-architect	Enterprise architect	Principal enterprise architect	8c	budget-management	Budget management	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:architecture-communication	Architecture communication	practitioner	3
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:commercial-perspective	Commercial perspective	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:community-collaboration	Community collaboration	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:enterprise-architecture	Enterprise architecture	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:making-architectural-decisions	Making architectural decisions	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:problem-definition-and-shaping	Problem definition and shaping	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	pcf:strategy-design	Strategy design	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	health-care-context	Understanding health and care services	practitioner	3
+enterprise-architect	Enterprise architect	Enterprise architect	8a	health-data-interoperability	Health data interoperability	practitioner	3
+enterprise-architect	Enterprise architect	Enterprise architect	8a	information-governance	Information governance and data protection	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	clinical-safety	Clinical risk management	working	2
+enterprise-architect	Enterprise architect	Enterprise architect	8a	risk-management	Organisational risk management	working	2
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:architecture-communication	Architecture communication	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:commercial-perspective	Commercial perspective	working	2
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:community-collaboration	Community collaboration	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:enterprise-architecture	Enterprise architecture	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:problem-definition-and-shaping	Problem definition and shaping	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	pcf:strategy-design	Strategy design	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	health-care-context	Understanding health and care services	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	health-data-interoperability	Health data interoperability	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	information-governance	Information governance and data protection	practitioner	3
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	clinical-safety	Clinical risk management	working	2
+enterprise-architect	Enterprise architect	Senior enterprise architect	8b	risk-management	Organisational risk management	working	2
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:architect-for-the-whole-context	Architect for the whole context	expert	4
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:architecture-communication	Architecture communication	expert	4
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:commercial-perspective	Commercial perspective	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:community-collaboration	Community collaboration	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:enterprise-architecture	Enterprise architecture	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	pcf:strategy-design	Strategy design	expert	4
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	health-care-context	Understanding health and care services	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	health-data-interoperability	Health data interoperability	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	information-governance	Information governance and data protection	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	clinical-safety	Clinical risk management	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	risk-management	Organisational risk management	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	people-management	People management	practitioner	3
+enterprise-architect	Enterprise architect	Lead enterprise architect	8c	budget-management	Budget management	working	2
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:architect-for-the-whole-context	Architect for the whole context	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:architecture-communication	Architecture communication	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:commercial-perspective	Commercial perspective	practitioner	3
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:community-collaboration	Community collaboration	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:enterprise-architecture	Enterprise architecture	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:making-architectural-decisions	Making architectural decisions	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	pcf:strategy-design	Strategy design	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	health-care-context	Understanding health and care services	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	health-data-interoperability	Health data interoperability	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	information-governance	Information governance and data protection	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	clinical-safety	Clinical risk management	practitioner	3
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	risk-management	Organisational risk management	practitioner	3
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	people-management	People management	expert	4
+enterprise-architect	Enterprise architect	Principal enterprise architect	8d	budget-management	Budget management	practitioner	3
 executive-assistant	Executive assistant	Executive assistant	4	corp-diary-and-meeting-management	Diary and meeting management	practitioner	3
 executive-assistant	Executive assistant	Executive assistant	4	corp-correspondence-management	Correspondence and enquiry handling	practitioner	3
 executive-assistant	Executive assistant	Executive assistant	4	corp-minute-taking	Minute-taking and meeting records	working	2
@@ -1750,36 +1754,36 @@ head-of-people	Head of people	Director of people	9	people-management	People mana
 head-of-people	Head of people	Director of people	9	budget-management	Budget management	expert	4
 head-of-people	Head of people	Director of people	9	governance-and-compliance	Corporate governance and compliance	practitioner	3
 head-of-people	Head of people	Director of people	9	health-care-context	Understanding health and care services	expert	4
-head-of-procurement	Head of procurement	Head of procurement	8b	proc-procurement-process	Procurement process	expert	4
-head-of-procurement	Head of procurement	Head of procurement	8b	proc-procurement-law-and-policy	Public procurement rules and policy	expert	4
-head-of-procurement	Head of procurement	Head of procurement	8b	proc-tender-evaluation	Tender evaluation	expert	4
-head-of-procurement	Head of procurement	Head of procurement	8b	proc-category-management	Category management	practitioner	3
-head-of-procurement	Head of procurement	Head of procurement	8b	proc-social-value	Social value and sustainable procurement	practitioner	3
-head-of-procurement	Head of procurement	Head of procurement	8b	pcf:commercial-management	Commercial management	practitioner	3
-head-of-procurement	Head of procurement	Head of procurement	8b	pcf:creating-value-for-money	Creating value for money	expert	4
-head-of-procurement	Head of procurement	Head of procurement	8b	pcf:leadership-and-guidance	Leadership and guidance	practitioner	3
-head-of-procurement	Head of procurement	Head of procurement	8b	people-management	People management	practitioner	3
-head-of-procurement	Head of procurement	Head of procurement	8b	budget-management	Budget management	practitioner	3
-head-of-procurement	Head of procurement	Head of commercial	8c	pcf:commercial-management	Commercial management	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	pcf:creating-value-for-money	Creating value for money	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	proc-category-management	Category management	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	proc-contract-management	Contract management	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	proc-supplier-relationship-management	Supplier relationship management	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	proc-technology-procurement	Technology and cloud procurement	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	proc-negotiation	Commercial negotiation	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	pcf:leadership-and-guidance	Leadership and guidance	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	people-management	People management	expert	4
-head-of-procurement	Head of procurement	Head of commercial	8c	risk-management	Organisational risk management	practitioner	3
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	pcf:commercial-management	Commercial management	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	pcf:creating-value-for-money	Creating value for money	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	proc-procurement-law-and-policy	Public procurement rules and policy	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	proc-supplier-relationship-management	Supplier relationship management	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	proc-social-value	Social value and sustainable procurement	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	pcf:leadership-and-guidance	Leadership and guidance	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	pcf:financial-management	Financial management	practitioner	3
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	people-management	People management	expert	4
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	governance-and-compliance	Corporate governance and compliance	practitioner	3
-head-of-procurement	Head of procurement	Director of procurement and commercial	8d	risk-management	Organisational risk management	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	proc-procurement-process	Procurement process	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	proc-procurement-law-and-policy	Public procurement rules and policy	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	proc-tender-evaluation	Tender evaluation	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	proc-category-management	Category management	practitioner	3
+head-of-procurement	Head of procurement	Head of procurement	8c	proc-social-value	Social value and sustainable procurement	practitioner	3
+head-of-procurement	Head of procurement	Head of procurement	8c	pcf:commercial-management	Commercial management	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	pcf:creating-value-for-money	Creating value for money	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	pcf:leadership-and-guidance	Leadership and guidance	expert	4
+head-of-procurement	Head of procurement	Head of procurement	8c	people-management	People management	practitioner	3
+head-of-procurement	Head of procurement	Head of procurement	8c	budget-management	Budget management	practitioner	3
+head-of-procurement	Head of procurement	Head of commercial	8d	pcf:commercial-management	Commercial management	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	pcf:creating-value-for-money	Creating value for money	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	proc-category-management	Category management	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	proc-contract-management	Contract management	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	proc-supplier-relationship-management	Supplier relationship management	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	proc-technology-procurement	Technology and cloud procurement	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	proc-negotiation	Commercial negotiation	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	pcf:leadership-and-guidance	Leadership and guidance	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	people-management	People management	expert	4
+head-of-procurement	Head of procurement	Head of commercial	8d	risk-management	Organisational risk management	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	pcf:commercial-management	Commercial management	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	pcf:creating-value-for-money	Creating value for money	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	proc-procurement-law-and-policy	Public procurement rules and policy	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	proc-supplier-relationship-management	Supplier relationship management	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	proc-social-value	Social value and sustainable procurement	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	pcf:leadership-and-guidance	Leadership and guidance	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	pcf:financial-management	Financial management	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	people-management	People management	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	governance-and-compliance	Corporate governance and compliance	expert	4
+head-of-procurement	Head of procurement	Director of procurement and commercial	9	risk-management	Organisational risk management	expert	4
 hr-business-partner	Human resources business partner	HR business partner	7	hr-organisational-change	Organisational change and consultation	practitioner	3
 hr-business-partner	Human resources business partner	HR business partner	7	hr-workforce-planning	Workforce planning	practitioner	3
 hr-business-partner	Human resources business partner	HR business partner	7	hr-employee-relations	Employee relations casework	practitioner	3
@@ -2347,38 +2351,39 @@ management-accountant	Management accountant	Head of management accounts	8b	pcf:c
 management-accountant	Management accountant	Head of management accounts	8b	pcf:leadership-and-guidance	Leadership and guidance	practitioner	3
 management-accountant	Management accountant	Head of management accounts	8b	people-management	People management	practitioner	3
 management-accountant	Management accountant	Head of management accounts	8b	risk-management	Organisational risk management	practitioner	3
-network-architect	Network architect	Associate network architect	5	pcf:governance-and-assurance	Governance and assurance	awareness	1
-network-architect	Network architect	Associate network architect	5	pcf:it-infrastructure	IT infrastructure	working	2
-network-architect	Network architect	Associate network architect	5	pcf:systems-design	Systems design	working	2
-network-architect	Network architect	Associate network architect	5	pcf:systems-integration	Systems integration	awareness	1
-network-architect	Network architect	Associate network architect	5	pcf:technical-understanding	Technical understanding	awareness	1
-network-architect	Network architect	Associate network architect	5	pcf:troubleshooting-and-problem-resolution	Troubleshooting and problem resolution	working	2
-network-architect	Network architect	Associate network architect	5	health-care-context	Understanding health and care services	awareness	1
-network-architect	Network architect	Associate network architect	5	information-governance	Information governance and data protection	awareness	1
-network-architect	Network architect	Associate network architect	5	clinical-safety	Clinical risk management	awareness	1
-network-architect	Network architect	Network architect	6	pcf:governance-and-assurance	Governance and assurance	practitioner	3
-network-architect	Network architect	Network architect	6	pcf:it-infrastructure	IT infrastructure	practitioner	3
-network-architect	Network architect	Network architect	6	pcf:systems-design	Systems design	practitioner	3
-network-architect	Network architect	Network architect	6	pcf:systems-integration	Systems integration	practitioner	3
-network-architect	Network architect	Network architect	6	pcf:technical-understanding	Technical understanding	practitioner	3
-network-architect	Network architect	Network architect	6	pcf:troubleshooting-and-problem-resolution	Troubleshooting and problem resolution	practitioner	3
-network-architect	Network architect	Network architect	6	health-care-context	Understanding health and care services	working	2
-network-architect	Network architect	Network architect	6	information-governance	Information governance and data protection	working	2
-network-architect	Network architect	Network architect	6	clinical-safety	Clinical risk management	working	2
-network-architect	Network architect	Network architect	6	identity-and-access-management	Identity and access management	working	2
-network-architect	Network architect	Network architect	6	vulnerability-management	Vulnerability management	awareness	1
-network-architect	Network architect	Lead network architect	7	pcf:governance-and-assurance	Governance and assurance	expert	4
-network-architect	Network architect	Lead network architect	7	pcf:it-infrastructure	IT infrastructure	expert	4
-network-architect	Network architect	Lead network architect	7	pcf:systems-design	Systems design	expert	4
-network-architect	Network architect	Lead network architect	7	pcf:systems-integration	Systems integration	practitioner	3
-network-architect	Network architect	Lead network architect	7	pcf:technical-understanding	Technical understanding	expert	4
-network-architect	Network architect	Lead network architect	7	pcf:troubleshooting-and-problem-resolution	Troubleshooting and problem resolution	practitioner	3
-network-architect	Network architect	Lead network architect	7	health-care-context	Understanding health and care services	working	2
-network-architect	Network architect	Lead network architect	7	information-governance	Information governance and data protection	working	2
-network-architect	Network architect	Lead network architect	7	clinical-safety	Clinical risk management	working	2
-network-architect	Network architect	Lead network architect	7	identity-and-access-management	Identity and access management	working	2
-network-architect	Network architect	Lead network architect	7	vulnerability-management	Vulnerability management	working	2
-network-architect	Network architect	Lead network architect	7	medical-device-regulation	Medical device software regulation	awareness	1
+network-architect	Network architect	Associate network architect	6	pcf:governance-and-assurance	Governance and assurance	awareness	1
+network-architect	Network architect	Associate network architect	6	pcf:it-infrastructure	IT infrastructure	working	2
+network-architect	Network architect	Associate network architect	6	pcf:systems-design	Systems design	working	2
+network-architect	Network architect	Associate network architect	6	pcf:systems-integration	Systems integration	awareness	1
+network-architect	Network architect	Associate network architect	6	pcf:technical-understanding	Technical understanding	awareness	1
+network-architect	Network architect	Associate network architect	6	pcf:troubleshooting-and-problem-resolution	Troubleshooting and problem resolution	working	2
+network-architect	Network architect	Associate network architect	6	health-care-context	Understanding health and care services	working	2
+network-architect	Network architect	Associate network architect	6	information-governance	Information governance and data protection	awareness	1
+network-architect	Network architect	Associate network architect	6	clinical-safety	Clinical risk management	awareness	1
+network-architect	Network architect	Network architect	7	pcf:governance-and-assurance	Governance and assurance	practitioner	3
+network-architect	Network architect	Network architect	7	pcf:it-infrastructure	IT infrastructure	practitioner	3
+network-architect	Network architect	Network architect	7	pcf:systems-design	Systems design	practitioner	3
+network-architect	Network architect	Network architect	7	pcf:systems-integration	Systems integration	practitioner	3
+network-architect	Network architect	Network architect	7	pcf:technical-understanding	Technical understanding	practitioner	3
+network-architect	Network architect	Network architect	7	pcf:troubleshooting-and-problem-resolution	Troubleshooting and problem resolution	practitioner	3
+network-architect	Network architect	Network architect	7	health-care-context	Understanding health and care services	working	2
+network-architect	Network architect	Network architect	7	information-governance	Information governance and data protection	working	2
+network-architect	Network architect	Network architect	7	clinical-safety	Clinical risk management	working	2
+network-architect	Network architect	Network architect	7	identity-and-access-management	Identity and access management	working	2
+network-architect	Network architect	Network architect	7	vulnerability-management	Vulnerability management	working	2
+network-architect	Network architect	Lead network architect	8a	pcf:governance-and-assurance	Governance and assurance	expert	4
+network-architect	Network architect	Lead network architect	8a	pcf:it-infrastructure	IT infrastructure	expert	4
+network-architect	Network architect	Lead network architect	8a	pcf:systems-design	Systems design	expert	4
+network-architect	Network architect	Lead network architect	8a	pcf:systems-integration	Systems integration	practitioner	3
+network-architect	Network architect	Lead network architect	8a	pcf:technical-understanding	Technical understanding	expert	4
+network-architect	Network architect	Lead network architect	8a	pcf:troubleshooting-and-problem-resolution	Troubleshooting and problem resolution	practitioner	3
+network-architect	Network architect	Lead network architect	8a	health-care-context	Understanding health and care services	practitioner	3
+network-architect	Network architect	Lead network architect	8a	information-governance	Information governance and data protection	working	2
+network-architect	Network architect	Lead network architect	8a	clinical-safety	Clinical risk management	working	2
+network-architect	Network architect	Lead network architect	8a	identity-and-access-management	Identity and access management	working	2
+network-architect	Network architect	Lead network architect	8a	vulnerability-management	Vulnerability management	practitioner	3
+network-architect	Network architect	Lead network architect	8a	medical-device-regulation	Medical device software regulation	awareness	1
+network-architect	Network architect	Lead network architect	8a	risk-management	Organisational risk management	working	2
 payroll-officer	Payroll officer	Payroll officer	3	fin-payroll	Payroll	working	2
 payroll-officer	Payroll officer	Payroll officer	3	fin-financial-systems	Finance systems	working	2
 payroll-officer	Payroll officer	Payroll officer	3	fin-audit-and-controls	Financial controls and audit	awareness	1
@@ -2858,19 +2863,19 @@ security-analyst	Security operations analyst	Senior security operations analyst	
 security-analyst	Security operations analyst	Senior security operations analyst	7	pcf:cyber-risk-management	Cyber risk management	working	2
 security-analyst	Security operations analyst	Senior security operations analyst	7	pcf:information-security	Information security	practitioner	3
 security-analyst	Security operations analyst	Senior security operations analyst	7	pcf:security-technology	Security technology	practitioner	3
-security-architect	Security architect	Security architect	7	pcf:analysis	Analysis	working	2
-security-architect	Security architect	Security architect	7	pcf:communication-security-architect	Communication (security architect)	practitioner	3
-security-architect	Security architect	Security architect	7	pcf:designing-secure-systems	Designing secure systems	working	2
-security-architect	Security architect	Security architect	7	pcf:enabling-and-informing-risk-based-decisions	Enabling and informing risk-based decisions	working	2
-security-architect	Security architect	Security architect	7	pcf:research-and-innovation	Research and innovation	working	2
-security-architect	Security architect	Security architect	7	pcf:security-technology	Security technology	working	2
-security-architect	Security architect	Security architect	7	pcf:understanding-security-implications-of-transformation	Understanding security implications of transformation	working	2
-security-architect	Security architect	Security architect	7	health-care-context	Understanding health and care services	working	2
-security-architect	Security architect	Security architect	7	information-governance	Information governance and data protection	practitioner	3
-security-architect	Security architect	Security architect	7	identity-and-access-management	Identity and access management	practitioner	3
-security-architect	Security architect	Security architect	7	vulnerability-management	Vulnerability management	working	2
-security-architect	Security architect	Security architect	7	clinical-safety	Clinical risk management	working	2
-security-architect	Security architect	Security architect	7	medical-device-regulation	Medical device software regulation	awareness	1
+security-architect	Security architect	Security architect	8a	pcf:analysis	Analysis	working	2
+security-architect	Security architect	Security architect	8a	pcf:communication-security-architect	Communication (security architect)	practitioner	3
+security-architect	Security architect	Security architect	8a	pcf:designing-secure-systems	Designing secure systems	working	2
+security-architect	Security architect	Security architect	8a	pcf:enabling-and-informing-risk-based-decisions	Enabling and informing risk-based decisions	working	2
+security-architect	Security architect	Security architect	8a	pcf:research-and-innovation	Research and innovation	working	2
+security-architect	Security architect	Security architect	8a	pcf:security-technology	Security technology	working	2
+security-architect	Security architect	Security architect	8a	pcf:understanding-security-implications-of-transformation	Understanding security implications of transformation	working	2
+security-architect	Security architect	Security architect	8a	health-care-context	Understanding health and care services	working	2
+security-architect	Security architect	Security architect	8a	information-governance	Information governance and data protection	practitioner	3
+security-architect	Security architect	Security architect	8a	identity-and-access-management	Identity and access management	practitioner	3
+security-architect	Security architect	Security architect	8a	vulnerability-management	Vulnerability management	practitioner	3
+security-architect	Security architect	Security architect	8a	clinical-safety	Clinical risk management	working	2
+security-architect	Security architect	Security architect	8a	medical-device-regulation	Medical device software regulation	awareness	1
 security-architect	Security architect	Lead security architect	8b	pcf:analysis	Analysis	practitioner	3
 security-architect	Security architect	Lead security architect	8b	pcf:communication-security-architect	Communication (security architect)	practitioner	3
 security-architect	Security architect	Lead security architect	8b	pcf:designing-secure-systems	Designing secure systems	practitioner	3
@@ -3192,108 +3197,110 @@ software-developer	Software developer	Principal software developer	8b	informatio
 software-developer	Software developer	Principal software developer	8b	health-data-interoperability	Health data interoperability	expert	4
 software-developer	Software developer	Principal software developer	8b	medical-device-regulation	Medical device software regulation	working	2
 software-developer	Software developer	Principal software developer	8b	people-management	People management	practitioner	3
-solution-architect	Solution architect	Associate solution architect	6	pcf:architect-for-the-whole-context	Architect for the whole context	awareness	1
-solution-architect	Solution architect	Associate solution architect	6	pcf:architecture-communication	Architecture communication	working	2
-solution-architect	Solution architect	Associate solution architect	6	pcf:commercial-perspective	Commercial perspective	awareness	1
-solution-architect	Solution architect	Associate solution architect	6	pcf:community-collaboration	Community collaboration	awareness	1
-solution-architect	Solution architect	Associate solution architect	6	pcf:making-architectural-decisions	Making architectural decisions	awareness	1
-solution-architect	Solution architect	Associate solution architect	6	pcf:problem-definition-and-shaping	Problem definition and shaping	working	2
-solution-architect	Solution architect	Associate solution architect	6	pcf:strategy-design	Strategy design	awareness	1
-solution-architect	Solution architect	Associate solution architect	6	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
-solution-architect	Solution architect	Associate solution architect	6	health-care-context	Understanding health and care services	working	2
-solution-architect	Solution architect	Associate solution architect	6	health-data-interoperability	Health data interoperability	working	2
-solution-architect	Solution architect	Associate solution architect	6	information-governance	Information governance and data protection	working	2
-solution-architect	Solution architect	Associate solution architect	6	clinical-safety	Clinical risk management	awareness	1
-solution-architect	Solution architect	Solution architect	7	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
-solution-architect	Solution architect	Solution architect	7	pcf:architecture-communication	Architecture communication	practitioner	3
-solution-architect	Solution architect	Solution architect	7	pcf:commercial-perspective	Commercial perspective	working	2
-solution-architect	Solution architect	Solution architect	7	pcf:community-collaboration	Community collaboration	working	2
-solution-architect	Solution architect	Solution architect	7	pcf:making-architectural-decisions	Making architectural decisions	working	2
-solution-architect	Solution architect	Solution architect	7	pcf:problem-definition-and-shaping	Problem definition and shaping	practitioner	3
-solution-architect	Solution architect	Solution architect	7	pcf:strategy-design	Strategy design	working	2
-solution-architect	Solution architect	Solution architect	7	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
-solution-architect	Solution architect	Solution architect	7	health-care-context	Understanding health and care services	working	2
-solution-architect	Solution architect	Solution architect	7	health-data-interoperability	Health data interoperability	practitioner	3
-solution-architect	Solution architect	Solution architect	7	information-governance	Information governance and data protection	working	2
-solution-architect	Solution architect	Solution architect	7	clinical-safety	Clinical risk management	working	2
-solution-architect	Solution architect	Solution architect	7	identity-and-access-management	Identity and access management	working	2
-solution-architect	Solution architect	Senior solution architect	8a	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
-solution-architect	Solution architect	Senior solution architect	8a	pcf:architecture-communication	Architecture communication	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	pcf:commercial-perspective	Commercial perspective	working	2
-solution-architect	Solution architect	Senior solution architect	8a	pcf:community-collaboration	Community collaboration	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	pcf:problem-definition-and-shaping	Problem definition and shaping	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	pcf:strategy-design	Strategy design	working	2
-solution-architect	Solution architect	Senior solution architect	8a	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	health-care-context	Understanding health and care services	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	health-data-interoperability	Health data interoperability	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	information-governance	Information governance and data protection	practitioner	3
-solution-architect	Solution architect	Senior solution architect	8a	clinical-safety	Clinical risk management	working	2
-solution-architect	Solution architect	Senior solution architect	8a	identity-and-access-management	Identity and access management	working	2
-solution-architect	Solution architect	Senior solution architect	8a	medical-device-regulation	Medical device software regulation	awareness	1
-solution-architect	Solution architect	Lead solution architect	8b	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	pcf:architecture-communication	Architecture communication	expert	4
-solution-architect	Solution architect	Lead solution architect	8b	pcf:commercial-perspective	Commercial perspective	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	pcf:community-collaboration	Community collaboration	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
-solution-architect	Solution architect	Lead solution architect	8b	pcf:strategy-design	Strategy design	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	expert	4
-solution-architect	Solution architect	Lead solution architect	8b	health-care-context	Understanding health and care services	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	health-data-interoperability	Health data interoperability	expert	4
-solution-architect	Solution architect	Lead solution architect	8b	information-governance	Information governance and data protection	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	clinical-safety	Clinical risk management	practitioner	3
-solution-architect	Solution architect	Lead solution architect	8b	medical-device-regulation	Medical device software regulation	working	2
-solution-architect	Solution architect	Lead solution architect	8b	risk-management	Organisational risk management	working	2
-solution-architect	Solution architect	Lead solution architect	8b	people-management	People management	practitioner	3
-solution-architect	Solution architect	Principal solution architect	8c	pcf:architect-for-the-whole-context	Architect for the whole context	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	pcf:architecture-communication	Architecture communication	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	pcf:commercial-perspective	Commercial perspective	practitioner	3
-solution-architect	Solution architect	Principal solution architect	8c	pcf:community-collaboration	Community collaboration	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	pcf:making-architectural-decisions	Making architectural decisions	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	pcf:strategy-design	Strategy design	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	health-care-context	Understanding health and care services	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	health-data-interoperability	Health data interoperability	expert	4
-solution-architect	Solution architect	Principal solution architect	8c	information-governance	Information governance and data protection	practitioner	3
-solution-architect	Solution architect	Principal solution architect	8c	clinical-safety	Clinical risk management	practitioner	3
-solution-architect	Solution architect	Principal solution architect	8c	medical-device-regulation	Medical device software regulation	working	2
-solution-architect	Solution architect	Principal solution architect	8c	risk-management	Organisational risk management	practitioner	3
-solution-architect	Solution architect	Principal solution architect	8c	people-management	People management	practitioner	3
-technical-architect	Technical architect	Associate technical architect	5	pcf:architect-for-the-whole-context	Architect for the whole context	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	pcf:architecture-communication	Architecture communication	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	pcf:community-collaboration	Community collaboration	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	pcf:making-architectural-decisions	Making architectural decisions	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	pcf:strategy-design	Strategy design	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
-technical-architect	Technical architect	Associate technical architect	5	health-care-context	Understanding health and care services	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	health-data-interoperability	Health data interoperability	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	information-governance	Information governance and data protection	awareness	1
-technical-architect	Technical architect	Associate technical architect	5	clinical-safety	Clinical risk management	awareness	1
-technical-architect	Technical architect	Technical architect	6	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
-technical-architect	Technical architect	Technical architect	6	pcf:architecture-communication	Architecture communication	working	2
-technical-architect	Technical architect	Technical architect	6	pcf:community-collaboration	Community collaboration	working	2
-technical-architect	Technical architect	Technical architect	6	pcf:making-architectural-decisions	Making architectural decisions	working	2
-technical-architect	Technical architect	Technical architect	6	pcf:strategy-design	Strategy design	working	2
-technical-architect	Technical architect	Technical architect	6	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
-technical-architect	Technical architect	Technical architect	6	health-care-context	Understanding health and care services	working	2
-technical-architect	Technical architect	Technical architect	6	health-data-interoperability	Health data interoperability	working	2
-technical-architect	Technical architect	Technical architect	6	information-governance	Information governance and data protection	working	2
-technical-architect	Technical architect	Technical architect	6	clinical-safety	Clinical risk management	working	2
-technical-architect	Technical architect	Technical architect	6	identity-and-access-management	Identity and access management	awareness	1
-technical-architect	Technical architect	Senior technical architect	7	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
-technical-architect	Technical architect	Senior technical architect	7	pcf:architecture-communication	Architecture communication	practitioner	3
-technical-architect	Technical architect	Senior technical architect	7	pcf:community-collaboration	Community collaboration	practitioner	3
-technical-architect	Technical architect	Senior technical architect	7	pcf:making-architectural-decisions	Making architectural decisions	working	2
-technical-architect	Technical architect	Senior technical architect	7	pcf:strategy-design	Strategy design	working	2
-technical-architect	Technical architect	Senior technical architect	7	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	practitioner	3
-technical-architect	Technical architect	Senior technical architect	7	health-care-context	Understanding health and care services	working	2
-technical-architect	Technical architect	Senior technical architect	7	health-data-interoperability	Health data interoperability	practitioner	3
-technical-architect	Technical architect	Senior technical architect	7	information-governance	Information governance and data protection	working	2
-technical-architect	Technical architect	Senior technical architect	7	clinical-safety	Clinical risk management	working	2
-technical-architect	Technical architect	Senior technical architect	7	identity-and-access-management	Identity and access management	working	2
-technical-architect	Technical architect	Senior technical architect	7	medical-device-regulation	Medical device software regulation	awareness	1
+solution-architect	Solution architect	Associate solution architect	7	pcf:architect-for-the-whole-context	Architect for the whole context	awareness	1
+solution-architect	Solution architect	Associate solution architect	7	pcf:architecture-communication	Architecture communication	working	2
+solution-architect	Solution architect	Associate solution architect	7	pcf:commercial-perspective	Commercial perspective	awareness	1
+solution-architect	Solution architect	Associate solution architect	7	pcf:community-collaboration	Community collaboration	awareness	1
+solution-architect	Solution architect	Associate solution architect	7	pcf:making-architectural-decisions	Making architectural decisions	awareness	1
+solution-architect	Solution architect	Associate solution architect	7	pcf:problem-definition-and-shaping	Problem definition and shaping	working	2
+solution-architect	Solution architect	Associate solution architect	7	pcf:strategy-design	Strategy design	awareness	1
+solution-architect	Solution architect	Associate solution architect	7	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
+solution-architect	Solution architect	Associate solution architect	7	health-care-context	Understanding health and care services	working	2
+solution-architect	Solution architect	Associate solution architect	7	health-data-interoperability	Health data interoperability	working	2
+solution-architect	Solution architect	Associate solution architect	7	information-governance	Information governance and data protection	working	2
+solution-architect	Solution architect	Associate solution architect	7	clinical-safety	Clinical risk management	working	2
+solution-architect	Solution architect	Solution architect	8a	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
+solution-architect	Solution architect	Solution architect	8a	pcf:architecture-communication	Architecture communication	practitioner	3
+solution-architect	Solution architect	Solution architect	8a	pcf:commercial-perspective	Commercial perspective	working	2
+solution-architect	Solution architect	Solution architect	8a	pcf:community-collaboration	Community collaboration	working	2
+solution-architect	Solution architect	Solution architect	8a	pcf:making-architectural-decisions	Making architectural decisions	working	2
+solution-architect	Solution architect	Solution architect	8a	pcf:problem-definition-and-shaping	Problem definition and shaping	practitioner	3
+solution-architect	Solution architect	Solution architect	8a	pcf:strategy-design	Strategy design	working	2
+solution-architect	Solution architect	Solution architect	8a	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
+solution-architect	Solution architect	Solution architect	8a	health-care-context	Understanding health and care services	working	2
+solution-architect	Solution architect	Solution architect	8a	health-data-interoperability	Health data interoperability	practitioner	3
+solution-architect	Solution architect	Solution architect	8a	information-governance	Information governance and data protection	practitioner	3
+solution-architect	Solution architect	Solution architect	8a	clinical-safety	Clinical risk management	working	2
+solution-architect	Solution architect	Solution architect	8a	identity-and-access-management	Identity and access management	working	2
+solution-architect	Solution architect	Senior solution architect	8b	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
+solution-architect	Solution architect	Senior solution architect	8b	pcf:architecture-communication	Architecture communication	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	pcf:commercial-perspective	Commercial perspective	working	2
+solution-architect	Solution architect	Senior solution architect	8b	pcf:community-collaboration	Community collaboration	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	pcf:problem-definition-and-shaping	Problem definition and shaping	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	pcf:strategy-design	Strategy design	working	2
+solution-architect	Solution architect	Senior solution architect	8b	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	health-care-context	Understanding health and care services	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	health-data-interoperability	Health data interoperability	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	information-governance	Information governance and data protection	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	clinical-safety	Clinical risk management	practitioner	3
+solution-architect	Solution architect	Senior solution architect	8b	identity-and-access-management	Identity and access management	working	2
+solution-architect	Solution architect	Senior solution architect	8b	medical-device-regulation	Medical device software regulation	awareness	1
+solution-architect	Solution architect	Senior solution architect	8b	risk-management	Organisational risk management	working	2
+solution-architect	Solution architect	Lead solution architect	8c	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	pcf:architecture-communication	Architecture communication	expert	4
+solution-architect	Solution architect	Lead solution architect	8c	pcf:commercial-perspective	Commercial perspective	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	pcf:community-collaboration	Community collaboration	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	pcf:making-architectural-decisions	Making architectural decisions	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
+solution-architect	Solution architect	Lead solution architect	8c	pcf:strategy-design	Strategy design	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	expert	4
+solution-architect	Solution architect	Lead solution architect	8c	health-care-context	Understanding health and care services	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	health-data-interoperability	Health data interoperability	expert	4
+solution-architect	Solution architect	Lead solution architect	8c	information-governance	Information governance and data protection	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	clinical-safety	Clinical risk management	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	medical-device-regulation	Medical device software regulation	working	2
+solution-architect	Solution architect	Lead solution architect	8c	risk-management	Organisational risk management	practitioner	3
+solution-architect	Solution architect	Lead solution architect	8c	people-management	People management	practitioner	3
+solution-architect	Solution architect	Principal solution architect	8d	pcf:architect-for-the-whole-context	Architect for the whole context	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	pcf:architecture-communication	Architecture communication	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	pcf:commercial-perspective	Commercial perspective	practitioner	3
+solution-architect	Solution architect	Principal solution architect	8d	pcf:community-collaboration	Community collaboration	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	pcf:making-architectural-decisions	Making architectural decisions	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	pcf:problem-definition-and-shaping	Problem definition and shaping	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	pcf:strategy-design	Strategy design	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	health-care-context	Understanding health and care services	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	health-data-interoperability	Health data interoperability	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	information-governance	Information governance and data protection	expert	4
+solution-architect	Solution architect	Principal solution architect	8d	clinical-safety	Clinical risk management	practitioner	3
+solution-architect	Solution architect	Principal solution architect	8d	medical-device-regulation	Medical device software regulation	working	2
+solution-architect	Solution architect	Principal solution architect	8d	risk-management	Organisational risk management	practitioner	3
+solution-architect	Solution architect	Principal solution architect	8d	people-management	People management	practitioner	3
+solution-architect	Solution architect	Principal solution architect	8d	budget-management	Budget management	working	2
+technical-architect	Technical architect	Associate technical architect	6	pcf:architect-for-the-whole-context	Architect for the whole context	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	pcf:architecture-communication	Architecture communication	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	pcf:community-collaboration	Community collaboration	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	pcf:making-architectural-decisions	Making architectural decisions	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	pcf:strategy-design	Strategy design	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
+technical-architect	Technical architect	Associate technical architect	6	health-care-context	Understanding health and care services	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	health-data-interoperability	Health data interoperability	working	2
+technical-architect	Technical architect	Associate technical architect	6	information-governance	Information governance and data protection	awareness	1
+technical-architect	Technical architect	Associate technical architect	6	clinical-safety	Clinical risk management	awareness	1
+technical-architect	Technical architect	Technical architect	7	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
+technical-architect	Technical architect	Technical architect	7	pcf:architecture-communication	Architecture communication	working	2
+technical-architect	Technical architect	Technical architect	7	pcf:community-collaboration	Community collaboration	working	2
+technical-architect	Technical architect	Technical architect	7	pcf:making-architectural-decisions	Making architectural decisions	working	2
+technical-architect	Technical architect	Technical architect	7	pcf:strategy-design	Strategy design	working	2
+technical-architect	Technical architect	Technical architect	7	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	working	2
+technical-architect	Technical architect	Technical architect	7	health-care-context	Understanding health and care services	working	2
+technical-architect	Technical architect	Technical architect	7	health-data-interoperability	Health data interoperability	practitioner	3
+technical-architect	Technical architect	Technical architect	7	information-governance	Information governance and data protection	working	2
+technical-architect	Technical architect	Technical architect	7	clinical-safety	Clinical risk management	working	2
+technical-architect	Technical architect	Technical architect	7	identity-and-access-management	Identity and access management	awareness	1
+technical-architect	Technical architect	Senior technical architect	8a	pcf:architect-for-the-whole-context	Architect for the whole context	working	2
+technical-architect	Technical architect	Senior technical architect	8a	pcf:architecture-communication	Architecture communication	practitioner	3
+technical-architect	Technical architect	Senior technical architect	8a	pcf:community-collaboration	Community collaboration	practitioner	3
+technical-architect	Technical architect	Senior technical architect	8a	pcf:making-architectural-decisions	Making architectural decisions	working	2
+technical-architect	Technical architect	Senior technical architect	8a	pcf:strategy-design	Strategy design	working	2
+technical-architect	Technical architect	Senior technical architect	8a	pcf:technical-design-throughout-the-life-cycle	Technical design throughout the life cycle	practitioner	3
+technical-architect	Technical architect	Senior technical architect	8a	health-care-context	Understanding health and care services	practitioner	3
+technical-architect	Technical architect	Senior technical architect	8a	health-data-interoperability	Health data interoperability	practitioner	3
+technical-architect	Technical architect	Senior technical architect	8a	information-governance	Information governance and data protection	working	2
+technical-architect	Technical architect	Senior technical architect	8a	clinical-safety	Clinical risk management	working	2
+technical-architect	Technical architect	Senior technical architect	8a	identity-and-access-management	Identity and access management	working	2
+technical-architect	Technical architect	Senior technical architect	8a	medical-device-regulation	Medical device software regulation	awareness	1
 technical-architect	Technical architect	Lead technical architect	8b	pcf:architect-for-the-whole-context	Architect for the whole context	practitioner	3
 technical-architect	Technical architect	Lead technical architect	8b	pcf:architecture-communication	Architecture communication	expert	4
 technical-architect	Technical architect	Lead technical architect	8b	pcf:community-collaboration	Community collaboration	practitioner	3
