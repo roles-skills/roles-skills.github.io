@@ -15,14 +15,16 @@ export type Locale = (typeof LOCALES)[number];
 export const LOCALE_LABELS: Record<Locale, string> = {
   'en-001': 'English',
   'cy-001': 'Cymraeg (y byd)',
-  'cy-gb': 'Cymraeg'
+  'cy-gb': 'Cymraeg',
+  'zh-001': '中文'
 };
 
-/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB". */
+/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
   'cy-001': 'cy',
-  'cy-gb': 'cy-GB'
+  'cy-gb': 'cy-GB',
+  'zh-001': 'zh-Hans'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);

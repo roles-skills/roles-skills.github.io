@@ -13,6 +13,7 @@
     LOCALE_LABELS,
     LOCALE_TAGS,
     isLocale,
+    isRtl,
     localeOfPath,
     localePath,
     type Locale
@@ -41,6 +42,15 @@
     if (!isLocale(code) || code === locale) return;
     void goto(hrefIn(code));
   }
+
+  // LocalePicker writes its raw code (such as zh-001) to its target's lang.
+  // Give it a detached element instead, and set <html lang> and dir here from
+  // the BCP 47 tag (such as zh-Hans), as hooks.server.ts does when prerendering.
+  const pickerTarget = typeof document === 'undefined' ? null : document.createElement('span');
+  $effect(() => {
+    document.documentElement.lang = LOCALE_TAGS[locale];
+    document.documentElement.dir = isRtl(locale) ? 'rtl' : 'ltr';
+  });
 
   const navLinks = $derived([
     { href: l('/'), path: '/', label: t('nav.home') },
@@ -150,6 +160,7 @@
       localeProps={{
         value: locale,
         localeLabels: LOCALE_LABELS,
+        target: pickerTarget,
         onChange: switchLocale
       }}
       sizes={['small', 'medium', 'large', 'x-large']}
@@ -175,7 +186,7 @@
   <Tag label={t('banner.label')}>{t('banner.tag')}</Tag>
   <span>
     {t('banner.text')}
-    <a href={l('/about/')}>{t('banner.link')}</a>.
+    <a href={l('/about/')}>{t('banner.link')}</a>{t('banner.end')}
   </span>
 </PhaseBanner>
 

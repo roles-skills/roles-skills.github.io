@@ -32,6 +32,7 @@
   "banner.tag": "Illustrative",
   "banner.text": "Reference profiles for a generic digital health care organisation, not official job descriptions.",
   "banner.link": "About this reference",
+  "banner.end": ".",
 
   "footer.lede": "Digital health care job roles reference: an open reference of roles, bands, skills, and responsibilities.",
   "footer.fine_html": "Contains public sector information from the UK Government Digital and Data Profession Capability Framework, licensed under the Open Government Licence v3.0. Contains ESCO v1.2.1 data, © European Union. Original content under CC BY 4.0. Built with the <a href=\"https://lilydesignsystem.com/\">Lily Design System™</a>.",
