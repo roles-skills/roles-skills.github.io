@@ -38,6 +38,16 @@
     "name": "Arbenigwr"
    }
   ],
+  "paths": {
+   "roles": "rolau",
+   "families": "teuluoedd",
+   "bands": "bandiau",
+   "skills": "sgiliau",
+   "job-evaluation": "gwerthuso-swyddi",
+   "about": "amdanom",
+   "pcf": "pcf",
+   "esco": "esco"
+  },
   "localeName": "Cymraeg",
   "translationNote": "Cyfieithwyd y testun hwn o'r Saesneg gan gynorthwyydd deallusrwydd artiffisial, ac nid yw siaradwr Cymraeg brodorol wedi'i adolygu eto. Mae'r derminoleg yn dilyn TermCymru, cronfa dermau Llywodraeth Cymru. Mae dyfyniadau o Fframwaith Gallu Proffesiwn Digidol a Data Llywodraeth y DU ac o ESCO yn aros yn Saesneg."
  },

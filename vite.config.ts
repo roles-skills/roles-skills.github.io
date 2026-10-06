@@ -2,6 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import { DEFAULT_LOCALE, LOCALES } from './src/lib/locale-codes.js';
 
 export default defineConfig({
   plugins: [
@@ -15,6 +16,10 @@ export default defineConfig({
       }),
 
       prerender: {
+        // Each locale's home page; the crawler follows its links to every
+        // page, at its translated URL.
+        entries: ['*', ...LOCALES.filter((code) => code !== DEFAULT_LOCALE).map((code) => `/${code}/`)],
+
         // Every page is prerendered, and the crawler follows every link, so a
         // broken internal link fails the build.
         //

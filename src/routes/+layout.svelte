@@ -63,7 +63,9 @@
   ]);
 
   function isCurrent(link: { href: string; path: string }): boolean {
-    return link.path === '/' ? page.url.pathname === link.href : page.url.pathname.startsWith(link.href);
+    // The address bar's path is URL-encoded; hrefs are not (/zh-001/角色/).
+    const path = decodeURI(page.url.pathname);
+    return link.path === '/' ? path === link.href : path.startsWith(link.href);
   }
 
   // href is a function: this site owns the destination URLs, the share picker

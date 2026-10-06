@@ -2,7 +2,7 @@
   import Breadcrumbs from '#lib/Breadcrumbs.svelte';
   import Quote from '#lib/Quote.svelte';
   import { translator } from '#lib/i18n.js';
-  import { localePath } from '#lib/locales.js';
+  import { localePath, sectionPath } from '#lib/locales.js';
   import { bandHref, familyHref, levelHref, type EscoSkill } from '#lib/types.js';
   import { sourceDocHref, sourceFileHref } from '#lib/site.js';
 
@@ -23,7 +23,9 @@
 
   // The role's document on GitHub: docs/ for English, locales/<code>/ otherwise.
   const docPath = $derived(
-    data.locale === 'en-001' ? `docs/roles/${role.id}` : `locales/${data.locale}/roles/${role.slug}`
+    data.locale === 'en-001'
+      ? `docs/roles/${role.id}`
+      : `locales/${data.locale}/${sectionPath(data.locale, 'roles')}/${role.slug}`
   );
 </script>
 

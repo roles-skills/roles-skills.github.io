@@ -143,9 +143,12 @@ export function alternates(path: (locale: Locale) => string | undefined): Record
   return out;
 }
 
-/** Entries for a route with an optional [[locale]] parameter: one per locale. */
+/**
+ * Entries for a route with an optional [[locale]] parameter: the default
+ * locale only. Other locales' URLs have translated sections (/cy-gb/rolau/),
+ * which an entry cannot express, so the prerenderer reaches them by crawling
+ * from each locale's home page (prerender.entries in vite.config.ts).
+ */
 export function localeEntries<T extends Record<string, string>>(make: (locale: Locale) => T[]) {
-  return LOCALES.flatMap((locale) =>
-    make(locale).map((params) => ({ ...params, locale: locale === DEFAULT_LOCALE ? undefined : locale }))
-  );
+  return make(DEFAULT_LOCALE).map((params) => ({ ...params, locale: undefined }));
 }

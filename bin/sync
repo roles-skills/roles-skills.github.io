@@ -63,7 +63,8 @@ for dir in "$repo/exports/locales/"*/; do
     code="$(basename "$dir")"
     mkdir -p "$site/content/locales/$code"
     cp "$dir/reference.json" "$site/content/locales/$code/reference.json"
-    echo "sync: exports/locales/$code/reference.json -> content/locales/$code/reference.json"
+    cp "$dir/paths.json" "$site/content/locales/$code/paths.json"
+    echo "sync: exports/locales/$code/{reference,paths}.json -> content/locales/$code/"
 done
 
 # 3. Downloads, linked from the role level pages.
