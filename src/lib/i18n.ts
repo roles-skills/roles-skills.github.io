@@ -6,14 +6,16 @@
 // Placeholders: "{name}" is replaced by params.name.
 
 import en from '../../content/locales/en-001/ui.json';
-import cy from '../../content/locales/cy-gb/ui.json';
+import cy001 from '../../content/locales/cy-001/ui.json';
+import cyGb from '../../content/locales/cy-gb/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
 
 const STRINGS: Record<Locale, Strings> = {
   'en-001': en as Strings,
-  'cy-gb': cy as Strings
+  'cy-001': cy001 as Strings,
+  'cy-gb': cyGb as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;

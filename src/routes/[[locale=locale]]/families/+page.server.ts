@@ -1,10 +1,10 @@
-import { alternates, getFamilies, getRoleById } from '#lib/server/content.js';
+import { alternates, getFamilies, getRoleById, localeEntries } from '#lib/server/content.js';
 import { localeOf } from '#lib/locales.js';
 import { translator } from '#lib/i18n.js';
 import { pageTitle } from '#lib/site.js';
 
 export function entries() {
-  return [{ locale: undefined }, { locale: 'cy-gb' }];
+  return localeEntries(() => [{}]);
 }
 
 export function load({ params }: { params: { locale?: string } }) {

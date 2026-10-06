@@ -1,9 +1,9 @@
-import { alternates, getBands, getFamilies, getLevelRows, getRoles, getSkills } from '#lib/server/content.js';
+import { alternates, getBands, getFamilies, getLevelRows, getRoles, getSkills, localeEntries } from '#lib/server/content.js';
 import { localeOf } from '#lib/locales.js';
 import { translator } from '#lib/i18n.js';
 
 export function entries() {
-  return [{ locale: undefined }, { locale: 'cy-gb' }];
+  return localeEntries(() => [{}]);
 }
 
 export function load({ params }: { params: { locale?: string } }) {

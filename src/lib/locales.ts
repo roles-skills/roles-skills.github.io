@@ -14,12 +14,14 @@ export type Locale = (typeof LOCALES)[number];
 /** Each locale's name in its own language, for the language picker. */
 export const LOCALE_LABELS: Record<Locale, string> = {
   'en-001': 'English',
+  'cy-001': 'Cymraeg (y byd)',
   'cy-gb': 'Cymraeg'
 };
 
-/** BCP 47 tag for <html lang> and hreflang: "en", "cy-GB". */
+/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
+  'cy-001': 'cy',
   'cy-gb': 'cy-GB'
 };
 
