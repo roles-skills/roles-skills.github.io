@@ -1,0 +1,293 @@
+role_id	role_level	band	communication	knowledge	analytical	planning	physical-skills	patient-care	policy	financial-resources	people	information-resources	research	freedom-to-act	physical-effort	mental-effort	emotional-effort	working-conditions	total_points
+accessibility-specialist	Junior accessibility specialist	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+accessibility-specialist	Accessibility specialist	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
+accessibility-specialist	Senior accessibility specialist	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	1	2	475
+accessibility-specialist	Head of accessibility	8b	5	7	5	5	2	1	5	3	4	5	2	5	1	3	1	2	596
+administrator	Administrative assistant	2	3	2	2	1	3	1	1	1	1	2	1	2	2	2	1	2	176
+administrator	Administrator	3	3	3	2	2	3	1	1	2	1	3	1	2	2	2	1	2	223
+administrator	Senior administrator	4	3	4	3	2	3	1	2	2	2	3	1	2	2	2	1	2	277
+analytics-engineer	Trainee analytics engineer	4	3	4	3	2	3	1	1	1	1	4	2	2	2	3	1	2	276
+analytics-engineer	Analytics engineer	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
+analytics-engineer	Senior analytics engineer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+analytics-engineer	Lead analytics engineer	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
+analytics-engineer	Head of analytics engineering	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	1	2	634
+application-operations-engineer	Associate application operations engineer	4	3	4	3	2	3	1	2	2	1	3	1	2	2	3	1	2	275
+application-operations-engineer	Application operations engineer	5	4	5	3	2	3	1	3	2	2	4	2	3	2	3	1	2	358
+application-operations-engineer	Senior application operations engineer	6	4	6	4	3	3	1	3	2	2	4	2	4	1	4	1	2	434
+application-operations-engineer	Lead application operations engineer	7	5	6	4	4	3	1	3	3	3	5	2	4	1	4	1	2	490
+application-operations-engineer	Principal application operations engineer	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	4	1	2	600
+business-analyst	Trainee business analyst	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275
+business-analyst	Junior business analyst	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+business-analyst	Business analyst	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
+business-analyst	Senior business analyst	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	1	2	475
+business-analyst	Lead business analyst	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	3	1	2	554
+business-analyst	Head of business analysis	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	1	2	634
+business-architect	Trainee business architect	5	4	5	4	2	2	1	2	1	1	4	2	3	1	3	1	2	334
+business-architect	Associate business architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
+business-architect	Business architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+business-architect	Lead business architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
+category-manager	Category manager (digital and technology)	7	5	6	4	4	2	1	4	4	2	3	2	4	1	4	1	2	473
+category-manager	Senior category manager	8a	5	7	5	4	2	1	4	4	3	3	2	5	1	4	1	2	553
+category-manager	Head of category	8b	5	7	5	5	2	1	4	5	4	3	2	5	1	4	1	2	595
+change-and-release-manager	Configuration analyst	4	3	4	3	2	3	1	2	2	1	4	1	2	2	2	1	2	278
+change-and-release-manager	Change and release analyst	5	4	5	3	3	3	1	3	2	2	4	2	3	2	3	1	2	370
+change-and-release-manager	Change and release manager	6	4	6	4	4	3	1	3	2	2	4	2	4	1	3	1	2	443
+chief-clinical-information-officer	Deputy chief clinical information officer	8d	6	8	5	4	2	6	5	4	4	6	2	5	1	3	2	2	701
+chief-clinical-information-officer	Chief clinical information officer	9	6	8	5	5	2	6	6	4	4	6	2	6	1	4	2	2	755
+clinical-coder	Trainee clinical coder	3	3	3	2	2	3	1	1	1	1	3	1	2	2	4	2	2	233
+clinical-coder	Clinical coder	4	3	4	3	2	3	1	1	1	1	3	1	3	2	4	2	2	282
+clinical-coder	Senior clinical coder	5	4	5	4	2	3	1	2	1	2	3	1	3	2	4	2	2	354
+clinical-coder	Clinical coding auditor and trainer	6	4	6	4	3	3	1	3	1	3	4	2	4	2	4	2	2	446
+clinical-coder	Clinical coding manager	7	5	6	4	4	2	1	4	3	4	4	2	4	2	4	2	2	500
+clinical-informatician	Clinical informatics specialist	6	4	6	4	3	3	4	3	2	2	4	2	4	1	3	2	2	452
+clinical-informatician	Senior clinical informatician	7	5	6	4	4	3	5	3	3	3	5	3	4	1	3	2	2	525
+clinical-informatician	Lead clinical informatician	8a	5	7	5	4	2	5	4	3	3	5	2	5	1	3	1	2	580
+clinical-informatician	Head of clinical informatics	8c	6	7	5	5	2	6	5	4	4	5	2	5	1	3	2	2	663
+clinical-safety-officer	Clinical safety officer	7	5	6	4	4	3	5	3	3	3	5	2	4	1	4	2	2	522
+clinical-safety-officer	Senior clinical safety officer	8a	5	7	5	3	2	5	4	3	3	5	2	5	1	4	2	2	577
+clinical-safety-officer	Head of clinical safety	8b	5	7	5	5	2	6	4	3	3	5	2	5	1	4	2	2	619
+communications-officer	Communications officer	4	4	4	3	2	3	1	2	2	2	3	1	2	2	2	1	2	288
+communications-officer	Senior communications officer	5	5	5	3	2	3	1	3	2	2	4	2	3	2	3	1	2	371
+communications-officer	Communications lead	6	5	6	4	3	3	1	3	2	2	4	2	4	1	3	1	2	441
+communications-officer	Communications manager	7	5	6	4	4	3	1	3	3	3	5	2	4	1	3	2	2	490
+communications-officer	Head of communications	8b	6	7	5	5	2	1	4	4	4	5	2	5	1	3	2	2	615
+content-designer	Associate content designer	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275
+content-designer	Junior content designer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+content-designer	Content designer	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
+content-designer	Senior content designer	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	2	2	481
+content-designer	Lead content designer	8b	5	7	5	5	2	1	5	3	4	5	2	5	1	3	2	2	602
+content-designer	Head of content design	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	2	2	640
+contract-manager	Contract manager	6	4	6	4	3	3	1	3	3	2	3	1	4	1	3	1	2	422
+contract-manager	Senior contract manager	7	5	6	4	4	2	1	4	4	3	3	1	4	1	4	1	2	475
+contract-manager	Lead contract manager	8a	5	7	5	4	2	1	4	4	3	3	2	5	1	4	1	2	553
+cyber-security-manager	Cyber security manager	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	4	2	2	566
+cyber-security-manager	Senior cyber security manager	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	4	2	2	606
+cyber-security-manager	Head of cyber security	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	4	2	2	646
+cyber-security-manager	Chief information security officer	8d	6	8	5	5	2	1	5	5	5	6	2	5	1	4	2	2	716
+data-analyst	Associate data analyst	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+data-analyst	Data analyst	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
+data-analyst	Senior data analyst	7	5	7	4	3	3	1	3	1	2	4	2	4	1	4	1	2	480
+data-analyst	Principal data analyst	8b	5	8	5	4	2	1	4	2	3	5	2	5	1	4	1	2	595
+data-architect	Data architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+data-architect	Senior data architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
+data-architect	Chief data architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
+data-engineer	Data engineer	6	4	6	4	3	3	1	2	1	1	5	2	4	1	4	1	2	421
+data-engineer	Senior data engineer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+data-engineer	Lead data engineer	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
+data-engineer	Head of data engineering	8b	5	7	5	5	2	1	4	3	4	5	2	5	1	4	1	2	589
+data-governance-manager	Data governance manager	7	5	7	4	4	2	1	4	1	2	5	1	4	1	3	1	2	491
+data-governance-manager	Lead data governance manager	8b	5	7	5	4	2	1	5	3	4	6	1	5	1	4	1	2	589
+data-governance-manager	Head of data governance	8c	6	7	5	5	2	1	6	3	4	6	1	5	1	4	1	2	637
+data-protection-officer	Deputy data protection officer	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	3	2	2	560
+data-protection-officer	Data protection officer	8b	5	7	5	5	2	1	4	3	3	5	2	6	1	3	2	2	593
+data-protection-officer	Senior data protection officer	8c	6	7	5	5	2	1	5	3	4	6	2	6	1	3	2	2	644
+data-scientist	Trainee data scientist	4	3	4	3	2	3	1	1	1	1	4	2	2	2	3	1	2	276
+data-scientist	Associate data scientist	5	4	5	4	2	3	1	2	1	1	4	2	3	2	3	1	2	350
+data-scientist	Data scientist	6	4	6	4	3	3	1	2	1	2	4	3	4	1	4	1	2	427
+data-scientist	Principal data scientist	7	5	7	5	3	3	1	3	1	2	4	3	4	1	4	1	2	507
+data-scientist	Lead data scientist	8a	5	7	5	4	2	1	4	2	3	5	3	5	1	4	1	2	560
+data-scientist	Head of data science	8b	5	7	5	5	2	1	4	3	4	5	4	5	1	3	1	2	603
+delivery-manager	Associate delivery manager	5	4	5	3	3	2	1	2	1	2	4	1	3	2	3	1	2	335
+delivery-manager	Delivery manager	7	5	6	4	4	3	1	3	3	3	5	1	4	1	3	1	2	477
+delivery-manager	Senior delivery manager	8a	5	7	5	4	2	1	4	3	3	5	1	5	1	4	1	2	553
+delivery-manager	Head of delivery management	8c	6	7	5	5	2	1	5	4	4	6	1	5	1	4	1	2	633
+devops-engineer	Apprentice DevOps engineer	4	3	4	3	2	3	1	1	1	1	4	2	2	2	3	1	2	276
+devops-engineer	Junior DevOps engineer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+devops-engineer	DevOps engineer	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
+devops-engineer	Senior DevOps engineer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+devops-engineer	Lead DevOps engineer	8b	5	8	5	4	2	1	4	3	3	5	2	5	1	4	1	2	604
+devops-engineer	Principal DevOps engineer	8c	5	8	5	5	2	1	5	3	4	5	2	5	1	4	1	2	646
+digital-portfolio-manager	Digital portfolio analyst	5	4	5	3	2	3	1	2	2	1	4	1	3	2	3	1	2	335
+digital-portfolio-manager	Digital portfolio manager	6	4	6	4	3	2	1	3	2	2	4	1	4	1	3	1	2	409
+digital-portfolio-manager	Senior digital portfolio manager	8a	5	7	5	4	2	1	4	3	3	5	1	5	1	3	1	2	547
+digital-portfolio-manager	Head of digital portfolio	8c	6	7	5	5	2	1	5	5	4	6	1	5	1	3	1	2	640
+end-user-computing-engineer	Associate end user computing engineer	4	3	4	3	2	3	1	2	2	1	3	1	2	3	2	1	2	275
+end-user-computing-engineer	End user computing engineer	5	4	5	3	2	3	1	2	2	2	4	2	3	3	3	1	2	354
+end-user-computing-engineer	Senior end user computing engineer	6	4	6	4	3	3	1	3	2	3	4	2	4	2	3	1	2	441
+end-user-computing-engineer	Lead end user computing engineer	7	5	6	4	4	3	1	3	3	3	5	2	4	1	3	1	2	484
+end-user-computing-engineer	Principal end user computing engineer	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	3	1	2	594
+enterprise-architect	Enterprise architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
+enterprise-architect	Senior enterprise architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+enterprise-architect	Lead enterprise architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
+enterprise-architect	Principal enterprise architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
+executive-assistant	Executive assistant	4	4	4	3	3	3	1	2	2	1	3	1	3	2	3	1	2	307
+executive-assistant	Senior executive assistant	5	4	5	3	3	3	1	2	2	2	3	1	3	2	3	1	2	346
+executive-assistant	Executive office manager	6	5	5	4	4	3	1	3	3	3	3	1	4	1	3	1	2	423
+finance-officer	Finance assistant	2	3	2	2	1	3	1	1	2	1	2	1	2	2	2	1	2	183
+finance-officer	Finance officer	3	3	3	2	2	3	1	1	3	1	3	1	2	2	2	1	2	232
+finance-officer	Senior finance officer	4	3	4	3	2	3	1	2	3	2	3	1	2	2	2	1	2	286
+finance-officer	Finance team leader	5	4	5	3	2	3	1	3	3	3	4	2	3	2	3	1	2	376
+financial-accountant	Trainee financial accountant	5	4	5	3	2	3	1	3	3	2	4	2	3	2	3	1	2	367
+financial-accountant	Financial accountant	6	4	6	4	3	3	1	3	3	2	4	2	4	1	3	1	2	437
+financial-accountant	Senior financial accountant	7	5	6	4	4	3	1	3	4	3	5	2	4	1	3	1	2	495
+financial-accountant	Financial accounting manager	8a	5	7	5	4	2	1	4	5	3	5	2	5	1	3	1	2	578
+financial-accountant	Head of financial accounts	8b	5	7	5	5	2	1	4	5	4	5	2	5	1	3	1	2	607
+frontend-developer	Apprentice frontend developer	4	3	4	3	2	3	1	1	1	1	4	2	2	2	3	1	2	276
+frontend-developer	Junior frontend developer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+frontend-developer	Frontend developer	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
+frontend-developer	Senior frontend developer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+frontend-developer	Lead frontend developer	8b	5	8	5	4	2	1	4	3	3	5	2	5	1	4	1	2	604
+frontend-developer	Head of frontend development	8c	5	8	5	5	2	1	5	3	4	5	2	5	1	4	1	2	646
+governance-and-risk-manager	Governance officer	5	4	5	3	2	3	1	3	2	2	4	2	3	2	3	1	2	358
+governance-and-risk-manager	Senior governance and risk officer	6	4	6	4	3	3	1	3	2	2	4	2	4	1	3	1	2	428
+governance-and-risk-manager	Governance and risk manager	7	5	6	4	4	3	1	3	3	3	5	2	4	1	3	2	2	490
+governance-and-risk-manager	Head of corporate governance	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	3	2	2	600
+head-of-finance	Financial controller	8c	6	7	5	5	2	1	5	5	4	6	2	5	1	3	2	2	653
+head-of-finance	Deputy director of finance	8d	6	8	5	5	2	1	5	5	5	6	2	5	1	3	2	2	710
+head-of-finance	Director of finance	9	6	8	5	5	2	1	6	6	5	6	2	6	1	4	2	2	761
+head-of-legal	Deputy head of legal services	8c	6	8	5	4	2	1	5	4	4	5	2	5	1	3	2	2	654
+head-of-legal	Head of legal services	8d	6	8	5	5	2	1	5	4	5	5	2	5	1	3	2	2	685
+head-of-legal	General counsel	9	6	8	5	5	2	1	6	4	5	6	2	6	1	4	2	2	733
+head-of-people	Head of HR	8c	6	7	5	5	2	1	5	4	5	4	1	5	1	4	3	2	637
+head-of-people	Deputy director of people	8d	6	8	5	5	2	1	5	4	5	4	1	5	1	4	3	2	681
+head-of-people	Director of people	9	6	8	5	5	2	1	6	5	6	4	1	6	1	4	3	2	739
+head-of-procurement	Head of procurement	8b	5	7	5	5	2	1	5	5	4	3	2	5	1	4	1	2	608
+head-of-procurement	Head of commercial	8c	6	7	5	5	2	1	5	5	5	4	2	5	1	4	1	2	644
+head-of-procurement	Director of procurement and commercial	8d	6	8	5	5	2	1	6	5	5	4	2	5	1	4	2	2	709
+hr-business-partner	HR business partner	7	5	6	4	4	2	1	4	2	4	3	1	4	1	3	3	2	473
+hr-business-partner	Senior HR business partner	8a	5	7	5	4	2	1	4	2	4	3	1	5	1	3	3	2	544
+hr-business-partner	Head of HR business partnering	8b	5	7	5	5	2	1	4	3	5	4	1	5	1	3	3	2	592
+hr-officer	HR assistant	3	3	3	2	2	3	1	1	1	2	3	1	2	2	2	2	2	229
+hr-officer	HR officer	4	3	4	3	2	3	1	2	1	2	3	1	2	2	2	2	2	276
+hr-officer	HR adviser	5	4	5	3	2	3	1	2	1	3	3	1	3	1	3	3	2	345
+hr-officer	Senior HR adviser	6	4	6	4	3	2	1	3	1	3	3	1	4	1	3	3	2	416
+incident-manager	Incident manager	5	4	5	3	2	3	1	3	2	2	4	2	3	2	4	2	2	370
+incident-manager	Major incident manager	7	5	6	4	4	3	1	3	3	3	5	2	4	1	4	2	2	496
+information-governance-officer	Information governance officer	4	4	4	3	2	3	1	2	2	2	4	1	2	2	2	2	2	302
+information-governance-officer	Senior information governance officer	5	4	5	3	2	3	1	3	2	2	4	2	3	2	3	2	2	364
+information-governance-officer	Information governance lead	6	4	6	4	3	3	1	3	2	2	4	2	4	1	3	2	2	434
+information-governance-officer	Information governance manager	7	5	6	4	4	3	1	3	3	3	5	2	4	1	3	2	2	490
+information-governance-officer	Head of information governance	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	3	2	2	560
+infrastructure-engineer	Associate infrastructure engineer	4	3	4	3	2	3	1	2	2	1	3	1	2	2	3	1	2	275
+infrastructure-engineer	Infrastructure engineer	6	4	6	4	3	3	1	3	2	2	4	2	4	1	4	1	2	434
+infrastructure-engineer	Senior infrastructure engineer	7	5	6	4	4	3	1	3	3	3	5	2	4	1	4	1	2	490
+infrastructure-engineer	Lead infrastructure engineer	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	4	1	2	560
+infrastructure-engineer	Principal infrastructure engineer	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	4	1	2	600
+integration-engineer	Junior integration engineer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+integration-engineer	Integration engineer	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
+integration-engineer	Senior integration engineer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+integration-engineer	Lead integration engineer	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
+interaction-designer	Associate interaction designer	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275
+interaction-designer	Junior interaction designer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+interaction-designer	Interaction designer	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
+interaction-designer	Senior interaction designer	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	1	2	475
+interaction-designer	Lead interaction designer	8b	5	7	5	5	2	1	5	3	4	5	2	5	1	3	1	2	596
+interaction-designer	Head of interaction design	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	1	2	634
+it-service-manager	IT service analyst	4	3	4	3	2	3	1	2	2	1	3	1	2	2	3	1	2	275
+it-service-manager	IT service manager	6	4	6	4	3	3	1	3	2	2	4	2	4	1	3	1	2	428
+it-service-manager	Senior IT service manager	7	5	6	4	4	3	1	3	3	3	5	2	4	1	3	1	2	484
+it-service-manager	Head of IT service management	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	3	1	2	594
+learning-and-development-specialist	Learning and development coordinator	4	3	4	3	3	3	1	2	2	2	3	1	2	2	2	1	2	289
+learning-and-development-specialist	Learning and development officer	5	4	5	3	3	3	1	2	2	3	3	2	3	1	3	1	2	358
+learning-and-development-specialist	Learning and development specialist	6	4	6	4	3	3	1	3	2	4	3	2	3	1	3	1	2	429
+learning-and-development-specialist	Digital skills lead	7	5	6	4	4	2	1	4	3	4	3	2	4	1	3	1	2	476
+learning-and-development-specialist	Head of learning	8a	5	7	5	4	2	1	4	3	5	3	2	5	1	3	1	2	560
+legal-adviser	Legal adviser	7	5	7	4	4	3	1	3	2	2	5	2	4	1	3	2	2	512
+legal-adviser	Senior legal adviser	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	3	2	2	551
+legal-adviser	Principal legal adviser	8b	5	8	5	4	2	1	4	2	3	5	2	5	1	4	2	2	601
+legal-assistant	Legal administrator	3	3	3	2	2	3	1	1	2	1	3	1	2	2	2	1	2	223
+legal-assistant	Legal assistant	4	3	4	3	2	3	1	2	2	2	3	1	2	2	2	1	2	277
+legal-assistant	Paralegal	5	4	5	3	2	3	1	3	2	2	4	2	3	2	3	2	2	364
+machine-learning-engineer	Senior machine learning engineer	7	4	7	5	3	3	1	3	1	2	5	2	4	1	4	1	2	495
+machine-learning-engineer	Lead machine learning engineer	8b	5	8	5	4	2	1	4	2	3	5	2	5	1	4	1	2	595
+management-accountant	Trainee management accountant	5	4	5	3	2	3	1	3	3	2	4	2	3	2	3	1	2	367
+management-accountant	Management accountant	6	4	6	4	3	3	1	3	3	2	4	2	4	1	3	1	2	437
+management-accountant	Senior management accountant	7	5	6	4	4	3	1	3	4	3	5	2	4	1	3	1	2	495
+management-accountant	Finance business partner	8a	5	7	5	4	2	1	4	5	3	5	2	5	1	3	1	2	578
+management-accountant	Head of management accounts	8b	5	7	5	5	2	1	4	5	4	5	2	5	1	3	1	2	607
+network-architect	Associate network architect	5	4	5	4	2	2	1	2	1	1	4	2	3	1	3	1	2	334
+network-architect	Network architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
+network-architect	Lead network architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+payroll-officer	Payroll officer	3	3	3	2	2	3	1	1	3	1	3	1	2	2	2	1	2	232
+payroll-officer	Senior payroll officer	4	3	4	3	2	3	1	2	3	2	3	1	2	2	2	1	2	286
+payroll-officer	Payroll team leader	5	4	5	3	2	3	1	3	3	3	4	2	3	2	3	1	2	376
+payroll-officer	Payroll manager	6	4	6	4	3	3	1	3	4	3	4	2	4	1	3	1	2	457
+performance-analyst	Associate performance analyst	4	3	4	3	2	3	1	2	1	1	4	1	2	2	3	1	2	276
+performance-analyst	Performance analyst	6	4	6	4	3	3	1	2	1	1	4	2	4	1	4	1	2	411
+performance-analyst	Senior performance analyst	7	5	7	4	3	3	1	3	1	2	4	2	4	1	4	1	2	480
+performance-analyst	Lead performance analyst	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
+performance-analyst	Head of performance analysis	8b	5	7	5	5	2	1	4	3	4	5	2	5	1	4	1	2	589
+problem-manager	Problem analyst	5	4	5	3	2	3	1	3	2	2	4	2	3	2	3	1	2	358
+problem-manager	Problem manager	6	4	6	4	3	3	1	3	2	2	4	2	4	1	3	1	2	428
+procurement-officer	Procurement assistant	3	3	3	2	2	3	1	1	2	1	3	1	2	2	2	1	2	223
+procurement-officer	Buyer	4	3	4	3	2	3	1	2	3	1	3	1	2	2	2	1	2	279
+procurement-officer	Procurement officer	5	4	5	3	3	3	1	2	3	2	3	1	3	1	3	1	2	351
+procurement-officer	Senior procurement officer	6	4	6	4	3	3	1	3	3	2	3	1	4	1	3	1	2	422
+product-manager	Associate product manager	6	4	6	4	3	2	1	3	1	2	4	2	4	1	3	1	2	409
+product-manager	Product manager	7	5	6	4	4	2	1	4	3	2	5	2	4	1	3	1	2	474
+product-manager	Senior product manager	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	3	1	2	554
+product-manager	Lead product manager	8b	5	7	5	5	2	1	4	4	4	5	2	5	1	3	1	2	594
+product-manager	Head of product	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	2	2	640
+programme-delivery-manager	Programme delivery manager	8b	5	7	5	5	2	1	4	4	4	5	1	5	1	4	1	2	593
+programme-delivery-manager	Senior programme delivery manager	8c	6	7	5	5	2	1	5	5	4	5	1	5	1	4	1	2	634
+project-manager	Assistant project manager	5	4	5	3	3	2	1	2	2	2	3	1	3	2	3	1	2	334
+project-manager	Project manager	6	4	6	4	4	2	1	3	3	2	3	1	4	1	3	1	2	425
+project-manager	Senior project manager	7	5	6	4	4	2	1	4	3	3	5	1	4	1	3	1	2	476
+project-manager	Lead project manager	8a	5	7	5	4	2	1	4	3	3	5	1	5	1	3	1	2	547
+project-manager	Head of project management	8b	5	7	5	5	2	1	5	4	4	5	1	5	1	3	1	2	600
+project-support-officer	Project support officer	3	3	3	2	2	3	1	1	2	1	3	1	2	2	2	1	2	223
+project-support-officer	Project coordinator	4	3	4	3	2	3	1	2	2	2	4	1	2	2	2	1	2	285
+project-support-officer	PMO analyst	5	4	5	3	2	3	1	3	2	2	4	2	3	2	3	1	2	358
+project-support-officer	PMO manager	6	4	6	4	3	3	1	3	2	3	4	2	4	1	3	1	2	437
+quality-assurance-test-analyst	Associate quality assurance test analyst	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275
+quality-assurance-test-analyst	Quality assurance test analyst	5	4	5	3	2	3	1	2	1	1	3	2	3	2	3	1	2	327
+quality-assurance-test-analyst	Senior quality assurance test analyst	6	4	6	4	3	3	1	2	1	2	3	2	4	1	3	1	2	404
+quality-assurance-test-analyst	Lead quality assurance test analyst	8a	5	7	5	4	2	1	4	1	3	4	3	5	1	4	1	2	543
+records-officer	Records assistant	2	3	2	2	1	3	1	1	1	1	2	1	2	3	2	1	2	181
+records-officer	Records officer	3	3	3	2	2	3	1	1	2	1	3	1	2	3	2	2	2	234
+records-officer	Senior records officer	4	3	4	3	2	3	1	2	2	2	4	1	2	2	2	2	2	291
+records-officer	Health records manager	5	4	5	3	3	2	1	3	2	3	5	1	3	2	3	2	2	376
+recruitment-officer	Recruitment assistant	3	3	3	2	2	3	1	1	1	2	3	1	2	2	2	1	2	223
+recruitment-officer	Recruitment officer	4	3	4	3	3	3	1	2	1	2	3	1	2	2	2	1	2	282
+recruitment-officer	Digital talent partner	5	4	5	3	3	3	1	2	2	2	4	1	3	1	3	1	2	350
+recruitment-officer	Recruitment manager	6	4	6	4	3	3	1	3	2	3	4	1	4	1	3	1	2	430
+security-analyst	Junior security operations analyst	5	4	5	3	2	3	1	2	2	1	4	2	3	2	4	1	2	348
+security-analyst	Security operations analyst	6	4	6	4	3	3	1	3	2	2	4	2	4	1	4	2	2	440
+security-analyst	Senior security operations analyst	7	5	6	4	4	3	1	3	3	3	5	2	4	1	4	2	2	496
+security-architect	Security architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+security-architect	Lead security architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
+security-architect	Principal security architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
+security-engineer	Security engineer	6	4	6	4	3	3	1	3	2	2	4	2	4	1	4	1	2	434
+security-engineer	Senior security engineer	7	5	6	4	4	3	1	3	3	3	5	2	4	1	4	1	2	490
+security-engineer	Lead security engineer	8a	5	7	5	4	2	1	4	3	3	5	2	5	1	4	1	2	560
+service-designer	Associate service designer	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275
+service-designer	Junior service designer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+service-designer	Service designer	6	4	6	4	3	3	1	3	1	2	4	2	4	1	3	1	2	421
+service-designer	Senior service designer	7	5	6	4	4	3	1	3	2	3	5	2	4	1	3	1	2	475
+service-designer	Lead service designer	8b	5	7	5	5	2	1	5	3	4	5	2	5	1	3	1	2	596
+service-designer	Head of service design	8c	6	7	5	5	2	1	5	4	4	6	2	5	1	3	1	2	634
+service-desk-analyst	Service desk analyst	3	3	3	2	2	3	1	1	1	1	3	1	2	2	3	2	2	227
+service-desk-analyst	Technical service desk analyst	4	4	4	3	2	3	1	2	2	1	3	1	2	2	3	2	2	292
+service-desk-analyst	Senior service desk analyst	5	4	5	3	3	3	1	2	2	2	3	1	3	2	3	2	2	352
+service-desk-analyst	Service desk manager	6	4	5	4	3	3	1	3	2	3	4	2	4	1	3	2	2	407
+service-desk-analyst	Head of service desk	7	5	6	4	4	3	1	3	3	4	4	2	4	1	3	2	2	491
+service-owner	Service owner	8b	5	7	5	5	2	1	5	4	4	5	1	5	1	3	1	2	600
+service-owner	Senior service owner	8c	6	7	5	5	2	1	5	5	4	5	1	5	1	3	2	2	634
+software-developer	Apprentice software developer	4	3	4	3	2	3	1	1	1	1	4	2	2	2	3	1	2	276
+software-developer	Junior software developer	5	4	5	3	2	3	1	2	1	1	4	2	3	2	3	1	2	335
+software-developer	Software developer	6	4	6	4	3	3	1	2	1	2	4	2	4	1	4	1	2	418
+software-developer	Senior software developer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+software-developer	Lead software developer	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
+software-developer	Principal software developer	8b	5	8	5	4	2	1	4	3	3	5	2	5	1	4	1	2	604
+solution-architect	Associate solution architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
+solution-architect	Solution architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+solution-architect	Senior solution architect	8a	5	7	5	4	2	1	4	2	3	5	2	5	1	4	1	2	551
+solution-architect	Lead solution architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
+solution-architect	Principal solution architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
+technical-architect	Associate technical architect	5	4	5	4	2	2	1	2	1	1	4	2	3	1	3	1	2	334
+technical-architect	Technical architect	6	4	6	4	3	2	1	3	1	2	5	2	4	1	3	1	2	419
+technical-architect	Senior technical architect	7	5	7	5	3	2	1	3	1	2	5	2	4	1	4	1	2	496
+technical-architect	Lead technical architect	8b	5	8	5	4	2	1	4	3	3	5	3	5	1	4	1	2	613
+technical-architect	Principal technical architect	8c	6	8	5	5	2	1	5	3	3	6	2	5	1	4	1	2	662
+test-engineer	Associate test engineer	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	1	2	275
+test-engineer	Test engineer	6	4	6	4	3	3	1	2	1	1	4	2	4	1	4	1	2	411
+test-engineer	Senior test engineer	7	4	7	4	3	3	1	3	1	2	5	2	4	1	4	1	2	477
+test-engineer	Lead test engineer	8a	5	7	5	4	2	1	4	1	3	5	3	5	1	4	1	2	553
+test-manager	Test manager	7	5	7	4	4	2	1	3	2	3	4	2	4	1	4	1	2	499
+test-manager	Head of test	8c	6	7	5	5	2	1	5	4	4	5	3	5	1	4	1	2	637
+user-researcher	Associate user researcher	4	3	4	3	2	3	1	2	1	1	3	2	2	2	3	2	2	281
+user-researcher	Junior user researcher	5	4	5	3	2	3	1	2	1	1	3	3	3	2	3	2	2	342
+user-researcher	User researcher	6	4	6	4	3	3	1	2	1	2	4	3	4	1	3	2	2	427
+user-researcher	Senior user researcher	7	5	6	4	4	3	1	3	1	3	4	4	4	1	3	2	2	484
+user-researcher	Lead user researcher	8b	5	7	5	4	2	1	4	3	4	5	4	5	1	3	2	2	591
+user-researcher	Head of user research	8c	6	7	5	5	2	1	5	3	4	5	5	5	1	3	2	2	650

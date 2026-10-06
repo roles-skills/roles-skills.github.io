@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+*.log
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+pnpm-workspace.yaml

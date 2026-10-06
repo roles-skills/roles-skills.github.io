@@ -1,0 +1,17 @@
+# Roles and skills: digital health care job roles reference
+
+> Plausible job roles for a generic digital health care organisation: 73 roles and 292 role levels in 15 families, from Band 2 to Band 9 (with 8a to 8d). Each role level has a title, band, responsibilities, skills with expected proficiency levels (Awareness, Working, Practitioner, Expert), a band outline, and illustrative scores on 16 job evaluation factors. Aligned with the UK Government Digital and Data Profession Capability Framework (UK GDaD PCF) and ESCO v1.2.1. Illustrative reference profiles, not official job descriptions.
+
+## Pages
+
+- [Find a role](https://roles-skills.github.io/roles/): every role level, searchable
+- [Families](https://roles-skills.github.io/families/): role families and their roles
+- [Bands](https://roles-skills.github.io/bands/): band outlines and the role levels in each
+- [Skills](https://roles-skills.github.io/skills/): every skill and its four levels
+- [Job evaluation](https://roles-skills.github.io/job-evaluation/): the 16 factors, levels, points, and band ranges
+- [About](https://roles-skills.github.io/about/): frameworks, downloads, and licences
+
+## Data
+
+- [reference.json](https://roles-skills.github.io/downloads/reference.json): the whole reference as one JSON file
+- [roles.tsv](https://roles-skills.github.io/downloads/roles.tsv), [role-skills.tsv](https://roles-skills.github.io/downloads/role-skills.tsv), [job-evaluation.tsv](https://roles-skills.github.io/downloads/job-evaluation.tsv)

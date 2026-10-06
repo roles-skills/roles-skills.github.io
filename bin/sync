@@ -1,0 +1,70 @@
+#!/bin/sh
+# Vendor everything this site builds from into the site project itself, so the
+# project stays buildable on its own once it is pushed to its public repository.
+#
+#   1. Lily Design System reference themes  -> static/assets/themes/
+#   2. The resolved reference data          -> content/reference.json
+#   3. The TSV and JSON exports, to download -> static/downloads/
+#   4. The Sveltia CMS configuration        -> static/admin/config.yml
+#
+# The Lily Design System Svelte components themselves (headless components,
+# theme, locale, text size, and share pickers, and the picker bar) are real npm
+# dependencies, see package.json, and are not vendored. Only the reference
+# themes have no npm package to install, so this script copies them.
+#
+# The monorepo is the source of truth. Edit data/ there, run
+# `python3 scripts/build.py` there, then re-run this script:  ./bin/sync
+set -eu
+
+site="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+repo="$(CDPATH= cd -- "$site/.." && pwd)"
+lily="${LILY_DESIGN_SYSTEM:-$HOME/git/lilydesignsystem/lily-design-system}"
+
+# 1. Lily Design System reference themes, loaded by ThemePicker/PickerBar at
+# runtime. Each line in lily-themes.txt is a theme slug, e.g. "dracula" ->
+# themes/dracula.css. The list is Lily's generic themes only; the national
+# government and public-sector themes are left out, because this reference is
+# for a generic organisation.
+
+lily_themes="$lily/themes"
+if [ -d "$lily_themes" ]; then
+    rm -rf "$site/static/assets/themes"
+    mkdir -p "$site/static/assets/themes"
+    for slug in $(cat "$site/bin/lily-themes.txt"); do
+        source_file="$lily_themes/$slug.css"
+        if [ -f "$source_file" ]; then
+            cp "$source_file" "$site/static/assets/themes/$slug.css"
+        else
+            echo "sync: missing Lily theme: $slug" >&2
+            exit 1
+        fi
+    done
+    echo "sync: Lily themes -> static/assets/themes/"
+else
+    echo "sync: skipping Lily themes; not found at $lily_themes" >&2
+fi
+
+# 2. Reference data, read at build time by src/lib/server/content.ts.
+
+if [ ! -f "$repo/exports/reference.json" ]; then
+    echo "sync: missing $repo/exports/reference.json; run python3 scripts/build.py in the monorepo" >&2
+    exit 1
+fi
+mkdir -p "$site/content"
+cp "$repo/exports/reference.json" "$site/content/reference.json"
+echo "sync: exports/reference.json -> content/reference.json"
+
+# 3. Downloads, linked from the role level pages.
+
+rm -rf "$site/static/downloads"
+mkdir -p "$site/static/downloads/self-assessment"
+cp "$repo/exports/self-assessment/"*.tsv "$site/static/downloads/self-assessment/"
+for name in roles.tsv role-skills.tsv job-evaluation.tsv reference.json; do
+    cp "$repo/exports/$name" "$site/static/downloads/$name"
+done
+echo "sync: exports/ -> static/downloads/"
+
+# 4. Sveltia CMS configuration, generated from the monorepo's data model.
+
+python3 "$repo/scripts/cms_config.py" "$site/static/admin/config.yml"
+echo "sync: scripts/cms_config.py -> static/admin/config.yml"
