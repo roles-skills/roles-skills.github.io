@@ -4,8 +4,10 @@
 // for example /cy-gb/rolau/ for /roles/. src/hooks.ts maps those back to the
 // route folders.
 //
-// Nothing else decides the locale: not a saved preference, not the browser's
-// language. A link to /cy-gb/... always shows Welsh.
+// A link to /cy-gb/... always shows Welsh. The one exception is the bare
+// home page, /: on a first visit, the layout redirects it to the locale that
+// best matches the browser's languages (see browserLocale), unless the reader
+// has already chosen a language with the picker.
 
 import { DEFAULT_LOCALE, LOCALES } from './locale-codes.js';
 
@@ -49,6 +51,28 @@ export function localeOf(param: string | undefined): Locale {
 /** The locale named by a URL path's first segment. */
 export function localeOfPath(pathname: string): Locale {
   return localeOf(pathname.split('/')[1]);
+}
+
+/**
+ * The published locale that best matches a browser's language list, such as
+ * navigator.languages, or null when none does. Each language is tried in the
+ * browser's order: first as an exact locale code (cy_GB or cy-GB -> cy-gb),
+ * then as its language's world locale (cy -> cy-001, zh-Hans-CN -> zh-001),
+ * then as any locale of that language. The first language that matches wins,
+ * so a reader whose first language is English stays on English.
+ */
+export function browserLocale(languages: readonly string[]): Locale | null {
+  for (const raw of languages) {
+    const tag = raw.trim().replace(/_/g, '-').toLowerCase();
+    if (!tag) continue;
+    if (isLocale(tag)) return tag;
+    const lang = tag.split('-')[0];
+    const world = `${lang}-001`;
+    if (isLocale(world)) return world;
+    const any = LOCALES.find((code) => code.split('-')[0] === lang);
+    if (any) return any;
+  }
+  return null;
 }
 
 export function isRtl(locale: Locale): boolean {

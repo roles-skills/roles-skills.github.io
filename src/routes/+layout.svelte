@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import { goto } from '$app/navigation';
+  import { afterNavigate, goto } from '$app/navigation';
   import { SkipLink, PhaseBanner, Tag } from '@lilydesignsystem/svelte-headless';
   import { themeName } from '@lilydesignsystem/svelte-theme-picker';
   import { sizeName } from '@lilydesignsystem/svelte-text-size-picker';
@@ -9,9 +9,11 @@
   import { ORIGIN, SOURCE_URL, THEMES } from '#lib/site.js';
   import { translator } from '#lib/i18n.js';
   import {
+    DEFAULT_LOCALE,
     LOCALES,
     LOCALE_LABELS,
     LOCALE_TAGS,
+    browserLocale,
     isLocale,
     isRtl,
     localeOfPath,
@@ -21,8 +23,8 @@
 
   let { children } = $props();
 
-  // The URL is the only source of the locale. Not a saved preference, not the
-  // browser's language: a link to /cy-gb/... always shows Welsh.
+  // The URL is the source of the locale: a link to /cy-gb/... always shows
+  // Welsh. The one exception is the bare home page; see afterNavigate below.
   const locale: Locale = $derived(localeOfPath(page.url.pathname));
   const t = $derived(translator(locale));
   const l = (path: string) => localePath(locale, path);
@@ -34,14 +36,38 @@
     return alternates[code] ?? localePath(code, '/');
   }
 
-  // The language picker reflects the URL and navigates; it never stores a
-  // choice of its own. LocalePicker calls onChange once when it first applies
-  // its value, and again after each navigation, with the URL's own locale:
-  // both are no-ops here.
+  // The language picker reflects the URL and navigates. LocalePicker calls
+  // onChange once when it first applies its value, and again after each
+  // navigation, with the URL's own locale: both are no-ops here. A real
+  // change is remembered only so that the home page stops redirecting.
+  const CHOSEN_KEY = 'roles-skills.locale-chosen';
   function switchLocale(code: string) {
     if (!isLocale(code) || code === locale) return;
+    try {
+      localStorage.setItem(CHOSEN_KEY, code);
+    } catch {
+      // Storage can be blocked; the choice then lasts only for this visit.
+    }
     void goto(hrefIn(code));
   }
+
+  // On a first visit to the bare home page, /, go to the locale that best
+  // matches the browser's languages, such as /cy-gb/ for cy_GB. Only on the
+  // app's first load ('enter'), so in-site links to / never redirect, and not
+  // once the reader has picked a language, so choosing English sticks.
+  afterNavigate((navigation) => {
+    if (navigation.type !== 'enter' || page.url.pathname !== '/') return;
+    try {
+      if (localStorage.getItem(CHOSEN_KEY)) return;
+    } catch {
+      // Storage can be blocked; fall through and use the browser's languages.
+    }
+    const languages = navigator.languages?.length ? navigator.languages : [navigator.language];
+    const code = browserLocale(languages);
+    if (code && code !== DEFAULT_LOCALE) {
+      void goto(localePath(code, '/') + page.url.search + page.url.hash, { replaceState: true });
+    }
+  });
 
   // LocalePicker writes its raw code (such as zh-001) to its target's lang.
   // Give it a detached element instead, and set <html lang> and dir here from
