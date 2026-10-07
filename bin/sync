@@ -8,10 +8,13 @@
 #   3. The TSV and JSON exports, to download -> static/downloads/
 #   4. The Sveltia CMS configuration        -> static/admin/config.yml
 #
-# The Lily Design System Svelte components themselves (headless components,
-# theme, locale, text size, and share pickers, and the picker bar) are real npm
-# dependencies, see package.json, and are not vendored. Only the reference
-# themes have no npm package to install, so this script copies them.
+# The Lily Design System Svelte components (headless components, theme,
+# locale, text size, and share pickers, and the picker bar) are npm
+# dependencies, see package.json, and are not vendored. The reference themes
+# come from the npm package @lilydesignsystem/themes, pinned to an exact
+# version in package.json; this script copies the ones the site uses into
+# static/assets/, where ThemePicker loads them at runtime. To upgrade them,
+# change that version, run `pnpm install`, then re-run this script.
 #
 # The monorepo is the source of truth. Edit data/ there, run
 # `python3 scripts/build.py` there, then re-run this script:  ./bin/sync
@@ -19,7 +22,6 @@ set -eu
 
 site="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
 repo="$(CDPATH= cd -- "$site/.." && pwd)"
-lily="${LILY_DESIGN_SYSTEM:-$HOME/git/lilydesignsystem/lily-design-system}"
 
 # 1. Lily Design System reference themes, loaded by ThemePicker/PickerBar at
 # runtime. Each line in lily-themes.txt is a theme slug, e.g. "dracula" ->
@@ -27,23 +29,24 @@ lily="${LILY_DESIGN_SYSTEM:-$HOME/git/lilydesignsystem/lily-design-system}"
 # government and public-sector themes are left out, because this reference is
 # for a generic organisation.
 
-lily_themes="$lily/themes"
-if [ -d "$lily_themes" ]; then
-    rm -rf "$site/static/assets/themes"
-    mkdir -p "$site/static/assets/themes"
-    for slug in $(cat "$site/bin/lily-themes.txt"); do
-        source_file="$lily_themes/$slug.css"
-        if [ -f "$source_file" ]; then
-            cp "$source_file" "$site/static/assets/themes/$slug.css"
-        else
-            echo "sync: missing Lily theme: $slug" >&2
-            exit 1
-        fi
-    done
-    echo "sync: Lily themes -> static/assets/themes/"
-else
-    echo "sync: skipping Lily themes; not found at $lily_themes" >&2
+lily_themes="$site/node_modules/@lilydesignsystem/themes/dist"
+if [ ! -d "$lily_themes" ]; then
+    echo "sync: missing $lily_themes; run pnpm install" >&2
+    exit 1
 fi
+rm -rf "$site/static/assets/themes"
+mkdir -p "$site/static/assets/themes"
+for slug in $(cat "$site/bin/lily-themes.txt"); do
+    source_file="$lily_themes/$slug.css"
+    if [ -f "$source_file" ]; then
+        cp "$source_file" "$site/static/assets/themes/$slug.css"
+    else
+        echo "sync: missing Lily theme in @lilydesignsystem/themes: $slug" >&2
+        exit 1
+    fi
+done
+version="$(sed -n 's/^ *"version": *"\(.*\)".*/\1/p' "$site/node_modules/@lilydesignsystem/themes/package.json" | head -1)"
+echo "sync: @lilydesignsystem/themes $version -> static/assets/themes/"
 
 # 2. Reference data, read at build time by src/lib/server/content.ts.
 

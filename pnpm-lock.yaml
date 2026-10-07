@@ -27,6 +27,9 @@ importers:
         specifier: ^0.1.0
         version: 0.1.2(svelte@5.57.1)
     devDependencies:
+      '@lilydesignsystem/themes':
+        specifier: 0.4.0
+        version: 0.4.0
       '@sveltejs/adapter-static':
         specifier: ^4.0.0-next.0
         version: 4.0.0(@sveltejs/kit@3.0.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.1)(vite@8.3.2))(svelte@5.57.1)(typescript@6.0.3)(vite@8.3.2))
@@ -108,6 +111,10 @@ packages:
     engines: {node: '=26'}
     peerDependencies:
       svelte: ^5.0.0
+
+  '@lilydesignsystem/themes@0.4.0':
+    resolution: {integrity: sha512-WQRtbfvT1DeKLWp7R34UR7IM0/6HIS330QqxtH2ln0s8v22Jv5ACk2RpTwV0v5Fw3tdfwmBHwvB1aembLdnhqg==}
+    engines: {node: '=26'}
 
   '@oxc-project/types@0.152.0':
     resolution: {integrity: sha512-oM/5rLBm2tPkg0iBgkH/FOeR3PCDpY19GTgAZjMFM8h9WI9VW7cLgzp6nwtarYKmovavIQZ+Fe/RKX/8C8O/Rw==}
@@ -594,6 +601,8 @@ snapshots:
     dependencies:
       '@lilydesignsystem/svelte-headless': 0.2.0(svelte@5.57.1)
       svelte: 5.57.1
+
+  '@lilydesignsystem/themes@0.4.0': {}
 
   '@oxc-project/types@0.152.0': {}
 
