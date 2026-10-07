@@ -4,4 +4,4 @@
 
 export const DEFAULT_LOCALE = 'en-001';
 
-export const LOCALES = /** @type {const} */ (['en-001', 'cy-001', 'cy-gb', 'zh-001', 'hi-001', 'es-001']);
+export const LOCALES = /** @type {const} */ (['en-001', 'cy-001', 'cy-gb', 'zh-001', 'hi-001', 'es-001', 'fr-001']);

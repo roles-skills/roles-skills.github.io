@@ -11,6 +11,7 @@ import cyGb from '../../content/locales/cy-gb/ui.json';
 import zh001 from '../../content/locales/zh-001/ui.json';
 import hi001 from '../../content/locales/hi-001/ui.json';
 import es001 from '../../content/locales/es-001/ui.json';
+import fr001 from '../../content/locales/fr-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -21,7 +22,8 @@ const STRINGS: Record<Locale, Strings> = {
   'cy-gb': cyGb as Strings,
   'zh-001': zh001 as Strings,
   'hi-001': hi001 as Strings,
-  'es-001': es001 as Strings
+  'es-001': es001 as Strings,
+  'fr-001': fr001 as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;

@@ -20,17 +20,19 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'cy-gb': 'Cymraeg',
   'zh-001': '中文',
   'hi-001': 'हिन्दी',
-  'es-001': 'Español'
+  'es-001': 'Español',
+  'fr-001': 'Français'
 };
 
-/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "hi", "es". */
+/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "hi", "es", "fr". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
   'cy-001': 'cy',
   'cy-gb': 'cy-GB',
   'zh-001': 'zh-Hans',
   'hi-001': 'hi',
-  'es-001': 'es'
+  'es-001': 'es',
+  'fr-001': 'fr'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);
