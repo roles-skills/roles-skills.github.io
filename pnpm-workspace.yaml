@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - esbuild
+allowBuilds:
+  esbuild: true
+# Our own Lily packages may be newer than pnpm's minimumReleaseAge.
+minimumReleaseAgeExclude:
+  - '@lilydesignsystem/themes@0.4.0'
