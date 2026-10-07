@@ -14,6 +14,7 @@
     expected: SkillLevelId;
     expectedNumber: number;
     expectedText: string;
+    pcf?: boolean;
   };
 
   let {
@@ -133,7 +134,7 @@
     {@const g = gap(row)}
     <fieldset class="rating">
       <legend>
-        <span class="rating-skill">{row.name}</span>
+        <span class="rating-skill" lang={row.pcf ? 'en' : undefined}>{row.name}</span>
         <span class="rating-expected">{t('sa.expected', { level: t(`level_name.${row.expected}`) })}</span>
       </legend>
       <div class="rating-choices">

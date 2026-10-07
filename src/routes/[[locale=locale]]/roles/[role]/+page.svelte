@@ -55,13 +55,13 @@
   <div class="summary-list-item">
     <dt>{t('role.pcf_role')}</dt>
     <dd>
-      {#if role.pcfRole}<a href={role.pcfRole.url}>{role.pcfRole.name}</a> ({role.pcfRole.family}){:else}{t('role.pcf_none')}{/if}
+      {#if role.pcfRole}<span lang="en"><a href={role.pcfRole.url}>{role.pcfRole.name}</a> ({role.pcfRole.family})</span>{:else}{t('role.pcf_none')}{/if}
     </dd>
   </div>
   <div class="summary-list-item">
     <dt>{t('role.esco_occupations')}</dt>
     <dd>
-      {#each data.occupations as occupation, i (occupation.id)}{i ? '; ' : ''}<a href={occupation.uri}>{occupation.label}</a> (ISCO-08 {occupation.isco08}){/each}
+      {#each data.occupations as occupation, i (occupation.id)}{i ? '; ' : ''}<a href={occupation.uri} lang="en">{occupation.label}</a> (ISCO-08 {occupation.isco08}){/each}
     </dd>
   </div>
   <div class="summary-list-item">
@@ -109,10 +109,10 @@
 <h2>{t('role.esco_heading')}</h2>
 <p>{t('role.esco_lede')}</p>
 {#each data.occupations as occupation (occupation.id)}
-  <h3>{occupation.label}</h3>
+  <h3 lang="en">{occupation.label}</h3>
   <p class="result-meta">
     <a href={occupation.uri}>{occupation.uri}</a> · {t('role.esco_code')} {occupation.code} · ISCO-08 {occupation.isco08}
-    {occupation.isco08Label}
+    <span lang="en">{occupation.isco08Label}</span>
   </p>
   <p lang="en">{occupation.description}</p>
   {#each [{ name: t('role.essential'), skills: occupation.essential }, { name: t('role.optional'), skills: occupation.optional }] as group, gi (gi)}

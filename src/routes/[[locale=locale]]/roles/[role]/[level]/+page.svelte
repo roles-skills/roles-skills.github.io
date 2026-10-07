@@ -72,7 +72,7 @@
   <tbody>
     {#each data.skills as skill (skill.id)}
       <tr>
-        <th scope="row"><a href={l(`/skills/${skill.slug}/`)}>{skill.name}</a><span class="result-meta">{skill.source}</span></th>
+        <th scope="row"><a href={l(`/skills/${skill.slug}/`)} lang={skill.pcf ? 'en' : undefined}>{skill.name}</a><span class="result-meta">{skill.source}</span></th>
         <td>{t(`level_name.${skill.expected}`)} ({skill.expectedNumber})</td>
         <td lang={skill.pcf ? 'en' : undefined}><LevelText text={skill.expectedText} /></td>
       </tr>

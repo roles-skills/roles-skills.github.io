@@ -1,11 +1,17 @@
 <script lang="ts">
+  import { page } from '$app/state';
   import { BreadcrumbNav, BreadcrumbList, BreadcrumbListItem } from '@lilydesignsystem/svelte-headless';
+  import { translator } from '#lib/i18n.js';
+  import { localeOfPath } from '#lib/locales.js';
 
   type Crumb = { href?: string; label: string };
   let { trail }: { trail: Crumb[] } = $props();
+
+  // The URL carries the locale, as in the layout.
+  const t = $derived(translator(localeOfPath(page.url.pathname)));
 </script>
 
-<BreadcrumbNav label="Breadcrumb">
+<BreadcrumbNav label={t('nav.breadcrumb')}>
   <BreadcrumbList>
     {#each trail as crumb}
       <BreadcrumbListItem current={!crumb.href}>

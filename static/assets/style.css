@@ -170,7 +170,7 @@ p {
 
 ul,
 ol {
-  padding-left: 1.25rem;
+  padding-inline-start: 1.25rem;
 }
 li {
   margin-bottom: 0.35rem;
@@ -212,7 +212,7 @@ table {
 }
 th,
 td {
-  text-align: left;
+  text-align: start;
   padding: 0.65rem 0.75rem;
   border-bottom: 1px solid var(--site-border-subtle);
   vertical-align: top;
@@ -226,7 +226,7 @@ th {
 .skip-link {
   position: absolute;
   top: -100px;
-  left: 1rem;
+  inset-inline-start: 1rem;
   z-index: 100;
   background: var(--site-focus);
   color: var(--site-text);
@@ -314,13 +314,17 @@ th {
 .breadcrumb-list-item + .breadcrumb-list-item::before {
   content: '';
   position: absolute;
-  left: -0.6rem;
+  inset-inline-start: -0.6rem;
   top: 0.45em;
   width: 0.4em;
   height: 0.4em;
   border: solid var(--site-text-muted);
   border-width: 1.5px 1.5px 0 0;
   transform: rotate(45deg);
+}
+/* Point the chevron the other way in right-to-left locales. */
+[dir='rtl'] .breadcrumb-list-item + .breadcrumb-list-item::before {
+  transform: rotate(-135deg);
 }
 .breadcrumb-list-item[aria-current='page'] {
   font-weight: 600;
@@ -342,7 +346,7 @@ th {
   gap: 0.35rem;
   background: var(--site-card-bg);
   border: 1px solid var(--site-border-subtle);
-  border-left: 4px solid var(--site-primary);
+  border-inline-start: 4px solid var(--site-primary);
   border-radius: var(--site-radius);
   padding: 1.25rem 1.35rem;
   box-shadow: var(--site-shadow);
@@ -396,7 +400,7 @@ th {
 }
 
 .inset-text {
-  border-left: 5px solid var(--site-border);
+  border-inline-start: 5px solid var(--site-border);
   padding: 0.5rem 0 0.5rem 1.15rem;
   margin: 1.5rem 0;
   color: var(--site-text-muted);
@@ -405,7 +409,7 @@ th {
 .warning-callout {
   display: block;
   background: var(--site-primary-wash);
-  border-left: 5px solid var(--site-primary);
+  border-inline-start: 5px solid var(--site-primary);
   border-radius: 0 var(--site-radius) var(--site-radius) 0;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
@@ -433,7 +437,7 @@ th {
   margin-bottom: 0.4rem;
 }
 .contents-list-item.is-nested {
-  padding-left: 1rem;
+  padding-inline-start: 1rem;
 }
 
 .statistic {
@@ -500,8 +504,8 @@ th {
 }
 .assessment-answer[open] summary {
   margin-bottom: 0.75rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
 }
 .assessment-answer p:last-child {
   margin-bottom: 0;
@@ -627,7 +631,7 @@ th {
   background: transparent;
   color: var(--site-text);
   font: inherit;
-  text-align: left;
+  text-align: start;
   text-decoration: none;
   cursor: pointer;
 }
@@ -838,16 +842,16 @@ th {
   margin-top: 1.75rem;
 }
 .prose li > input[type='checkbox'] {
-  margin-right: 0.5rem;
+  margin-inline-end: 0.5rem;
 }
 .prose ul:has(> li > input[type='checkbox']) {
   list-style: none;
-  padding-left: 0.25rem;
+  padding-inline-start: 0.25rem;
 }
 .prose blockquote {
   margin: 1.5rem 0;
-  padding-left: 1rem;
-  border-left: 4px solid var(--site-border);
+  padding-inline-start: 1rem;
+  border-inline-start: 4px solid var(--site-border);
   color: var(--site-text-muted);
 }
 
@@ -983,7 +987,7 @@ th {
   text-decoration: underline;
 }
 .level-list-meta {
-  margin-left: auto;
+  margin-inline-start: auto;
   font-size: 0.8125rem;
   color: var(--site-text-muted);
 }
@@ -1068,8 +1072,8 @@ th {
   }
   .site-header-inner,
   .phase-banner {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
   }
   .site-nav {
     width: 100%;
@@ -1082,7 +1086,7 @@ th {
     gap: 0.15rem;
   }
   .level-list-meta {
-    margin-left: 0;
+    margin-inline-start: 0;
     width: 100%;
   }
 }
@@ -1136,7 +1140,7 @@ th {
 }
 .data-table th,
 .data-table td {
-  text-align: left;
+  text-align: start;
   vertical-align: top;
   padding: 0.5rem 0.75rem 0.5rem 0;
   border-bottom: 1px solid var(--site-border-subtle);
@@ -1148,7 +1152,7 @@ th {
   font-weight: 600;
 }
 .data-table .numeric {
-  text-align: right;
+  text-align: end;
   font-variant-numeric: tabular-nums;
 }
 .data-table tfoot th,
@@ -1167,7 +1171,7 @@ th {
 .framework-quote blockquote {
   margin: 0;
   padding: 0.75rem 1rem;
-  border-left: 4px solid var(--site-border);
+  border-inline-start: 4px solid var(--site-border);
   background: var(--site-surface);
 }
 .framework-quote blockquote > :last-child {
@@ -1233,7 +1237,7 @@ th {
   font-weight: 700;
 }
 .rating-expected {
-  margin-left: 0.5rem;
+  margin-inline-start: 0.5rem;
   color: var(--site-text-muted);
   font-size: 0.9rem;
 }
@@ -1264,4 +1268,11 @@ th {
   display: block;
   font-weight: 600;
   margin-top: 0.25rem;
+}
+
+/* English quotations from the UK GDaD PCF and ESCO, inside a right-to-left
+   locale: lay them out left to right, isolated from the text around them. */
+[dir='rtl'] [lang|='en'] {
+  direction: ltr;
+  unicode-bidi: isolate;
 }
