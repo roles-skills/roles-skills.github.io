@@ -21,18 +21,22 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'cy-001': 'Cymraeg (y byd)',
   'cy-gb': 'Cymraeg',
   'zh-001': '中文',
+  'zh-cn': '中文（中国）',
   'hi-001': 'हिन्दी',
+  'hi-in': 'हिन्दी (भारत)',
   'es-001': 'Español',
   'fr-001': 'Français'
 };
 
-/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "hi", "es", "fr". */
+/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
   'cy-001': 'cy',
   'cy-gb': 'cy-GB',
   'zh-001': 'zh-Hans',
+  'zh-cn': 'zh-Hans-CN',
   'hi-001': 'hi',
+  'hi-in': 'hi-IN',
   'es-001': 'es',
   'fr-001': 'fr'
 };
