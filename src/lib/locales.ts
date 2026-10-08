@@ -26,10 +26,11 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'hi-in': 'हिन्दी (भारत)',
   'es-001': 'Español',
   'fr-001': 'Français',
-  'ar-001': 'العربية'
+  'ar-001': 'العربية',
+  'bn-001': 'বাংলা'
 };
 
-/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar". */
+/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
   'cy-001': 'cy',
@@ -40,7 +41,8 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'hi-in': 'hi-IN',
   'es-001': 'es',
   'fr-001': 'fr',
-  'ar-001': 'ar'
+  'ar-001': 'ar',
+  'bn-001': 'bn'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);
