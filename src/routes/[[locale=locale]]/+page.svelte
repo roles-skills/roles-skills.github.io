@@ -23,12 +23,6 @@
   </div>
 </div>
 
-<ul class="stat-row">
-  <li class="statistic"><span class="statistic-value">{data.familyCount}</span><span class="statistic-title">{t('home.stat_families')}</span></li>
-  <li class="statistic"><span class="statistic-value">{data.roleCount}</span><span class="statistic-title">{t('home.stat_roles')}</span></li>
-  <li class="statistic"><span class="statistic-value">{data.levelCount}</span><span class="statistic-title">{t('home.stat_levels')}</span></li>
-  <li class="statistic"><span class="statistic-value">{data.skillCount}</span><span class="statistic-title">{t('home.stat_skills')}</span></li>
-</ul>
 
 <div class="prose">
   <h2>{t('home.what_heading')}</h2>

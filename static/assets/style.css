@@ -440,25 +440,6 @@ th {
   padding-inline-start: 1rem;
 }
 
-.statistic {
-  display: flex;
-  flex-direction: column;
-  background: var(--site-surface);
-  border-radius: var(--site-radius);
-  padding: 1rem 1.25rem;
-}
-.statistic-title {
-  order: 2;
-  font-size: 0.9375rem;
-  color: var(--site-text-muted);
-}
-.statistic-value {
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.1;
-  color: var(--site-primary-hover);
-}
-
 .summary-list {
   margin: 0;
 }
@@ -808,19 +789,11 @@ th {
   width: 100%;
 }
 
-.stat-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-  gap: 1rem;
-  margin: 2rem 0 3rem;
-}
-
 .section {
   margin: 3rem 0;
 }
 /* The page intro already carries its own bottom space. */
 .page-intro + .section,
-.page-intro + .stat-row,
 .page-intro + .finder-form {
   margin-top: 0.5rem;
 }
