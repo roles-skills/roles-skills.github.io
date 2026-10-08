@@ -88,6 +88,12 @@
     { href: l('/about/'), path: '/about/', label: t('nav.about') }
   ]);
 
+  // The link picker (a home icon) holds the same pages as the navigation, for
+  // narrow screens where the navigation wraps.
+  const pickerLinks = $derived(
+    navLinks.map((link) => ({ id: link.path, label: link.label, href: link.href, current: isCurrent(link) }))
+  );
+
   function isCurrent(link: { href: string; path: string }): boolean {
     // The address bar's path is URL-encoded; hrefs are not (/zh-001/角色/).
     const path = decodeURI(page.url.pathname);
@@ -169,10 +175,23 @@
     <PickerBar
       class="site-tools"
       labels={{
+        link: t('picker.links'),
+        search: t('picker.search'),
+        searchInput: t('picker.search_input'),
+        searchSubmit: t('picker.search_submit'),
         theme: t('picker.theme'),
         locale: t('picker.locale'),
         textSize: t('picker.text_size'),
         share: t('picker.share')
+      }}
+      links={pickerLinks}
+      linkProps={{ navigate: (href: string) => goto(href) }}
+      searchProps={{
+        // A search goes to the roles page as a bare query, /roles/?payroll,
+        // which fills that page's search box.
+        action: l('/roles/'),
+        navigate: (href: string) => goto(href),
+        placeholder: t('roles.search_placeholder')
       }}
       themesUrl="/assets/themes/"
       themes={THEMES}

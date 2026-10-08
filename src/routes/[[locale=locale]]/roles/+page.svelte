@@ -2,6 +2,7 @@
   import Breadcrumbs from '#lib/Breadcrumbs.svelte';
   import { translator } from '#lib/i18n.js';
   import { localePath } from '#lib/locales.js';
+  import { page } from '$app/state';
 
   let { data } = $props();
   const t = $derived(translator(data.locale));
@@ -9,6 +10,13 @@
 
   let query = $state('');
   let band = $state('');
+
+  // The header search picker sends a bare query, /roles/?payroll. Read it in
+  // the browser, because prerendered pages have no query string at build time.
+  $effect(() => {
+    const search = page.url.search.slice(1);
+    if (search) query = decodeURIComponent(search.replace(/\+/g, ' '));
+  });
 
   const rows = $derived(
     data.rows.map((row) => ({

@@ -39,6 +39,9 @@
   <h3>ESCO</h3>
   <p>{@html t('about.esco_html')}</p>
 
+  <h3>ISCO-08</h3>
+  <p>{@html t('about.isco_html')}</p>
+
   <h3>SFIA</h3>
   <p>{@html t('about.sfia_html')}</p>
 

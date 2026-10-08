@@ -61,7 +61,7 @@ Each role level page has a self assessment, in `src/lib/SelfAssessment.svelte`. 
 
 ## Site tools
 
-Every page carries `PickerBar` from `@lilydesignsystem/svelte-picker-bar` in the header: theme, language, text size, and share pickers. The theme defaults to `corporate`, a calm blue, and is stored under `roles-skills:theme`. The text size is stored under `roles-skills:text-size`. Every route hydrates, because the toolbar and the self assessment need JavaScript.
+Every page carries `PickerBar` from `@lilydesignsystem/svelte-picker-bar` (0.3) in the header, in this order: a link picker (a home icon holding the same pages as the navigation, for narrow screens), a search picker, and theme, language, text size, and share pickers. The search picker sends a bare query to the locale's roles page, such as `/roles/?payroll`, which fills that page's search box in the browser. The link and search popups open from the start edge, so they stay on screen. The theme defaults to `corporate`, a calm blue, and is stored under `roles-skills:theme`. The text size is stored under `roles-skills:text-size`. Every route hydrates, because the toolbar and the self assessment need JavaScript.
 
 ## Page layout
 
