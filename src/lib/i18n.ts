@@ -19,6 +19,7 @@ import fr001 from '../../content/locales/fr-001/ui.json';
 import ar001 from '../../content/locales/ar-001/ui.json';
 import bn001 from '../../content/locales/bn-001/ui.json';
 import ru001 from '../../content/locales/ru-001/ui.json';
+import id001 from '../../content/locales/id-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -37,7 +38,8 @@ const STRINGS: Record<Locale, Strings> = {
   'fr-001': fr001 as Strings,
   'ar-001': ar001 as Strings,
   'bn-001': bn001 as Strings,
-  'ru-001': ru001 as Strings
+  'ru-001': ru001 as Strings,
+  'id-001': id001 as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
