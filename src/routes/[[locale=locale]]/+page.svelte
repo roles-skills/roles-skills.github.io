@@ -8,7 +8,7 @@
   const t = $derived(translator(data.locale));
   const l = (path: string) => localePath(data.locale, path);
   const translationsLabel = $derived(HERO[data.locale]?.translations ?? HERO['en-001'].translations);
-  const translations = LOCALES.filter((code) => code in ENDONYMS);
+  const translations = LOCALES.filter((code) => code.endsWith('-001') && code in ENDONYMS);
 </script>
 
 <svelte:head>
