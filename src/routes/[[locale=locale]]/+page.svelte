@@ -1,11 +1,14 @@
 <script lang="ts">
   import { translator } from '#lib/i18n.js';
-  import { localePath } from '#lib/locales.js';
+  import { localePath, LOCALES } from '#lib/locales.js';
+  import { HERO, ENDONYMS } from '#lib/hero.js';
   import { SOURCE_URL } from '#lib/site.js';
 
   let { data } = $props();
   const t = $derived(translator(data.locale));
   const l = (path: string) => localePath(data.locale, path);
+  const translationsLabel = $derived(HERO[data.locale]?.translations ?? HERO['en-001'].translations);
+  const translations = LOCALES.filter((code) => code in ENDONYMS);
 </script>
 
 <svelte:head>
@@ -15,12 +18,19 @@
 
 <div class="page-intro">
   <h1>{t('home.heading')}</h1>
+  <p class="page-subheadline">{t('site.tagline')}</p>
   <p class="page-lede">{t('home.lede')}</p>
   <div class="button-row">
     <a class="button" href={l('/roles/')}>{t('home.find_role')}</a>
     <a class="button button-secondary" href={l('/families/')}>{t('home.browse_families')}</a>
     <a class="button button-secondary" href={l('/skills/')}>{t('home.browse_skills')}</a>
   </div>
+  <p class="page-translations">
+    {translationsLabel}{#each translations as code, i (code)}{i ? ', ' : ''}<a
+        href="/{code}/"
+        aria-current={code === data.locale ? 'page' : undefined}>{ENDONYMS[code]}</a
+      >{/each}
+  </p>
 </div>
 
 
