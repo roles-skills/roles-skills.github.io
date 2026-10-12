@@ -33,7 +33,8 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'ru-001': 'Русский',
   'id-001': 'Bahasa Indonesia',
   'ja-jp': '日本語',
-  'ja-001': '日本語 (世界)'
+  'ja-001': '日本語 (世界)',
+  'ko-kr': '한국어'
 };
 
 /** BCP 47 tag for <html lang> and hreflang: "en", "en-GB", "en-US", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
@@ -54,7 +55,8 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'ru-001': 'ru',
   'id-001': 'id',
   'ja-jp': 'ja',
-  'ja-001': 'ja'
+  'ja-001': 'ja',
+  'ko-kr': 'ko'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);

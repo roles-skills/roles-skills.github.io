@@ -22,6 +22,7 @@ import ru001 from '../../content/locales/ru-001/ui.json';
 import id001 from '../../content/locales/id-001/ui.json';
 import jaJp from '../../content/locales/ja-jp/ui.json';
 import jaGlobal from '../../content/locales/ja-001/ui.json';
+import koKr from '../../content/locales/ko-kr/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -43,7 +44,8 @@ const STRINGS: Record<Locale, Strings> = {
   'ru-001': ru001 as Strings,
   'id-001': id001 as Strings,
   'ja-jp': jaJp as Strings,
-  'ja-001': jaGlobal as Strings
+  'ja-001': jaGlobal as Strings,
+  'ko-kr': koKr as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
