@@ -35,7 +35,9 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'ja-jp': '日本語',
   'ja-001': '日本語 (世界)',
   'ko-kr': '한국어',
-  'ko-001': '한국어 (세계)'
+  'ko-001': '한국어 (세계)',
+  'sv-se': 'Svenska',
+  'sv-001': 'Svenska (världen)'
 };
 
 /** BCP 47 tag for <html lang> and hreflang: "en", "en-GB", "en-US", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
@@ -58,7 +60,9 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'ja-jp': 'ja',
   'ja-001': 'ja',
   'ko-kr': 'ko',
-  'ko-001': 'ko'
+  'ko-001': 'ko',
+  'sv-se': 'sv',
+  'sv-001': 'sv'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);
