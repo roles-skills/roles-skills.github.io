@@ -39,7 +39,9 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'sv-se': 'Svenska',
   'sv-001': 'Svenska (världen)',
   'nl-nl': 'Nederlands',
-  'nl-001': 'Nederlands (wereld)'
+  'nl-001': 'Nederlands (wereld)',
+  'is-is': 'Íslenska',
+  'is-001': 'Íslenska (heimurinn)'
 };
 
 /** BCP 47 tag for <html lang> and hreflang: "en", "en-GB", "en-US", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
@@ -66,7 +68,9 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'sv-se': 'sv',
   'sv-001': 'sv',
   'nl-nl': 'nl',
-  'nl-001': 'nl'
+  'nl-001': 'nl',
+  'is-is': 'is',
+  'is-001': 'is'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);

@@ -28,6 +28,8 @@ import svSe from '../../content/locales/sv-se/ui.json';
 import svGlobal from '../../content/locales/sv-001/ui.json';
 import nlNl from '../../content/locales/nl-nl/ui.json';
 import nlGlobal from '../../content/locales/nl-001/ui.json';
+import isIs from '../../content/locales/is-is/ui.json';
+import isGlobal from '../../content/locales/is-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -55,7 +57,9 @@ const STRINGS: Record<Locale, Strings> = {
   'sv-se': svSe as Strings,
   'sv-001': svGlobal as Strings,
   'nl-nl': nlNl as Strings,
-  'nl-001': nlGlobal as Strings
+  'nl-001': nlGlobal as Strings,
+  'is-is': isIs as Strings,
+  'is-001': isGlobal as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
