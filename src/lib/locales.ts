@@ -40,6 +40,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'sv-001': 'Svenska (världen)',
   'nl-nl': 'Nederlands',
   'nl-001': 'Nederlands (wereld)',
+  'de-001': 'Deutsch',
   'is-is': 'Íslenska',
   'is-001': 'Íslenska (heimurinn)'
 };
@@ -69,6 +70,7 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'sv-001': 'sv',
   'nl-nl': 'nl',
   'nl-001': 'nl',
+  'de-001': 'de',
   'is-is': 'is',
   'is-001': 'is'
 };
