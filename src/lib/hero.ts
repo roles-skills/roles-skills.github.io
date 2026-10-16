@@ -63,6 +63,9 @@ export const HERO: Record<string, Record<string, string>> = {
  "nl-nl": {
   "translations": "Vertalingen: "
  },
+ "de-001": {
+  "translations": "Übersetzungen: "
+ },
  "is-001": {
   "translations": "Þýðingar: "
  },
@@ -99,6 +102,7 @@ export const ENDONYMS: Record<string, string> = {
  "sv-se": "Svenska (Sverige)",
  "nl-001": "Nederlands",
  "nl-nl": "Nederlands (Nederland)",
+ "de-001": "Deutsch",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
  "zh-001": "中文",
