@@ -31,6 +31,8 @@ import nlGlobal from '../../content/locales/nl-001/ui.json';
 import deGlobal from '../../content/locales/de-001/ui.json';
 import isIs from '../../content/locales/is-is/ui.json';
 import isGlobal from '../../content/locales/is-001/ui.json';
+import swTz from '../../content/locales/sw-tz/ui.json';
+import swGlobal from '../../content/locales/sw-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -61,7 +63,9 @@ const STRINGS: Record<Locale, Strings> = {
   'nl-001': nlGlobal as Strings,
   'de-001': deGlobal as Strings,
   'is-is': isIs as Strings,
-  'is-001': isGlobal as Strings
+  'is-001': isGlobal as Strings,
+  'sw-tz': swTz as Strings,
+  'sw-001': swGlobal as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
