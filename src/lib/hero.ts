@@ -81,6 +81,9 @@ export const HERO: Record<string, Record<string, string>> = {
  "vi-vn": {
   "translations": "Bản dịch: "
  },
+ "pt-001": {
+  "translations": "Traduções: "
+ },
  "sw-tz": {
   "translations": "Tafsiri: "
  },
@@ -121,6 +124,7 @@ export const ENDONYMS: Record<string, string> = {
  "sw-tz": "Kiswahili (Tanzania)",
  "vi-001": "Tiếng Việt",
  "vi-vn": "Tiếng Việt (Việt Nam)",
+ "pt-001": "Português",
  "zh-001": "中文",
  "zh-cn": "简体中文"
 };

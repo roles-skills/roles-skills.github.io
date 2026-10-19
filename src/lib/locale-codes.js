@@ -4,4 +4,4 @@
 
 export const DEFAULT_LOCALE = 'en-001';
 
-export const LOCALES = /** @type {const} */ (['en-001', 'en-gb', 'en-us', 'cy-001', 'cy-gb', 'zh-001', 'zh-cn', 'hi-001', 'hi-in', 'es-001', 'fr-001', 'ar-001', 'bn-001', 'ru-001', 'id-001', 'ja-jp', 'ja-001', 'ko-kr', 'ko-001', 'sv-se', 'sv-001', 'nl-nl', 'nl-001', 'is-is', 'is-001', 'sw-tz', 'sw-001', 'vi-vn', 'vi-001', 'de-001']);
+export const LOCALES = /** @type {const} */ (['en-001', 'en-gb', 'en-us', 'cy-001', 'cy-gb', 'zh-001', 'zh-cn', 'hi-001', 'hi-in', 'es-001', 'fr-001', 'ar-001', 'bn-001', 'ru-001', 'id-001', 'ja-jp', 'ja-001', 'ko-kr', 'ko-001', 'sv-se', 'sv-001', 'nl-nl', 'nl-001', 'is-is', 'is-001', 'sw-tz', 'sw-001', 'vi-vn', 'vi-001', 'pt-001', 'de-001']);
