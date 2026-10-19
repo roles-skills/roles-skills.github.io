@@ -33,6 +33,8 @@ import isIs from '../../content/locales/is-is/ui.json';
 import isGlobal from '../../content/locales/is-001/ui.json';
 import swTz from '../../content/locales/sw-tz/ui.json';
 import swGlobal from '../../content/locales/sw-001/ui.json';
+import viVn from '../../content/locales/vi-vn/ui.json';
+import viGlobal from '../../content/locales/vi-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -65,7 +67,9 @@ const STRINGS: Record<Locale, Strings> = {
   'is-is': isIs as Strings,
   'is-001': isGlobal as Strings,
   'sw-tz': swTz as Strings,
-  'sw-001': swGlobal as Strings
+  'sw-001': swGlobal as Strings,
+  'vi-vn': viVn as Strings,
+  'vi-001': viGlobal as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
