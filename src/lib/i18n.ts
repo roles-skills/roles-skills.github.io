@@ -35,6 +35,7 @@ import swTz from '../../content/locales/sw-tz/ui.json';
 import swGlobal from '../../content/locales/sw-001/ui.json';
 import viVn from '../../content/locales/vi-vn/ui.json';
 import viGlobal from '../../content/locales/vi-001/ui.json';
+import ptGlobal from '../../content/locales/pt-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -69,7 +70,8 @@ const STRINGS: Record<Locale, Strings> = {
   'sw-tz': swTz as Strings,
   'sw-001': swGlobal as Strings,
   'vi-vn': viVn as Strings,
-  'vi-001': viGlobal as Strings
+  'vi-001': viGlobal as Strings,
+  'pt-001': ptGlobal as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
