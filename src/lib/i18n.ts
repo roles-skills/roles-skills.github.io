@@ -37,6 +37,7 @@ import viVn from '../../content/locales/vi-vn/ui.json';
 import viGlobal from '../../content/locales/vi-001/ui.json';
 import ptGlobal from '../../content/locales/pt-001/ui.json';
 import urGlobal from '../../content/locales/ur-001/ui.json';
+import daGlobal from '../../content/locales/da-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
 
 type Strings = Record<string, string>;
@@ -73,7 +74,8 @@ const STRINGS: Record<Locale, Strings> = {
   'vi-vn': viVn as Strings,
   'vi-001': viGlobal as Strings,
   'pt-001': ptGlobal as Strings,
-  'ur-001': urGlobal as Strings
+  'ur-001': urGlobal as Strings,
+  'da-001': daGlobal as Strings
 };
 
 export type Translate = (key: string, params?: Record<string, string | number>) => string;
