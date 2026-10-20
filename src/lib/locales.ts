@@ -48,7 +48,8 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'vi-vn': 'Tiếng Việt',
   'vi-001': 'Tiếng Việt (thế giới)',
   'pt-001': 'Português',
-  'ur-001': 'اردو'
+  'ur-001': 'اردو',
+  'da-001': 'Dansk'
 };
 
 /** BCP 47 tag for <html lang> and hreflang: "en", "en-GB", "en-US", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
@@ -84,7 +85,8 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'vi-vn': 'vi-VN',
   'vi-001': 'vi',
   'pt-001': 'pt',
-  'ur-001': 'ur'
+  'ur-001': 'ur',
+  'da-001': 'da'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);
