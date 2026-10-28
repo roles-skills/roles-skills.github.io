@@ -70,6 +70,16 @@ for dir in "$repo/exports/locales/"*/; do
     echo "sync: exports/locales/$code/{reference,paths}.json -> content/locales/$code/"
 done
 
+# Each locale's own sitemap, served at /<code>/sitemap.xml. The monorepo
+# writes locales/<code>/sitemap.xml (scripts/build-locale-sitemaps.py).
+for dir in "$repo/locales/"*/; do
+    [ -f "$dir/sitemap.xml" ] || continue
+    code="$(basename "$dir")"
+    mkdir -p "$site/static/$code"
+    cp "$dir/sitemap.xml" "$site/static/$code/sitemap.xml"
+done
+echo "sync: locales/<code>/sitemap.xml -> static/<code>/sitemap.xml"
+
 # 3. Downloads, linked from the role level pages.
 
 rm -rf "$site/static/downloads"

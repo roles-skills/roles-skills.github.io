@@ -20,6 +20,7 @@ import ar001 from '../../content/locales/ar-001/ui.json';
 import bn001 from '../../content/locales/bn-001/ui.json';
 import ru001 from '../../content/locales/ru-001/ui.json';
 import id001 from '../../content/locales/id-001/ui.json';
+import idId from '../../content/locales/id-id/ui.json';
 import jaJp from '../../content/locales/ja-jp/ui.json';
 import jaGlobal from '../../content/locales/ja-001/ui.json';
 import koKr from '../../content/locales/ko-kr/ui.json';
@@ -58,6 +59,7 @@ const STRINGS: Record<Locale, Strings> = {
   'bn-001': bn001 as Strings,
   'ru-001': ru001 as Strings,
   'id-001': id001 as Strings,
+  'id-id': idId as Strings,
   'ja-jp': jaJp as Strings,
   'ja-001': jaGlobal as Strings,
   'ko-kr': koKr as Strings,

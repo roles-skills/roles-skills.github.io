@@ -18,7 +18,7 @@ export type Locale = (typeof LOCALES)[number];
 /** Each locale's name in its own language, for the language picker. */
 export const LOCALE_LABELS: Record<Locale, string> = {
   'en-001': 'English',
-  'en-gb': 'English (United Kingdom)',
+  'en-gb': 'English (Great Britain)',
   'en-us': 'English (United States)',
   'cy-001': 'Cymraeg (y byd)',
   'cy-gb': 'Cymraeg',
@@ -32,6 +32,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'bn-001': 'বাংলা',
   'ru-001': 'Русский',
   'id-001': 'Bahasa Indonesia',
+  'id-id': 'Bahasa Indonesia (Indonesia)',
   'ja-jp': '日本語',
   'ja-001': '日本語 (世界)',
   'ko-kr': '한국어',
@@ -69,6 +70,7 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'bn-001': 'bn',
   'ru-001': 'ru',
   'id-001': 'id',
+  'id-id': 'id-ID',
   'ja-jp': 'ja',
   'ja-001': 'ja',
   'ko-kr': 'ko',

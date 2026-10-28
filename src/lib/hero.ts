@@ -1,103 +1,106 @@
-// Hand-authored hero strings (subheadline, intro, and the Translations label) and locale endonyms.
+// Hand-authored hero strings (subheadline, intro, and the Language label) and locale endonyms.
 export const HERO: Record<string, Record<string, string>> = {
  "ar-001": {
-  "translations": "الترجمات: "
+  "translations": "اللغة: "
  },
  "bn-001": {
-  "translations": "অনুবাদ: "
+  "translations": "ভাষা: "
  },
  "cy-001": {
-  "translations": "Cyfieithiadau: "
+  "translations": "Iaith: "
  },
  "cy-gb": {
-  "translations": "Cyfieithiadau: "
+  "translations": "Iaith: "
  },
  "en-001": {
-  "translations": "Translations: "
+  "translations": "Language: "
  },
  "en-gb": {
-  "translations": "Translations: "
+  "translations": "Language: "
  },
  "en-us": {
-  "translations": "Translations: "
+  "translations": "Language: "
  },
  "es-001": {
-  "translations": "Traducciones: "
+  "translations": "Idioma: "
  },
  "fr-001": {
-  "translations": "Traductions: "
+  "translations": "Langue: "
  },
  "hi-001": {
-  "translations": "अनुवाद: "
+  "translations": "भाषा: "
  },
  "hi-in": {
-  "translations": "अनुवाद: "
+  "translations": "भाषा: "
  },
  "id-001": {
-  "translations": "Terjemahan: "
+  "translations": "Bahasa: "
+ },
+ "id-id": {
+  "translations": "Bahasa: "
  },
  "ja-001": {
-  "translations": "翻訳： "
+  "translations": "言語： "
  },
  "ja-jp": {
-  "translations": "翻訳： "
+  "translations": "言語： "
  },
  "ko-001": {
-  "translations": "번역: "
+  "translations": "언어: "
  },
  "ko-kr": {
-  "translations": "번역: "
+  "translations": "언어: "
  },
  "ru-001": {
-  "translations": "Переводы: "
+  "translations": "Язык: "
  },
  "sv-001": {
-  "translations": "Översättningar: "
+  "translations": "Språk: "
  },
  "sv-se": {
-  "translations": "Översättningar: "
+  "translations": "Språk: "
  },
  "nl-001": {
-  "translations": "Vertalingen: "
+  "translations": "Taal: "
  },
  "nl-nl": {
-  "translations": "Vertalingen: "
+  "translations": "Taal: "
  },
  "de-001": {
-  "translations": "Übersetzungen: "
+  "translations": "Sprache: "
  },
  "is-001": {
-  "translations": "Þýðingar: "
+  "translations": "Tungumál: "
  },
  "is-is": {
-  "translations": "Þýðingar: "
+  "translations": "Tungumál: "
  },
  "sw-001": {
-  "translations": "Tafsiri: "
+  "translations": "Lugha: "
  },
  "vi-001": {
-  "translations": "Bản dịch: "
+  "translations": "Ngôn ngữ: "
  },
  "vi-vn": {
-  "translations": "Bản dịch: "
+  "translations": "Ngôn ngữ: "
  },
  "pt-001": {
-  "translations": "Traduções: "
+  "translations": "Idioma: "
  },
  "ur-001": {
-  "translations": "تراجم: "
+  "translations": "زبان: "
  },
  "da-001": {
-  "translations": "Oversættelser: "
+  "translations": "Sprog: "
  },
  "sw-tz": {
-  "translations": "Tafsiri: "
+  "translations": "Lugha: "
  },
  "zh-001": {
-  "translations": "翻译： "
+  "translations": "语言： "
  },
  "zh-cn": {
-  "translations": "翻译： "
+  "translations": "语言： "
  }
 };
 
@@ -105,15 +108,16 @@ export const ENDONYMS: Record<string, string> = {
  "ar-001": "العربية",
  "bn-001": "বাংলা",
  "cy-001": "Cymraeg",
- "cy-gb": "Cymraeg (Y Deyrnas Unedig)",
+ "cy-gb": "Cymraeg (Prydain Fawr)",
  "en-001": "English",
- "en-gb": "English (United Kingdom)",
+ "en-gb": "English (Great Britain)",
  "en-us": "English (United States)",
  "es-001": "Español",
  "fr-001": "Français",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
+ "id-id": "Bahasa Indonesia (Indonesia)",
  "ja-001": "日本語",
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",
