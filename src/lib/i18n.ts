@@ -6,6 +6,8 @@
 // Placeholders: "{name}" is replaced by params.name.
 
 import en from '../../content/locales/en-001/ui.json';
+import enUs from '../../content/locales/en-us/ui.json';
+import enGb from '../../content/locales/en-gb/ui.json';
 import cy001 from '../../content/locales/cy-001/ui.json';
 import cyGb from '../../content/locales/cy-gb/ui.json';
 import zh001 from '../../content/locales/zh-001/ui.json';
@@ -23,6 +25,8 @@ type Strings = Record<string, string>;
 
 const STRINGS: Record<Locale, Strings> = {
   'en-001': en as Strings,
+  'en-us': enUs as Strings,
+  'en-gb': enGb as Strings,
   'cy-001': cy001 as Strings,
   'cy-gb': cyGb as Strings,
   'zh-001': zh001 as Strings,

@@ -18,6 +18,8 @@ export type Locale = (typeof LOCALES)[number];
 /** Each locale's name in its own language, for the language picker. */
 export const LOCALE_LABELS: Record<Locale, string> = {
   'en-001': 'English',
+  'en-us': 'English (United States)',
+  'en-gb': 'English (Great Britain)',
   'cy-001': 'Cymraeg (y byd)',
   'cy-gb': 'Cymraeg',
   'zh-001': '中文',
@@ -34,6 +36,8 @@ export const LOCALE_LABELS: Record<Locale, string> = {
 /** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
+  'en-us': 'en-US',
+  'en-gb': 'en-GB',
   'cy-001': 'cy',
   'cy-gb': 'cy-GB',
   'zh-001': 'zh-Hans',
