@@ -163,7 +163,7 @@
   },
   {
    "id": "clinical-informatics",
-   "slug": "clinical-informatics-and-clinical-safety",
+   "slug": "clinical-informatics",
    "title": "Clinical informatics and clinical safety",
    "pcfFamily": null,
    "roles": [
@@ -222,7 +222,7 @@
   },
   {
    "id": "procurement",
-   "slug": "procurement-and-commercial",
+   "slug": "procurement",
    "title": "Procurement and commercial",
    "pcfFamily": null,
    "roles": [
@@ -1205,7 +1205,7 @@
   },
   {
    "id": "corp-assurance-and-audit",
-   "slug": "assurance-and-audit-liaison",
+   "slug": "corp-assurance-and-audit",
    "name": "Assurance and audit liaison",
    "description": "Gathering assurance that controls work, supporting internal and external audits, and tracking audit recommendations to completion.",
    "source": "reference",
@@ -1381,7 +1381,7 @@
   },
   {
    "id": "fin-business-cases",
-   "slug": "business-cases-and-investment-appraisal",
+   "slug": "fin-business-cases",
    "name": "Business cases and investment appraisal",
    "description": "Building the financial case for investment, including options appraisal, whole-life costs, capital and revenue treatment, benefits, and value for money.",
    "source": "reference",
@@ -1505,7 +1505,7 @@
   },
   {
    "id": "proc-category-management",
-   "slug": "category-management",
+   "slug": "proc-category-management",
    "name": "Category management",
    "description": "Managing a category of spend, such as software, cloud, and technology services, through a category strategy that pools demand, shapes requirements, and plans procurements over several years.",
    "source": "reference",
@@ -1671,7 +1671,7 @@
   },
   {
    "id": "clinical-safety",
-   "slug": "clinical-risk-management",
+   "slug": "clinical-safety",
    "name": "Clinical risk management",
    "description": "Identifying, assessing, and controlling the risks that health IT systems can pose to patients, through a clinical risk management process, hazard logs, and safety cases (for example following ISO 14971 and IEC 80001-1).",
    "source": "reference",
@@ -1697,7 +1697,7 @@
   },
   {
    "id": "clin-clinical-systems-optimisation",
-   "slug": "clinical-system-design-and-optimisation",
+   "slug": "clin-clinical-systems-optimisation",
    "name": "Clinical system design and optimisation",
    "description": "Designing, configuring, and improving clinical systems, such as electronic health records, order communications, and electronic prescribing, so that they fit clinical workflows and support safe, efficient care.",
    "source": "reference",
@@ -1728,7 +1728,7 @@
   },
   {
    "id": "clinical-terminology",
-   "slug": "clinical-terminology-and-classification",
+   "slug": "clinical-terminology",
    "name": "Clinical terminology and classification",
    "description": "Using clinical terminologies and classifications, such as SNOMED CT, ICD, and LOINC, to record and exchange clinical meaning consistently.",
    "source": "reference",
@@ -1811,7 +1811,7 @@
   },
   {
    "id": "proc-negotiation",
-   "slug": "commercial-negotiation",
+   "slug": "proc-negotiation",
    "name": "Commercial negotiation",
    "description": "Planning and conducting negotiations with suppliers to agree price, terms, and performance that give value for money and manage risk.",
    "source": "reference",
@@ -2003,7 +2003,7 @@
   },
   {
    "id": "corp-communications-strategy",
-   "slug": "communications-strategy-and-planning",
+   "slug": "corp-communications-strategy",
    "name": "Communications strategy and planning",
    "description": "Planning communications and campaigns that meet organisational goals, using insight about audiences, and evaluating their effect.",
    "source": "reference",
@@ -2065,7 +2065,7 @@
   },
   {
    "id": "ig-confidentiality-and-sharing",
-   "slug": "confidentiality-and-information-sharing",
+   "slug": "ig-confidentiality-and-sharing",
    "name": "Confidentiality and information sharing",
    "description": "Protecting confidential patient information while making sure it is shared lawfully when care, safety, or the law needs it, including through information sharing agreements.",
    "source": "reference",
@@ -2246,7 +2246,7 @@
   },
   {
    "id": "legal-contract-drafting-and-review",
-   "slug": "contract-drafting-and-review",
+   "slug": "legal-contract-drafting-and-review",
    "name": "Contract drafting and review",
    "description": "Drafting, reviewing, and negotiating contracts and agreements, such as technology, software licence, cloud, services, and data processing agreements.",
    "source": "reference",
@@ -2282,7 +2282,7 @@
   },
   {
    "id": "proc-contract-management",
-   "slug": "contract-management",
+   "slug": "proc-contract-management",
    "name": "Contract management",
    "description": "Managing contracts after award, including mobilisation, performance, payments, changes, disputes, renewal, and exit, so that the organisation gets what it paid for.",
    "source": "reference",
@@ -2318,7 +2318,7 @@
   },
   {
    "id": "governance-and-compliance",
-   "slug": "corporate-governance-and-compliance",
+   "slug": "governance-and-compliance",
    "name": "Corporate governance and compliance",
    "description": "Supporting the organisation's governance — boards, committees, standing orders, policies, declarations of interest, and compliance with legal and regulatory duties.",
    "source": "reference",
@@ -2344,7 +2344,7 @@
   },
   {
    "id": "corp-correspondence-management",
-   "slug": "correspondence-and-enquiry-handling",
+   "slug": "corp-correspondence-management",
    "name": "Correspondence and enquiry handling",
    "description": "Handling letters, emails, calls, and enquiries promptly and politely, and routing them to the right person.",
    "source": "reference",
@@ -2986,7 +2986,7 @@
   },
   {
    "id": "ig-data-protection-impact-assessment",
-   "slug": "data-protection-impact-assessment",
+   "slug": "ig-data-protection-impact-assessment",
    "name": "Data protection impact assessment",
    "description": "Assessing the privacy risks of new or changed processing of personal and health data, and agreeing controls before the processing starts.",
    "source": "reference",
@@ -3012,7 +3012,7 @@
   },
   {
    "id": "data-quality",
-   "slug": "data-quality-management",
+   "slug": "data-quality",
    "name": "Data quality management",
    "description": "Defining, measuring, and improving the quality of data, including completeness, accuracy, timeliness, and validity.",
    "source": "reference",
@@ -3276,7 +3276,7 @@
   },
   {
    "id": "pd-safety-critical-design",
-   "slug": "designing-for-clinical-safety-and-human-factors",
+   "slug": "pd-safety-critical-design",
    "name": "Designing for clinical safety and human factors",
    "description": "Designing services, interfaces, and workflows that help clinicians, care staff, and patients act safely, by applying human factors principles and working with the clinical risk management process.",
    "source": "reference",
@@ -3509,7 +3509,7 @@
   },
   {
    "id": "corp-diary-and-meeting-management",
-   "slug": "diary-and-meeting-management",
+   "slug": "corp-diary-and-meeting-management",
    "name": "Diary and meeting management",
    "description": "Managing diaries, meetings, and travel so that people's time is used well and meetings have the right people, papers, and rooms.",
    "source": "reference",
@@ -3566,7 +3566,7 @@
   },
   {
    "id": "corp-digital-and-social-media",
-   "slug": "digital-and-social-media",
+   "slug": "corp-digital-and-social-media",
    "name": "Digital and social media",
    "description": "Planning, publishing, and managing content on websites and social media, engaging with audiences, and measuring the results.",
    "source": "reference",
@@ -3597,7 +3597,7 @@
   },
   {
    "id": "clin-digital-health-evaluation",
-   "slug": "digital-health-evaluation-and-benefits",
+   "slug": "clin-digital-health-evaluation",
    "name": "Digital health evaluation and benefits",
    "description": "Planning and carrying out evaluations of digital health technologies, and measuring their clinical, safety, and service benefits using sound methods and evidence.",
    "source": "reference",
@@ -3628,7 +3628,7 @@
   },
   {
    "id": "corp-office-software",
-   "slug": "digital-office-tools",
+   "slug": "corp-office-software",
    "name": "Digital office tools",
    "description": "Using word processing, spreadsheets, presentations, email, shared documents, and collaboration tools quickly and accurately.",
    "source": "reference",
@@ -3659,7 +3659,7 @@
   },
   {
    "id": "hr-employee-relations",
-   "slug": "employee-relations-casework",
+   "slug": "hr-employee-relations",
    "name": "Employee relations casework",
    "description": "Managing formal and informal employee relations cases, such as conduct, capability, grievance, attendance, and dignity at work, fairly and in line with policy and employment law.",
    "source": "reference",
@@ -3690,7 +3690,7 @@
   },
   {
    "id": "legal-employment-law",
-   "slug": "employment-law",
+   "slug": "legal-employment-law",
    "name": "Employment law",
    "description": "Applying employment law to the organisation's people policies, contracts, change programmes, and employment disputes.",
    "source": "reference",
@@ -3716,7 +3716,7 @@
   },
   {
    "id": "hr-employment-policy",
-   "slug": "employment-law-and-people-policy",
+   "slug": "hr-employment-policy",
    "name": "Employment law and people policy",
    "description": "Applying employment law and writing, interpreting, and reviewing the organisation's people policies so that staff are treated lawfully, fairly, and consistently.",
    "source": "reference",
@@ -3804,7 +3804,7 @@
   },
   {
    "id": "equality-diversity-inclusion",
-   "slug": "equality-diversity-and-inclusion",
+   "slug": "equality-diversity-inclusion",
    "name": "Equality, diversity, and inclusion",
    "description": "Treating people fairly, valuing difference, and designing services and workplaces that include everyone.",
    "source": "reference",
@@ -3830,7 +3830,7 @@
   },
   {
    "id": "pd-health-research-ethics",
-   "slug": "ethical-research-with-patients-and-care-staff",
+   "slug": "pd-health-research-ethics",
    "name": "Ethical research with patients and care staff",
    "description": "Planning and running research with patients, carers, clinicians, and care staff safely and ethically, including informed consent, safeguarding, research with people in vulnerable circumstances, and knowing when formal ethics approval is needed.",
    "source": "reference",
@@ -3887,7 +3887,7 @@
   },
   {
    "id": "proc-exit-planning",
-   "slug": "exit-planning-and-data-return",
+   "slug": "proc-exit-planning",
    "name": "Exit planning and data return",
    "description": "Planning and managing the end of a contract, including transition to a new supplier, return and deletion of data, and continuity of services for patients and staff.",
    "source": "reference",
@@ -3913,7 +3913,7 @@
   },
   {
    "id": "fin-financial-systems",
-   "slug": "finance-systems",
+   "slug": "fin-financial-systems",
    "name": "Finance systems",
    "description": "Using, administering, and improving finance, procurement, payroll, and reporting systems so that financial data is accurate and processes are efficient.",
    "source": "reference",
@@ -3939,7 +3939,7 @@
   },
   {
    "id": "fin-audit-and-controls",
-   "slug": "financial-controls-and-audit",
+   "slug": "fin-audit-and-controls",
    "name": "Financial controls and audit",
    "description": "Designing, operating, and testing financial controls, preventing and detecting fraud, and working with internal and external auditors.",
    "source": "reference",
@@ -4053,7 +4053,7 @@
   },
   {
    "id": "fin-financial-planning-and-forecasting",
-   "slug": "financial-planning-and-forecasting",
+   "slug": "fin-financial-planning-and-forecasting",
    "name": "Financial planning and forecasting",
    "description": "Building budgets, forecasts, and medium-term financial plans that link money to the organisation's priorities and programmes.",
    "source": "reference",
@@ -4084,7 +4084,7 @@
   },
   {
    "id": "fin-financial-reporting",
-   "slug": "financial-reporting-and-statutory-accounts",
+   "slug": "fin-financial-reporting",
    "name": "Financial reporting and statutory accounts",
    "description": "Preparing accurate financial statements and statutory returns that follow the applicable accounting standards and public sector reporting rules.",
    "source": "reference",
@@ -4120,7 +4120,7 @@
   },
   {
    "id": "fin-financial-transactions",
-   "slug": "financial-transactions-and-ledgers",
+   "slug": "fin-financial-transactions",
    "name": "Financial transactions and ledgers",
    "description": "Processing and recording invoices, payments, receipts, journals, and reconciliations accurately in the ledgers, following financial controls.",
    "source": "reference",
@@ -4218,7 +4218,7 @@
   },
   {
    "id": "legal-health-and-care-law",
-   "slug": "health-and-care-law",
+   "slug": "legal-health-and-care-law",
    "name": "Health and care law",
    "description": "Applying the law that governs health and care services, including consent, capacity, clinical negligence, regulation of services and products, and the organisation's statutory duties.",
    "source": "reference",
@@ -4270,7 +4270,7 @@
   },
   {
    "id": "pd-health-content",
-   "slug": "health-information-content",
+   "slug": "pd-health-content",
    "name": "Health information content",
    "description": "Creating health and care content that is accurate, clinically assured, and easy for people with different levels of health literacy to understand and act on.",
    "source": "reference",
@@ -4327,7 +4327,7 @@
   },
   {
    "id": "health-safety-wellbeing",
-   "slug": "health-safety-and-wellbeing",
+   "slug": "health-safety-wellbeing",
    "name": "Health, safety, and wellbeing",
    "description": "Keeping yourself and others safe and well at work, including risk assessment, safe working practices, and incident reporting.",
    "source": "reference",
@@ -4353,7 +4353,7 @@
   },
   {
    "id": "hr-hr-administration",
-   "slug": "hr-administration",
+   "slug": "hr-hr-administration",
    "name": "HR administration",
    "description": "Running the administrative processes of the employment life cycle accurately and confidentially, from contracts and starters to changes, absence records, and leavers.",
    "source": "reference",
@@ -4384,7 +4384,7 @@
   },
   {
    "id": "clin-human-factors",
-   "slug": "human-factors-and-usability-in-clinical-systems",
+   "slug": "clin-human-factors",
    "name": "Human factors and usability in clinical systems",
    "description": "Applying human factors and usability methods to clinical systems, so that clinicians, care staff, and patients can use them safely and with as little error as possible.",
    "source": "reference",
@@ -4493,7 +4493,7 @@
   },
   {
    "id": "legal-information-and-data-law",
-   "slug": "information-and-data-law",
+   "slug": "legal-information-and-data-law",
    "name": "Information and data law",
    "description": "Applying data protection, confidentiality, freedom of information, and cyber security law to health and care data and digital services.",
    "source": "reference",
@@ -4524,7 +4524,7 @@
   },
   {
    "id": "information-governance",
-   "slug": "information-governance-and-data-protection",
+   "slug": "information-governance",
    "name": "Information governance and data protection",
    "description": "Handling personal and health information lawfully, securely, and ethically, including data protection law, confidentiality, consent, data protection impact assessments, and information sharing.",
    "source": "reference",
@@ -4555,7 +4555,7 @@
   },
   {
    "id": "ig-compliance-assurance",
-   "slug": "information-governance-assurance-and-audit",
+   "slug": "ig-compliance-assurance",
    "name": "Information governance assurance and audit",
    "description": "Checking and showing that the organisation meets information governance standards, through annual self-assessments, audits, evidence, and improvement plans.",
    "source": "reference",
@@ -4586,7 +4586,7 @@
   },
   {
    "id": "ig-incident-management",
-   "slug": "information-governance-incident-management",
+   "slug": "ig-incident-management",
    "name": "Information governance incident management",
    "description": "Recording, investigating, and learning from data breaches and near misses, and deciding when to tell regulators and the people affected.",
    "source": "reference",
@@ -4617,7 +4617,7 @@
   },
   {
    "id": "ig-information-rights-requests",
-   "slug": "information-rights-requests",
+   "slug": "ig-information-rights-requests",
    "name": "Information rights requests",
    "description": "Handling requests from individuals and the public for access to information, such as requests to access personal health records and requests for information held by the organisation, within legal time limits.",
    "source": "reference",
@@ -4674,7 +4674,7 @@
   },
   {
    "id": "legal-intellectual-property",
-   "slug": "intellectual-property",
+   "slug": "legal-intellectual-property",
    "name": "Intellectual property",
    "description": "Protecting and using intellectual property in software, data, content, and inventions, including copyright, licences, open source, and trade marks.",
    "source": "reference",
@@ -4700,7 +4700,7 @@
   },
   {
    "id": "corp-internal-communications",
-   "slug": "internal-communications",
+   "slug": "corp-internal-communications",
    "name": "Internal communications",
    "description": "Keeping staff informed and engaged through channels such as the intranet, newsletters, briefings, and events, especially during change.",
    "source": "reference",
@@ -4918,7 +4918,7 @@
   },
   {
    "id": "hr-learning-design-and-delivery",
-   "slug": "learning-design-and-delivery",
+   "slug": "hr-learning-design-and-delivery",
    "name": "Learning design and delivery",
    "description": "Analysing learning needs, then designing, delivering, and evaluating learning in person, online, and in the flow of work.",
    "source": "reference",
@@ -4954,7 +4954,7 @@
   },
   {
    "id": "legal-legal-administration",
-   "slug": "legal-administration",
+   "slug": "legal-legal-administration",
    "name": "Legal administration",
    "description": "Running the administrative processes of a legal team, including matter management, document control, records, deadlines, and invoicing.",
    "source": "reference",
@@ -4985,7 +4985,7 @@
   },
   {
    "id": "legal-legal-advice",
-   "slug": "legal-advice",
+   "slug": "legal-legal-advice",
    "name": "Legal advice",
    "description": "Giving clear, practical, and accurate legal advice that helps colleagues make lawful decisions and manage legal risk.",
    "source": "reference",
@@ -5016,7 +5016,7 @@
   },
   {
    "id": "legal-legal-research",
-   "slug": "legal-research",
+   "slug": "legal-legal-research",
    "name": "Legal research",
    "description": "Finding, reading, and summarising legislation, case law, guidance, and precedents to answer a legal question.",
    "source": "reference",
@@ -5068,7 +5068,7 @@
   },
   {
    "id": "legal-litigation-and-disputes",
-   "slug": "litigation-and-dispute-resolution",
+   "slug": "legal-litigation-and-disputes",
    "name": "Litigation and dispute resolution",
    "description": "Preventing, managing, and resolving disputes and claims, including contract disputes, employment claims, and liaison on clinical negligence claims.",
    "source": "reference",
@@ -5223,7 +5223,7 @@
   },
   {
    "id": "fin-management-accounting",
-   "slug": "management-accounting",
+   "slug": "fin-management-accounting",
    "name": "Management accounting",
    "description": "Producing budget and cost information that helps managers plan, control, and make decisions, including variance analysis, costing, and performance reporting.",
    "source": "reference",
@@ -5373,7 +5373,7 @@
   },
   {
    "id": "proc-market-analysis",
-   "slug": "market-analysis-and-engagement",
+   "slug": "proc-market-analysis",
    "name": "Market analysis and engagement",
    "description": "Understanding supply markets, engaging suppliers before procurement, and using market evidence to shape requirements, routes to market, and commercial models.",
    "source": "reference",
@@ -5404,7 +5404,7 @@
   },
   {
    "id": "corp-media-relations",
-   "slug": "media-relations",
+   "slug": "corp-media-relations",
    "name": "Media relations",
    "description": "Building relationships with journalists, handling media enquiries, writing press releases, and preparing spokespeople, including during incidents.",
    "source": "reference",
@@ -5440,7 +5440,7 @@
   },
   {
    "id": "medical-device-regulation",
-   "slug": "medical-device-software-regulation",
+   "slug": "medical-device-regulation",
    "name": "Medical device software regulation",
    "description": "Understanding when software is a medical device, and the standards and processes that apply to it, such as IEC 62304 and ISO 13485.",
    "source": "reference",
@@ -5518,7 +5518,7 @@
   },
   {
    "id": "corp-minute-taking",
-   "slug": "minute-taking-and-meeting-records",
+   "slug": "corp-minute-taking",
    "name": "Minute-taking and meeting records",
    "description": "Recording discussions, decisions, and actions accurately and concisely, and keeping formal meeting records.",
    "source": "reference",
@@ -5575,7 +5575,7 @@
   },
   {
    "id": "corp-administration",
-   "slug": "office-administration",
+   "slug": "corp-administration",
    "name": "Office administration",
    "description": "Running the administrative processes that keep a team or service working, such as filing, ordering, data entry, records, and following office procedures.",
    "source": "reference",
@@ -5632,7 +5632,7 @@
   },
   {
    "id": "hr-organisational-change",
-   "slug": "organisational-change-and-consultation",
+   "slug": "hr-organisational-change",
    "name": "Organisational change and consultation",
    "description": "Planning and managing changes to structures, roles, and working patterns, including formal consultation, redeployment, and redundancy, in line with policy and employment law.",
    "source": "reference",
@@ -5658,7 +5658,7 @@
   },
   {
    "id": "hr-organisational-development",
-   "slug": "organisational-development",
+   "slug": "hr-organisational-development",
    "name": "Organisational development",
    "description": "Improving how the organisation works through culture, leadership, engagement, team effectiveness, and wellbeing interventions based on evidence.",
    "source": "reference",
@@ -5689,7 +5689,7 @@
   },
   {
    "id": "risk-management",
-   "slug": "organisational-risk-management",
+   "slug": "risk-management",
    "name": "Organisational risk management",
    "description": "Identifying, assessing, recording, and managing risks to the organisation's objectives, using a risk register and a defined risk appetite.",
    "source": "reference",
@@ -5746,7 +5746,7 @@
   },
   {
    "id": "fin-payroll",
-   "slug": "payroll",
+   "slug": "fin-payroll",
    "name": "Payroll",
    "description": "Paying staff accurately and on time, including starters, leavers, changes, deductions, pensions, statutory payments, and payroll reporting.",
    "source": "reference",
@@ -5808,7 +5808,7 @@
   },
   {
    "id": "hr-people-strategy",
-   "slug": "people-strategy-and-hr-leadership",
+   "slug": "hr-people-strategy",
    "name": "People strategy and HR leadership",
    "description": "Setting the organisation's people strategy, leading the HR function, and advising the board on culture, workforce, and employment risk.",
    "source": "reference",
@@ -5896,7 +5896,7 @@
   },
   {
    "id": "corp-policy-management",
-   "slug": "policy-management",
+   "slug": "corp-policy-management",
    "name": "Policy management",
    "description": "Writing, reviewing, approving, and publishing the organisation's policies and procedures, and checking that people follow them.",
    "source": "reference",
@@ -5979,7 +5979,7 @@
   },
   {
    "id": "proc-procurement-process",
-   "slug": "procurement-process",
+   "slug": "proc-procurement-process",
    "name": "Procurement process",
    "description": "Running compliant procurements, from planning and specification through routes to market, tender, award, and contract signature, including buying through frameworks and dynamic purchasing systems.",
    "source": "reference",
@@ -6191,7 +6191,7 @@
   },
   {
    "id": "corp-pmo-reporting",
-   "slug": "project-and-portfolio-office-support",
+   "slug": "corp-pmo-reporting",
    "name": "Project and portfolio office support",
    "description": "Running project and portfolio office processes, such as plans, registers, reporting, document control, and assurance checks.",
    "source": "reference",
@@ -6289,7 +6289,7 @@
   },
   {
    "id": "data-deidentification",
-   "slug": "pseudonymisation-and-disclosure-control",
+   "slug": "data-deidentification",
    "name": "Pseudonymisation and disclosure control",
    "description": "Protecting patient confidentiality when data is linked, analysed, shared, or published, using pseudonymisation, anonymisation, small number suppression, and other statistical disclosure control methods.",
    "source": "reference",
@@ -6315,7 +6315,7 @@
   },
   {
    "id": "legal-procurement-law",
-   "slug": "public-procurement-law",
+   "slug": "legal-procurement-law",
    "name": "Public procurement law",
    "description": "Applying public procurement rules to buying goods, services, and technology, from choosing a route to market to contract award and challenge.",
    "source": "reference",
@@ -6346,7 +6346,7 @@
   },
   {
    "id": "proc-procurement-law-and-policy",
-   "slug": "public-procurement-rules-and-policy",
+   "slug": "proc-procurement-law-and-policy",
    "name": "Public procurement rules and policy",
    "description": "Applying public procurement rules, the organisation's financial rules, and procurement policy so that buying is lawful, transparent, and fair.",
    "source": "reference",
@@ -6372,7 +6372,7 @@
   },
   {
    "id": "fin-public-sector-finance",
-   "slug": "public-sector-finance",
+   "slug": "fin-public-sector-finance",
    "name": "Public sector finance",
    "description": "Understanding how public funding works, including funding allocations, capital and revenue limits, spending controls, accountability for public money, and value for money.",
    "source": "reference",
@@ -6403,7 +6403,7 @@
   },
   {
    "id": "proc-purchase-to-pay",
-   "slug": "purchase-to-pay",
+   "slug": "proc-purchase-to-pay",
    "name": "Purchase to pay",
    "description": "Raising, approving, and receipting orders, and resolving invoice and payment queries, through the organisation's purchasing system and financial controls.",
    "source": "reference",
@@ -6465,7 +6465,7 @@
   },
   {
    "id": "ig-records-retention",
-   "slug": "records-retention-and-disposal",
+   "slug": "ig-records-retention",
    "name": "Records retention and disposal",
    "description": "Applying retention schedules to paper and digital records, and archiving or securely destroying them at the right time, with an audit trail.",
    "source": "reference",
@@ -6496,7 +6496,7 @@
   },
   {
    "id": "hr-recruitment-and-selection",
-   "slug": "recruitment-and-selection",
+   "slug": "hr-recruitment-and-selection",
    "name": "Recruitment and selection",
    "description": "Attracting, assessing, and appointing people fairly and efficiently, from job design and advertising through shortlisting, assessment, offer, and pre-employment checks.",
    "source": "reference",
@@ -6527,7 +6527,7 @@
   },
   {
    "id": "clin-professional-practice",
-   "slug": "registered-clinical-practice-in-digital",
+   "slug": "clin-professional-practice",
    "name": "Registered clinical practice in digital",
    "description": "Bringing current, registered clinical knowledge and judgement to digital work, while meeting the standards, ethics, and revalidation duties of a clinical profession.",
    "source": "reference",
@@ -6615,7 +6615,7 @@
   },
   {
    "id": "hr-reward-and-job-evaluation",
-   "slug": "reward-and-job-evaluation",
+   "slug": "hr-reward-and-job-evaluation",
    "name": "Reward and job evaluation",
    "description": "Applying pay and reward rules, and evaluating jobs consistently against a job evaluation scheme to place them in the right band.",
    "source": "reference",
@@ -6641,7 +6641,7 @@
   },
   {
    "id": "data-ai-assurance",
-   "slug": "safe-and-fair-ai-in-health-care",
+   "slug": "data-ai-assurance",
    "name": "Safe and fair AI in health care",
    "description": "Making sure that statistical, machine learning, and AI models used in health and care are safe, fair, explainable, and monitored, including checking for bias across patient groups and meeting medical device and AI regulation.",
    "source": "reference",
@@ -6812,7 +6812,7 @@
   },
   {
    "id": "hr-skills-frameworks-and-career-pathways",
-   "slug": "skills-frameworks-and-career-pathways",
+   "slug": "hr-skills-frameworks-and-career-pathways",
    "name": "Skills frameworks and career pathways",
    "description": "Using skills and role frameworks, such as this reference, the UK GDaD PCF, and ESCO, to describe roles, assess skills gaps, and build career pathways.",
    "source": "reference",
@@ -6838,7 +6838,7 @@
   },
   {
    "id": "proc-social-value",
-   "slug": "social-value-and-sustainable-procurement",
+   "slug": "proc-social-value",
    "name": "Social value and sustainable procurement",
    "description": "Using procurement and contracts to deliver social value, environmental sustainability, and fair supply chains, and measuring what suppliers deliver.",
    "source": "reference",
@@ -7056,7 +7056,7 @@
   },
   {
    "id": "proc-supplier-relationship-management",
-   "slug": "supplier-relationship-management",
+   "slug": "proc-supplier-relationship-management",
    "name": "Supplier relationship management",
    "description": "Building strategic relationships with key suppliers to manage risk, improve performance, and develop products and services over time.",
    "source": "reference",
@@ -7211,7 +7211,7 @@
   },
   {
    "id": "hr-talent-attraction",
-   "slug": "talent-attraction-and-sourcing",
+   "slug": "hr-talent-attraction",
    "name": "Talent attraction and sourcing",
    "description": "Finding and engaging people with scarce skills, such as digital, data, and technology specialists, through employer branding, direct sourcing, networks, and early careers routes.",
    "source": "reference",
@@ -7242,7 +7242,7 @@
   },
   {
    "id": "fin-tax",
-   "slug": "tax",
+   "slug": "fin-tax",
    "name": "Tax",
    "description": "Applying sales tax, employment tax, and other tax rules correctly to the organisation's transactions, and recovering tax where allowed.",
    "source": "reference",
@@ -7444,7 +7444,7 @@
   },
   {
    "id": "proc-technology-procurement",
-   "slug": "technology-and-cloud-procurement",
+   "slug": "proc-technology-procurement",
    "name": "Technology and cloud procurement",
    "description": "Buying software, cloud services, licences, hardware, and digital services, including software as a service, commercial models, licensing, and the security, data protection, and interoperability terms that health technology needs.",
    "source": "reference",
@@ -7475,7 +7475,7 @@
   },
   {
    "id": "proc-tender-evaluation",
-   "slug": "tender-evaluation",
+   "slug": "proc-tender-evaluation",
    "name": "Tender evaluation",
    "description": "Designing evaluation criteria and weightings, and running fair and well-recorded evaluation of quality, price, and social value.",
    "source": "reference",
@@ -7615,7 +7615,7 @@
   },
   {
    "id": "fin-treasury-and-cash",
-   "slug": "treasury-and-cash-management",
+   "slug": "fin-treasury-and-cash",
    "name": "Treasury and cash management",
    "description": "Managing bank accounts, cash flow, and liquidity so the organisation can meet its commitments, within public sector cash rules.",
    "source": "reference",
@@ -7739,7 +7739,7 @@
   },
   {
    "id": "health-care-context",
-   "slug": "understanding-health-and-care-services",
+   "slug": "health-care-context",
    "name": "Understanding health and care services",
    "description": "Understanding how health and care services are organised and delivered, how clinicians and care staff work, and how digital services support patient care.",
    "source": "reference",
@@ -8071,7 +8071,7 @@
   },
   {
    "id": "hr-workforce-information",
-   "slug": "workforce-information-and-hr-systems",
+   "slug": "hr-workforce-information",
    "name": "Workforce information and HR systems",
    "description": "Managing HR and workforce systems and data, and turning workforce data into reports and insight, such as turnover, absence, vacancy, diversity, and pay gap analysis.",
    "source": "reference",
@@ -8102,7 +8102,7 @@
   },
   {
    "id": "hr-workforce-planning",
-   "slug": "workforce-planning",
+   "slug": "hr-workforce-planning",
    "name": "Workforce planning",
    "description": "Forecasting the workforce the organisation needs, comparing it with the workforce it has, and planning how to close the gap through recruitment, development, redesign, and retention.",
    "source": "reference",
@@ -39705,7 +39705,7 @@
   },
   {
    "id": "integration-engineer",
-   "slug": "integration-engineer-health-interoperability",
+   "slug": "integration-engineer",
    "title": "Integration engineer (health interoperability)",
    "family": "software-development",
    "summary": "Integration engineers connect the organisation's clinical and business systems so that health and care information flows safely to where it is needed. They design, build, test, and support interfaces, APIs, and message flows using standards such as HL7 FHIR and HL7 version 2, map data and clinical codes between systems, and keep integrations running in live service.",
@@ -59872,7 +59872,7 @@
   },
   {
    "id": "security-analyst",
-   "slug": "security-operations-analyst",
+   "slug": "security-analyst",
    "title": "Security operations analyst",
    "family": "cyber-security",
    "summary": "Security operations analysts watch for, investigate, and respond to cyber security threats to the organisation's systems and data. They triage alerts from security monitoring tools, investigate suspicious activity, contain incidents, and help fix weaknesses. In health care, fast detection and response protects clinical services and confidential patient information from attacks such as ransomware.",
@@ -63095,7 +63095,7 @@
   },
   {
    "id": "records-officer",
-   "slug": "health-records-officer",
+   "slug": "records-officer",
    "title": "Health records officer",
    "family": "information-governance",
    "summary": "Health records staff make sure that patient and corporate records are created, stored, tracked, retrieved, and disposed of correctly, whether they are on paper or in digital systems. They keep records available for care, protect them from loss and unauthorised access, and support the move from paper to digital records.",
@@ -67045,7 +67045,7 @@
   },
   {
    "id": "head-of-legal",
-   "slug": "head-of-legal-services",
+   "slug": "head-of-legal",
    "title": "Head of legal services",
    "family": "legal",
    "summary": "Senior legal leaders make sure the organisation acts lawfully and manages its legal risk well. They lead the in-house legal team, manage external legal advisers, and advise the board and executive on the organisation's most significant legal matters. In a digital health care organisation this includes the legal basis for using health data, major technology and data contracts, intellectual property in software, and the organisation's statutory duties.",
@@ -67372,7 +67372,7 @@
   },
   {
    "id": "hr-officer",
-   "slug": "human-resources-officer",
+   "slug": "hr-officer",
    "title": "Human resources officer",
    "family": "human-resources",
    "summary": "HR officers and advisers run the organisation's core people services, from contracts, starters, and changes to advice on people policies and support for managers with employee relations cases. They keep employment records accurate and confidential, help managers treat staff fairly and lawfully, and support the people who run digital and clinical services that never close.",
@@ -68177,7 +68177,7 @@
   },
   {
    "id": "hr-business-partner",
-   "slug": "human-resources-business-partner",
+   "slug": "hr-business-partner",
    "title": "Human resources business partner",
    "family": "human-resources",
    "summary": "HR business partners work alongside directorate leaders to make sure the organisation has the people, skills, structures, and culture it needs to deliver its services. They turn the people strategy into plans for each directorate, lead organisational change, and give senior advice on the most complex people issues. In a digital health care organisation much of this is about building and keeping digital, data, and technology capability.",

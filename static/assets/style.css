@@ -1359,3 +1359,21 @@ th {
   direction: ltr;
   unicode-bidi: isolate;
 }
+
+/* Home hero: subheadline under the title and the list of translations under the buttons. */
+.page-subheadline {
+  margin: 0 0 var(--lily-space-md);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.page-translations {
+  margin-top: var(--lily-space-md);
+  font-size: 0.875em;
+  color: var(--lily-text-muted);
+}
+
+.page-translations a[aria-current='page'] {
+  font-weight: 700;
+  text-decoration: none;
+}

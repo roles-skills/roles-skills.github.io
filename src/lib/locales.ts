@@ -18,8 +18,8 @@ export type Locale = (typeof LOCALES)[number];
 /** Each locale's name in its own language, for the language picker. */
 export const LOCALE_LABELS: Record<Locale, string> = {
   'en-001': 'English',
+  'en-gb': 'English (United Kingdom)',
   'en-us': 'English (United States)',
-  'en-gb': 'English (Great Britain)',
   'cy-001': 'Cymraeg (y byd)',
   'cy-gb': 'Cymraeg',
   'zh-001': '中文',
@@ -30,14 +30,33 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   'fr-001': 'Français',
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',
-  'ru-001': 'Русский'
+  'ru-001': 'Русский',
+  'id-001': 'Bahasa Indonesia',
+  'ja-jp': '日本語',
+  'ja-001': '日本語 (世界)',
+  'ko-kr': '한국어',
+  'ko-001': '한국어 (세계)',
+  'sv-se': 'Svenska',
+  'sv-001': 'Svenska (världen)',
+  'nl-nl': 'Nederlands',
+  'nl-001': 'Nederlands (wereld)',
+  'de-001': 'Deutsch',
+  'is-is': 'Íslenska',
+  'is-001': 'Íslenska (heimurinn)',
+  'sw-tz': 'Kiswahili',
+  'sw-001': 'Kiswahili (dunia)',
+  'vi-vn': 'Tiếng Việt',
+  'vi-001': 'Tiếng Việt (thế giới)',
+  'pt-001': 'Português',
+  'ur-001': 'اردو',
+  'da-001': 'Dansk'
 };
 
-/** BCP 47 tag for <html lang> and hreflang: "en", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
+/** BCP 47 tag for <html lang> and hreflang: "en", "en-GB", "en-US", "cy", "cy-GB", "zh-Hans", "zh-Hans-CN", "hi", "hi-IN", "es", "fr", "ar", "bn", "ru". */
 export const LOCALE_TAGS: Record<Locale, string> = {
   'en-001': 'en',
-  'en-us': 'en-US',
   'en-gb': 'en-GB',
+  'en-us': 'en-US',
   'cy-001': 'cy',
   'cy-gb': 'cy-GB',
   'zh-001': 'zh-Hans',
@@ -48,7 +67,26 @@ export const LOCALE_TAGS: Record<Locale, string> = {
   'fr-001': 'fr',
   'ar-001': 'ar',
   'bn-001': 'bn',
-  'ru-001': 'ru'
+  'ru-001': 'ru',
+  'id-001': 'id',
+  'ja-jp': 'ja',
+  'ja-001': 'ja',
+  'ko-kr': 'ko',
+  'ko-001': 'ko',
+  'sv-se': 'sv',
+  'sv-001': 'sv',
+  'nl-nl': 'nl',
+  'nl-001': 'nl',
+  'de-001': 'de',
+  'is-is': 'is',
+  'is-001': 'is',
+  'sw-tz': 'sw-TZ',
+  'sw-001': 'sw',
+  'vi-vn': 'vi-VN',
+  'vi-001': 'vi',
+  'pt-001': 'pt',
+  'ur-001': 'ur',
+  'da-001': 'da'
 };
 
 const RTL = new Set(['ar', 'fa', 'he', 'ur']);
