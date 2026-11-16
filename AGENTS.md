@@ -4,9 +4,12 @@ The static site published at <https://roles-skills.github.io>: SvelteKit 3, prer
 
 Its inputs are vendored: edit `data/` in the monorepo, run `python3 scripts/build.py` there, then `./bin/sync` here. Never edit `content/`, `static/downloads/`, `static/assets/themes/`, or `static/admin/config.yml` by hand.
 
-@spec/index.md
-@../CONTRIBUTING.md
-@../spec/monorepo-github-pages/index.md
+## Specification Driven Development
+
+**The `spec/` directory is the source of truth.** 
+- Before doing anything read all files inside the `spec/` directory using your file-reading tools.
+- Treat all files inside `spec/` as strict requirements. Where any file disagrees with the spec, the spec wins: fix the file, or change the spec on purpose and bring the other files into line in the same commit. 
+- Do not improvise structure, style, or citation practice.
 
 ## Commands
 
