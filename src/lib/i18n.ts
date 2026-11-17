@@ -15,12 +15,23 @@ import zhCn from '../../content/locales/zh-cn/ui.json';
 import hi001 from '../../content/locales/hi-001/ui.json';
 import hiIn from '../../content/locales/hi-in/ui.json';
 import es001 from '../../content/locales/es-001/ui.json';
+import esEs from '../../content/locales/es-es/ui.json';
+import esMx from '../../content/locales/es-mx/ui.json';
 import fr001 from '../../content/locales/fr-001/ui.json';
+import frFr from '../../content/locales/fr-fr/ui.json';
+import frCa from '../../content/locales/fr-ca/ui.json';
 import ar001 from '../../content/locales/ar-001/ui.json';
+import arEg from '../../content/locales/ar-eg/ui.json';
+import arDz from '../../content/locales/ar-dz/ui.json';
 import bn001 from '../../content/locales/bn-001/ui.json';
+import bnBd from '../../content/locales/bn-bd/ui.json';
+import bnIn from '../../content/locales/bn-in/ui.json';
 import ru001 from '../../content/locales/ru-001/ui.json';
+import ruRu from '../../content/locales/ru-ru/ui.json';
+import ruBy from '../../content/locales/ru-by/ui.json';
 import id001 from '../../content/locales/id-001/ui.json';
 import idId from '../../content/locales/id-id/ui.json';
+import idMy from '../../content/locales/id-my/ui.json';
 import jaJp from '../../content/locales/ja-jp/ui.json';
 import jaGlobal from '../../content/locales/ja-001/ui.json';
 import koKr from '../../content/locales/ko-kr/ui.json';
@@ -37,6 +48,8 @@ import swGlobal from '../../content/locales/sw-001/ui.json';
 import viVn from '../../content/locales/vi-vn/ui.json';
 import viGlobal from '../../content/locales/vi-001/ui.json';
 import ptGlobal from '../../content/locales/pt-001/ui.json';
+import ptPt from '../../content/locales/pt-pt/ui.json';
+import ptBr from '../../content/locales/pt-br/ui.json';
 import urGlobal from '../../content/locales/ur-001/ui.json';
 import daGlobal from '../../content/locales/da-001/ui.json';
 import { DEFAULT_LOCALE, type Locale } from '#lib/locales.js';
@@ -54,12 +67,23 @@ const STRINGS: Record<Locale, Strings> = {
   'hi-001': hi001 as Strings,
   'hi-in': hiIn as Strings,
   'es-001': es001 as Strings,
+  'es-es': esEs as Strings,
+  'es-mx': esMx as Strings,
   'fr-001': fr001 as Strings,
+  'fr-fr': frFr as Strings,
+  'fr-ca': frCa as Strings,
   'ar-001': ar001 as Strings,
+  'ar-eg': arEg as Strings,
+  'ar-dz': arDz as Strings,
   'bn-001': bn001 as Strings,
+  'bn-bd': bnBd as Strings,
+  'bn-in': bnIn as Strings,
   'ru-001': ru001 as Strings,
+  'ru-ru': ruRu as Strings,
+  'ru-by': ruBy as Strings,
   'id-001': id001 as Strings,
   'id-id': idId as Strings,
+  'id-my': idMy as Strings,
   'ja-jp': jaJp as Strings,
   'ja-001': jaGlobal as Strings,
   'ko-kr': koKr as Strings,
@@ -76,6 +100,8 @@ const STRINGS: Record<Locale, Strings> = {
   'vi-vn': viVn as Strings,
   'vi-001': viGlobal as Strings,
   'pt-001': ptGlobal as Strings,
+  'pt-pt': ptPt as Strings,
+  'pt-br': ptBr as Strings,
   'ur-001': urGlobal as Strings,
   'da-001': daGlobal as Strings
 };
