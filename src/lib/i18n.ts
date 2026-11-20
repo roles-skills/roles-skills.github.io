@@ -41,6 +41,11 @@ import svGlobal from '../../content/locales/sv-001/ui.json';
 import nlNl from '../../content/locales/nl-nl/ui.json';
 import nlGlobal from '../../content/locales/nl-001/ui.json';
 import deGlobal from '../../content/locales/de-001/ui.json';
+import deDe from '../../content/locales/de-de/ui.json';
+import deAt from '../../content/locales/de-at/ui.json';
+import zhTh from '../../content/locales/zh-th/ui.json';
+import hiNp from '../../content/locales/hi-np/ui.json';
+import cyAr from '../../content/locales/cy-ar/ui.json';
 import isIs from '../../content/locales/is-is/ui.json';
 import isGlobal from '../../content/locales/is-001/ui.json';
 import swTz from '../../content/locales/sw-tz/ui.json';
@@ -93,6 +98,11 @@ const STRINGS: Record<Locale, Strings> = {
   'nl-nl': nlNl as Strings,
   'nl-001': nlGlobal as Strings,
   'de-001': deGlobal as Strings,
+  'de-de': deDe as Strings,
+  'de-at': deAt as Strings,
+  'zh-th': zhTh as Strings,
+  'hi-np': hiNp as Strings,
+  'cy-ar': cyAr as Strings,
   'is-is': isIs as Strings,
   'is-001': isGlobal as Strings,
   'sw-tz': swTz as Strings,

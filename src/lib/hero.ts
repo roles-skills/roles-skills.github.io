@@ -21,6 +21,9 @@ export const HERO: Record<string, Record<string, string>> = {
  "cy-001": {
   "translations": "Iaith: "
  },
+ "cy-ar": {
+  "translations": "Iaith: "
+ },
  "cy-gb": {
   "translations": "Iaith: "
  },
@@ -52,6 +55,9 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "Langue: "
  },
  "hi-001": {
+  "translations": "भाषा: "
+ },
+ "hi-np": {
   "translations": "भाषा: "
  },
  "hi-in": {
@@ -102,6 +108,12 @@ export const HERO: Record<string, Record<string, string>> = {
  "de-001": {
   "translations": "Sprache: "
  },
+ "de-at": {
+  "translations": "Sprache: "
+ },
+ "de-de": {
+  "translations": "Sprache: "
+ },
  "is-001": {
   "translations": "Tungumál: "
  },
@@ -138,6 +150,9 @@ export const HERO: Record<string, Record<string, string>> = {
  "zh-001": {
   "translations": "语言： "
  },
+ "zh-th": {
+  "translations": "语言： "
+ },
  "zh-cn": {
   "translations": "语言： "
  }
@@ -151,6 +166,7 @@ export const ENDONYMS: Record<string, string> = {
  "bn-bd": "বাংলা (বাংলাদেশ)",
  "bn-in": "বাংলা (ভারত)",
  "cy-001": "Cymraeg",
+ "cy-ar": "Cymraeg (Ariannin)",
  "cy-gb": "Cymraeg (Prydain Fawr)",
  "en-001": "English",
  "en-gb": "English (Great Britain)",
@@ -162,6 +178,7 @@ export const ENDONYMS: Record<string, string> = {
  "fr-fr": "Français (France)",
  "fr-ca": "Français (Canada)",
  "hi-001": "हिन्दी",
+ "hi-np": "हिन्दी (नेपाल)",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
  "id-id": "Bahasa Indonesia (Indonesia)",
@@ -178,6 +195,8 @@ export const ENDONYMS: Record<string, string> = {
  "nl-001": "Nederlands",
  "nl-nl": "Nederlands (Nederland)",
  "de-001": "Deutsch",
+ "de-at": "Deutsch (Österreich)",
+ "de-de": "Deutsch (Deutschland)",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
  "sw-001": "Kiswahili",
@@ -190,5 +209,6 @@ export const ENDONYMS: Record<string, string> = {
  "ur-001": "اردو",
  "da-001": "Dansk",
  "zh-001": "中文",
+ "zh-th": "中文（泰国）",
  "zh-cn": "简体中文"
 };
